@@ -1,11 +1,11 @@
 {
-  "versionCode": 56,
-  "versionName": "5.6.0",
-  "apk": "DMRCepte-5.6.0.apk",
-  "sha256": "c4504941ec7f8ef7ec83bf6774c07f35a2139dc6cc4c2f8e8fdbdbbc5e9e1d06",
+  "versionCode": 57,
+  "versionName": "5.6.1",
+  "apk": "DMRCepte-5.6.1.apk",
+  "sha256": "e6e2381bd8e2bef4fcc032c31f00f3486a4fe5a1cfe92cf39f8fc77e7164364b",
   "boyut": 1976070,
   "notlar": {
-    "tr": "Rehberim: kişi ekleyin; dokununca direkt çağrı, DMR SMS, APRS mesaj, APRS ile e-posta ve WhatsApp. Rehberden e-posta/WhatsApp seçince adres sabit, yalnız mesajınızı yazarsınız. Uygulama içi güncelleme.",
-    "en": "My contacts: add people; tap for direct call, DMR SMS, APRS message, e-mail and WhatsApp over APRS. From contacts the e-mail/WhatsApp address is fixed, you only type your message. In-app updates."
+    "tr": "WhatsApp (kısa ad) kısayolu kaldırıldı; WhatsApp için Rehberim'i kullanın. Rehberden e-posta/WhatsApp seçince adres sabit.",
+    "en": "WhatsApp (alias) shortcut removed; use My contacts for WhatsApp. From contacts the e-mail/WhatsApp address is fixed."
   }
 }
