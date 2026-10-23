@@ -1,11 +1,11 @@
 {
-  "versionCode": 58,
-  "versionName": "5.6.2",
-  "apk": "DMRCepte-5.6.2.apk",
-  "sha256": "08e1a50fb24fdd2117bf03f43a8189b26bc03db5ef366b9fb2980c12037213dc",
-  "boyut": 1992454,
+  "versionCode": 59,
+  "versionName": "5.6.3",
+  "apk": "DMRCepte-5.6.3.apk",
+  "sha256": "7b1811139912059172e08c29548e74824014784877c3ee1abbefd4015fe73e7f",
+  "boyut": 1996550,
   "notlar": {
-    "tr": "Rehberim Excel ile dışarı/içeri aktarılabiliyor: web paneli → Rehberim → Excel ile dışarı / içeri aktar.",
-    "en": "My contacts can be exported/imported with Excel: web panel → My contacts → Excel export / import."
+    "tr": "Çağrı Geçmişi'nde satıra basılı tutun (ya da sağ tık / telsizde OK): Rehbere ekle, Ekle ve düzenle.",
+    "en": "Call History: long-press a row (or right-click / OK on the radio): Add to contacts, Add and edit."
   }
 }
