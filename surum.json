@@ -1,11 +1,11 @@
 {
-  "versionCode": 57,
-  "versionName": "5.6.1",
-  "apk": "DMRCepte-5.6.1.apk",
-  "sha256": "e6e2381bd8e2bef4fcc032c31f00f3486a4fe5a1cfe92cf39f8fc77e7164364b",
-  "boyut": 1976070,
+  "versionCode": 58,
+  "versionName": "5.6.2",
+  "apk": "DMRCepte-5.6.2.apk",
+  "sha256": "08e1a50fb24fdd2117bf03f43a8189b26bc03db5ef366b9fb2980c12037213dc",
+  "boyut": 1992454,
   "notlar": {
-    "tr": "WhatsApp (kısa ad) kısayolu kaldırıldı; WhatsApp için Rehberim'i kullanın. Rehberden e-posta/WhatsApp seçince adres sabit.",
-    "en": "WhatsApp (alias) shortcut removed; use My contacts for WhatsApp. From contacts the e-mail/WhatsApp address is fixed."
+    "tr": "Rehberim Excel ile dışarı/içeri aktarılabiliyor: web paneli → Rehberim → Excel ile dışarı / içeri aktar.",
+    "en": "My contacts can be exported/imported with Excel: web panel → My contacts → Excel export / import."
   }
 }
