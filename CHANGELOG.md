@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.4 (74) — 2026-10-25
+
+• Telsiz Ayarları → Konum: kapalıyken APRS konumu, hava durumu ve gerçek BrandMeister konumu durur, ilgili ekranlar uyarı verir.
+
+*English:*
+
+• Radio settings → Location: when off, APRS position, weather and the real BrandMeister position stop; related screens show a warning.
+
 ## 5.8.3 (73) — 2026-10-24
 
 • Fikir: Hasan Ali YÜCEL (TA6HY) · kodlama: Claude (Anthropic) — menüde, Lisanslar'da ve web panelinde.
