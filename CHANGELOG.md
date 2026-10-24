@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.5 (75) — 2026-10-25
+
+• Telsiz Ayarları → Dil: uygulama dili seçilebilir (Sistem dili, Türkçe, English, Deutsch, Español, Français, Italiano).
+
+*English:*
+
+• Radio settings → Language: choose the app language (System, Türkçe, English, Deutsch, Español, Français, Italiano).
+
 ## 5.8.4 (74) — 2026-10-25
 
 • Telsiz Ayarları → Konum: kapalıyken APRS konumu, hava durumu ve gerçek BrandMeister konumu durur, ilgili ekranlar uyarı verir.

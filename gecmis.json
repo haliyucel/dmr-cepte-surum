@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 75,
+      "versionName": "5.8.5",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Telsiz Ayarları → Dil: uygulama dili seçilebilir (Sistem dili, Türkçe, English, Deutsch, Español, Français, Italiano).",
+        "en": "• Radio settings → Language: choose the app language (System, Türkçe, English, Deutsch, Español, Français, Italiano)."
+      }
+    },
+    {
       "versionCode": 74,
       "versionName": "5.8.4",
       "tarih": "2026-10-25",
