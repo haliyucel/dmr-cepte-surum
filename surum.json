@@ -1,11 +1,11 @@
 {
-  "versionCode": 60,
-  "versionName": "5.6.4",
-  "apk": "DMRCepte-5.6.4.apk",
-  "sha256": "4f74cafcb29609c20595ab2424575ad543a84e671e573a14d1b7b4b7ceacf33b",
+  "versionCode": 62,
+  "versionName": "5.6.6",
+  "apk": "DMRCepte-5.6.6.apk",
+  "sha256": "3311954962b9e59612a64def856f69f1eb96712620204567f817da92a294ed4b",
   "boyut": 1996550,
   "notlar": {
-    "tr": "Telsiz düzeltmeleri: Çağrı Geçmişi'nde rehbere ekle seçenekleri alt alta; kişi düzenlemede kutuya gelince klavye açılmıyor, OK açar.",
-    "en": "Radio fixes: add-to-contacts options listed vertically; contact editor no longer opens the keyboard on arrival, OK opens it."
+    "tr": "Güncellemeler artık ana menüde. Android 9 cihazlarda (BlueStacks 5) güncellemenin imza hatasıyla kurulmaması düzeltildi.",
+    "en": "Updates are now in the main menu. Fixed updates failing with a signature error on Android 9 (BlueStacks 5)."
   }
 }
