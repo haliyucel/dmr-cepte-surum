@@ -1,11 +1,11 @@
 {
-  "versionCode": 65,
-  "versionName": "5.6.9",
-  "apk": "DMRCepte-5.6.9.apk",
-  "sha256": "417457715f1edfcf1c4dadb094655256e3e7e67c5a7bb3b095fee6391048135d",
+  "versionCode": 66,
+  "versionName": "5.7.0",
+  "apk": "DMRCepte-5.7.0.apk",
+  "sha256": "f15b2e994a814e76a828ca20562c54c4cf17f4ff56a2d41627514bd9375b80d7",
   "boyut": 2004742,
   "notlar": {
-    "tr": "• Canlı'da elle TG: telefonda kutunun yanında dokunmatik \"Geç\" düğmesi.",
-    "en": "• Live manual TG: a touch \"Join\" button next to the box on phones."
+    "tr": "• Telefonda (Android 12+) güncelleme bundan sonra \"Yükle\" sormadan kurulur (ilk seferden sonra).\n• Güncellemeden sonra uygulama kendiliğinden yeniden açılır, ağlara bağlanır.\n• Telsizde kurulum penceresi sığmadığı için Güncellemeler'de uyarı: yan çevirin ya da kablo ile kurun.\n• EchoLink ve mikrofon otomatik seviyesi varsayılan açık.",
+    "en": "• On phones (Android 12+) updates now install without asking (after the first one).\n• After an update the app restarts by itself and reconnects.\n• On the radio the install window does not fit: Updates shows a note (turn sideways or install by cable).\n• EchoLink and microphone auto level are on by default."
   }
 }
