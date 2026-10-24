@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 69,
+      "versionName": "5.7.3",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• 1 saniyeden kısa gelen özel çağrı (kısa yayın) artık özel çağrı kipine sokmaz.\n• DMR SMS: alıcı çağrı işaretiyle görünür, ör. \"TA5TX (2865427)\".",
+        "en": "• An incoming private call shorter than 1 second (kerchunk) no longer switches to private call mode.\n• DMR SMS: the recipient shows with callsign, e.g. \"TA5TX (2865427)\"."
+      }
+    },
+    {
       "versionCode": 68,
       "versionName": "5.7.2",
       "tarih": "2026-10-24",
