@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.7.2 (68) — 2026-10-24
+
+• Web paneli → Yedek: indirdiğiniz yedek dosyasını seçerek geri yükleme.
+
+*English:*
+
+• Web panel → Backup: restore by choosing the downloaded backup file.
+
 ## 5.7.1 (67) — 2026-10-24
 
 • Bilgisayardan Ayarla: adrese ya da PIN'e dokununca panoya kopyalanır.
