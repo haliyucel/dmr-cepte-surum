@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.0 (80) — 2026-10-25
+
+• Ana menünün en altında Çıkış: arka planda çalışsın (bağlantı açık kalır) ya da tamamen kapat (bağlantı kesilir). • Kapatınca bildirim çubuğunda silinemeyen eski bildirim kalmıyor.
+
+*English:*
+
+• Exit at the bottom of the main menu: keep running in background (stays connected) or close completely (disconnects). • Closing no longer leaves a stale, undismissable notification.
+
 ## 5.8.9 (79) — 2026-10-25
 
 • LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.

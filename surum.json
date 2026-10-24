@@ -1,11 +1,11 @@
 {
-  "versionCode": 79,
-  "versionName": "5.8.9",
-  "apk": "DMRCepte-5.8.9.apk",
-  "sha256": "ffc7cd8671713ce35f73fd921aa143bcadd51217aecc0268d918d92f1f9a792c",
-  "boyut": 2049798,
+  "versionCode": 80,
+  "versionName": "5.9.0",
+  "apk": "DMRCepte-5.9.0.apk",
+  "sha256": "2f1cfd8abaa7200b54537cfb9b8cd7765add7c643f35640fa369b3cbdcd9005e",
+  "boyut": 2049869,
   "notlar": {
-    "tr": "• LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.",
-    "en": "• LED: red/green light now works on radios whose LED can be driven directly, such as HIROYASU HI-B10. • Radio settings → Send device report: device information can be sent again on demand."
+    "tr": "• Ana menünün en altında Çıkış: arka planda çalışsın (bağlantı açık kalır) ya da tamamen kapat (bağlantı kesilir). • Kapatınca bildirim çubuğunda silinemeyen eski bildirim kalmıyor.",
+    "en": "• Exit at the bottom of the main menu: keep running in background (stays connected) or close completely (disconnects). • Closing no longer leaves a stale, undismissable notification."
   }
 }
