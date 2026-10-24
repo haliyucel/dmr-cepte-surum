@@ -1,11 +1,11 @@
 {
-  "versionCode": 67,
-  "versionName": "5.7.1",
-  "apk": "DMRCepte-5.7.1.apk",
-  "sha256": "05652f7b8f2a2d9c567b9e9fd851f6f4eb34bcf23a4de1a3c1a3201a30e7d7f2",
+  "versionCode": 68,
+  "versionName": "5.7.2",
+  "apk": "DMRCepte-5.7.2.apk",
+  "sha256": "a387cf6d66a428ba4f64820f41fd69122c4293e61bc7f7aac0a06b537be0ba62",
   "boyut": 2008838,
   "notlar": {
-    "tr": "• Bilgisayardan Ayarla: adrese ya da PIN'e dokununca panoya kopyalanır.",
-    "en": "• Set up from computer: tap the address or the PIN to copy it."
+    "tr": "• Web paneli → Yedek: indirdiğiniz yedek dosyasını seçerek geri yükleme.",
+    "en": "• Web panel → Backup: restore by choosing the downloaded backup file."
   }
 }
