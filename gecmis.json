@@ -1,0 +1,85 @@
+{
+  "surumler": [
+    {
+      "versionCode": 62,
+      "versionName": "5.6.6",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Güncellemeler artık ana menüde (Telsiz Ayarları'nın altında); yeni sürüm varsa alt yazıda görünür.\n• Android 9 cihazlarda (BlueStacks 5) güncellemenin \"imza taşımıyor\" hatasıyla kurulmaması düzeltildi.",
+        "en": "• Updates are now in the main menu (below Radio settings); a new version shows in the subtitle.\n• Fixed updates being rejected with a signature error on Android 9 (BlueStacks 5)."
+      }
+    },
+    {
+      "versionCode": 60,
+      "versionName": "5.6.4",
+      "tarih": "2026-10-23",
+      "notlar": {
+        "tr": "• Telsizde Çağrı Geçmişi'ndeki \"rehbere ekle\" seçenekleri alt alta liste (128 piksele sığmıyordu).\n• Kişi düzenlemede kutuya gelince klavye açılmıyor, OK açar; kayıtlı değer ilk harfle silinmiyor.",
+        "en": "• On the radio the add-to-contacts options are a vertical list (they did not fit 128 pixels).\n• Contact editor no longer opens the keyboard on arrival, OK opens it; the saved value is not wiped by the first key."
+      }
+    },
+    {
+      "versionCode": 59,
+      "versionName": "5.6.3",
+      "tarih": "2026-10-23",
+      "notlar": {
+        "tr": "• Çağrı Geçmişi'nden Rehberim'e ekleme: satıra basılı tutun ya da sağ tıklayın (telsizde işaretli satırda OK) → Rehbere ekle / Ekle ve düzenle.",
+        "en": "• Add to My contacts from Call History: long-press or right-click a row (OK on the radio) → Add / Add and edit."
+      }
+    },
+    {
+      "versionCode": 58,
+      "versionName": "5.6.2",
+      "tarih": "2026-10-23",
+      "notlar": {
+        "tr": "• Rehberim Excel ile dışarı/içeri aktarılıyor: web paneli → Rehberim (.xlsx dışarı; .xlsx ya da .csv içeri, hiçbir kişi silinmez).",
+        "en": "• My contacts can be exported/imported with Excel: web panel → My contacts (.xlsx out; .xlsx or .csv in, nobody is deleted)."
+      }
+    },
+    {
+      "versionCode": 57,
+      "versionName": "5.6.1",
+      "tarih": "2026-10-22",
+      "notlar": {
+        "tr": "• APRS hazır servislerden \"WhatsApp (kısa ad)\" kaldırıldı; WhatsApp için Rehberim'i kullanın.\n• Rehberden e-posta/WhatsApp seçince adres sabit, yalnız mesajınızı yazarsınız.",
+        "en": "• Removed the \"WhatsApp (alias)\" APRS shortcut; use My contacts for WhatsApp.\n• From contacts the e-mail/WhatsApp address is fixed, you only type your message."
+      }
+    },
+    {
+      "versionCode": 56,
+      "versionName": "5.6.0",
+      "tarih": "2026-10-22",
+      "notlar": {
+        "tr": "• Rehberim: ad, çağrı işareti (DMR ID'leri radioid'den), telefon, e-posta; kişiye dokununca direkt çağrı, DMR SMS, APRS mesaj, APRS ile e-posta ve WhatsApp. Web panelinden de düzenlenir.\n• Uygulama içi güncelleme: açılışta ve elle, GitHub'dan.\n• APRS: giden mesajda teslim takibi ve yeniden gönderme; e-posta (EMAIL-2) ve WhatsApp (WTSAPP) kısayolları.\n• RadioID rehber indirmesi ekrandan çıkınca da sürer; ilerleme çubuğu ve bildirim. Türkiye de hızlı iner.\n• BlueStacks gibi ARM olmayan cihazda MD-380 denenmez, eklenti önerilir.",
+        "en": "• My contacts: name, callsign (DMR IDs from radioid), phone, e-mail; tap for direct call, DMR SMS, APRS message, e-mail and WhatsApp over APRS. Also editable on the web panel.\n• In-app updates: at start and manually, from GitHub.\n• APRS: delivery tracking with retries for outgoing messages; e-mail (EMAIL-2) and WhatsApp (WTSAPP) shortcuts.\n• RadioID download continues in the background with a progress bar and notification; Turkey downloads fast too.\n• MD-380 is not tried on non-ARM devices such as BlueStacks; the plugin is suggested."
+      }
+    },
+    {
+      "versionCode": 55,
+      "versionName": "5.5.0",
+      "tarih": "2026-10-15",
+      "notlar": {
+        "tr": "• FreeDMR ve TGIF: ADN gibi ayrı, BrandMeister ile aynı anda çalışan ağlar.\n• Canlı: şu an kim konuşuyor (BrandMeister tüm ağ, ek ağlar).\n• DMR SMS gönderme (teslim onaylı); Motorola TMS alma; mesajlarda \"Gruptan çık\".\n• Bluetooth PTT düğmesi ve kulaklık mikrofonu; Talker Alias gönderme (isteğe bağlı).\n• Web panelinde tüm ağlar tek \"Ağlar\" sayfasında.\n• Ses: tampon ve kayıp dolgusu iyileştirmeleri; Bluetooth'ta ilk hecenin kırpılması düzeltildi.\n• Papağan (9990) Bitir'e kadar özel çağrı; cevap çağıran cihaza gelir.\n• Statik TG'lere ve TG'ler arasında gezinirken kısa yayın gönderilmiyor.",
+        "en": "• FreeDMR and TGIF: separate networks running alongside BrandMeister, like ADN.\n• Live: who is talking right now (whole BrandMeister network, extra networks).\n• Sending DMR SMS (with delivery receipt); Motorola TMS receive; \"Leave group\" in messages.\n• Bluetooth PTT button and headset microphone; Talker Alias sending (optional).\n• All networks on one \"Networks\" page in the web panel.\n• Audio: buffer and loss-fill improvements; fixed the first syllable being clipped over Bluetooth.\n• Parrot (9990) is a private call until End; the reply comes to the calling device.\n• No kerchunk to static TGs or while stepping through TGs."
+      }
+    },
+    {
+      "versionCode": 54,
+      "versionName": "5.4.0",
+      "tarih": "2026-10-05",
+      "notlar": {
+        "tr": "• ADN Systems ayrı yuva: BrandMeister ile aynı anda çalışır (5.3.0'daki BM/ADN anahtarı kaldırıldı).",
+        "en": "• ADN Systems as a separate slot running alongside BrandMeister (the 5.3.0 BM/ADN switch was removed)."
+      }
+    },
+    {
+      "versionCode": 53,
+      "versionName": "5.3.0",
+      "tarih": "2026-10-04",
+      "notlar": {
+        "tr": "• ADN Systems ağı desteği.\n• Telefonda gerçek AMBE+2 ses (MD-380 firmware'i).\n• DMR SMS alma (Gelen Mesajlar) ve \"aldım\" yanıtı.\n• Almanca, İspanyolca, İtalyanca, Fransızca: 6 dil.\n• Çağrı gelince kapalı ekran açılır; kilitliyken Konuşma ekranı kilidin üstünde (yalnız görüntü).\n• Direkt Çağrı'da birden fazla ID seçimi; gelen özel çağrıya cevap verilememesi düzeltildi.\n• Telefonda Konuşma ekranı büyüdü; EchoLink node araması tuşla çalışıyor.",
+        "en": "• ADN Systems network support.\n• Real AMBE+2 audio on phones (MD-380 firmware).\n• Receiving DMR SMS (Incoming messages) with a \"received\" reply.\n• German, Spanish, Italian, French: 6 languages.\n• The screen wakes on a call; when locked the Talk screen shows above the lock (view only).\n• Choosing among several IDs in Direct call; fixed answering an incoming private call.\n• Larger Talk screen on phones; EchoLink node search works with keys."
+      }
+    }
+  ]
+}
