@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 80,
+      "versionName": "5.9.0",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Ana menünün en altında Çıkış: arka planda çalışsın (bağlantı açık kalır) ya da tamamen kapat (bağlantı kesilir). • Kapatınca bildirim çubuğunda silinemeyen eski bildirim kalmıyor.",
+        "en": "• Exit at the bottom of the main menu: keep running in background (stays connected) or close completely (disconnects). • Closing no longer leaves a stale, undismissable notification."
+      }
+    },
+    {
       "versionCode": 79,
       "versionName": "5.8.9",
       "tarih": "2026-10-25",
