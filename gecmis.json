@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 76,
+      "versionName": "5.8.6",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Bilgisayardan Ayarla → Ses seviyesi: hoparlör yükseltmesi artık eksi de seçilebilir (-12, -9, -6, -3 dB); ses fazla gür gelen cihazlar için.",
+        "en": "• Set Up from PC → Audio level: speaker boost can now be negative (-12, -9, -6, -3 dB) for devices where audio is too loud."
+      }
+    },
+    {
       "versionCode": 75,
       "versionName": "5.8.5",
       "tarih": "2026-10-25",

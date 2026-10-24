@@ -1,11 +1,11 @@
 {
-  "versionCode": 75,
-  "versionName": "5.8.5",
-  "apk": "DMRCepte-5.8.5.apk",
-  "sha256": "84acd0b707e8b18b50823a5bef9c955159d638e0c66ea1bf7d5ef1177e191c19",
+  "versionCode": 76,
+  "versionName": "5.8.6",
+  "apk": "DMRCepte-5.8.6.apk",
+  "sha256": "a72b6d5f9ac3f9791b00ce8ebe238684b972c7bfec57c6c16c03dbf395f81e58",
   "boyut": 2037510,
   "notlar": {
-    "tr": "• Telsiz Ayarları → Dil: uygulama dili seçilebilir (Sistem dili, Türkçe, English, Deutsch, Español, Français, Italiano).",
-    "en": "• Radio settings → Language: choose the app language (System, Türkçe, English, Deutsch, Español, Français, Italiano)."
+    "tr": "• Bilgisayardan Ayarla → Ses seviyesi: hoparlör yükseltmesi artık eksi de seçilebilir (-12, -9, -6, -3 dB); ses fazla gür gelen cihazlar için.",
+    "en": "• Set Up from PC → Audio level: speaker boost can now be negative (-12, -9, -6, -3 dB) for devices where audio is too loud."
   }
 }
