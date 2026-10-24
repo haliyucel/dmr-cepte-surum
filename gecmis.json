@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 67,
+      "versionName": "5.7.1",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Bilgisayardan Ayarla: adrese ya da PIN'e dokununca panoya kopyalanır.",
+        "en": "• Set up from computer: tap the address or the PIN to copy it."
+      }
+    },
+    {
       "versionCode": 66,
       "versionName": "5.7.0",
       "tarih": "2026-10-24",

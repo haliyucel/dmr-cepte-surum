@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.7.1 (67) — 2026-10-24
+
+• Bilgisayardan Ayarla: adrese ya da PIN'e dokununca panoya kopyalanır.
+
+*English:*
+
+• Set up from computer: tap the address or the PIN to copy it.
+
 ## 5.7.0 (66) — 2026-10-24
 
 • Telefonda (Android 12+) güncelleme bundan sonra "Yükle" sormadan kurulur (ilk seferden sonra).
