@@ -1,11 +1,11 @@
 {
-  "versionCode": 74,
-  "versionName": "5.8.4",
-  "apk": "DMRCepte-5.8.4.apk",
-  "sha256": "d6b3fd3ca6202b2ee11d30e87d840ca18e776ebe8c50bcb27b7129d1ae672aeb",
-  "boyut": 2033414,
+  "versionCode": 75,
+  "versionName": "5.8.5",
+  "apk": "DMRCepte-5.8.5.apk",
+  "sha256": "84acd0b707e8b18b50823a5bef9c955159d638e0c66ea1bf7d5ef1177e191c19",
+  "boyut": 2037510,
   "notlar": {
-    "tr": "• Telsiz Ayarları → Konum: kapalıyken APRS konumu, hava durumu ve gerçek BrandMeister konumu durur, ilgili ekranlar uyarı verir.",
-    "en": "• Radio settings → Location: when off, APRS position, weather and the real BrandMeister position stop; related screens show a warning."
+    "tr": "• Telsiz Ayarları → Dil: uygulama dili seçilebilir (Sistem dili, Türkçe, English, Deutsch, Español, Français, Italiano).",
+    "en": "• Radio settings → Language: choose the app language (System, Türkçe, English, Deutsch, Español, Français, Italiano)."
   }
 }
