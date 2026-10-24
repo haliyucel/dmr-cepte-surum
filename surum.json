@@ -1,11 +1,11 @@
 {
-  "versionCode": 76,
-  "versionName": "5.8.6",
-  "apk": "DMRCepte-5.8.6.apk",
-  "sha256": "a72b6d5f9ac3f9791b00ce8ebe238684b972c7bfec57c6c16c03dbf395f81e58",
-  "boyut": 2037510,
+  "versionCode": 77,
+  "versionName": "5.8.7",
+  "apk": "DMRCepte-5.8.7.apk",
+  "sha256": "3296c484735135cff02f138fd0d551c6c8c668dea3a3627234994d8a82ecea1d",
+  "boyut": 2045702,
   "notlar": {
-    "tr": "• Bilgisayardan Ayarla → Ses seviyesi: hoparlör yükseltmesi artık eksi de seçilebilir (-12, -9, -6, -3 dB); ses fazla gür gelen cihazlar için.",
-    "en": "• Set Up from PC → Audio level: speaker boost can now be negative (-12, -9, -6, -3 dB) for devices where audio is too loud."
+    "tr": "• Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: Zello uyumlu telsizlerde yayın sırası Zello'nunkiyle aynı yapıldı.",
+    "en": "• Device info: asked once; if you agree, device information is e-mailed to the developer (no location, contacts, recordings or passwords). • LED: broadcast order on Zello-compatible radios now matches Zello."
   }
 }

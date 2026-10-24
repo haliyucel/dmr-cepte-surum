@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 77,
+      "versionName": "5.8.7",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: Zello uyumlu telsizlerde yayın sırası Zello'nunkiyle aynı yapıldı.",
+        "en": "• Device info: asked once; if you agree, device information is e-mailed to the developer (no location, contacts, recordings or passwords). • LED: broadcast order on Zello-compatible radios now matches Zello."
+      }
+    },
+    {
       "versionCode": 76,
       "versionName": "5.8.6",
       "tarih": "2026-10-25",
