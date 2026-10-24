@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 78,
+      "versionName": "5.8.8",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (5 dakikalık önbellek beklenmez). • Sürüm notları seçili uygulama dilinde gösterilir.",
+        "en": "• Update check sees a new version right after release (no 5-minute cache wait). • Release notes are shown in the selected app language."
+      }
+    },
+    {
       "versionCode": 77,
       "versionName": "5.8.7",
       "tarih": "2026-10-25",
