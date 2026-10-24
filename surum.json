@@ -1,11 +1,11 @@
 {
-  "versionCode": 73,
-  "versionName": "5.8.3",
-  "apk": "DMRCepte-5.8.3.apk",
-  "sha256": "00e22151e110b7669896c2dc2fa3f36e7d3ffcde562417da0e300ef70bcc13f3",
-  "boyut": 2029318,
+  "versionCode": 74,
+  "versionName": "5.8.4",
+  "apk": "DMRCepte-5.8.4.apk",
+  "sha256": "d6b3fd3ca6202b2ee11d30e87d840ca18e776ebe8c50bcb27b7129d1ae672aeb",
+  "boyut": 2033414,
   "notlar": {
-    "tr": "• Fikir: Hasan Ali YÜCEL (TA6HY) · kodlama: Claude (Anthropic) — menüde, Lisanslar'da ve web panelinde.",
-    "en": "• Idea: Hasan Ali YÜCEL (TA6HY) · coded by Claude (Anthropic) — in the menu, Licenses and the web panel."
+    "tr": "• Telsiz Ayarları → Konum: kapalıyken APRS konumu, hava durumu ve gerçek BrandMeister konumu durur, ilgili ekranlar uyarı verir.",
+    "en": "• Radio settings → Location: when off, APRS position, weather and the real BrandMeister position stop; related screens show a warning."
   }
 }

@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 74,
+      "versionName": "5.8.4",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Telsiz Ayarları → Konum: kapalıyken APRS konumu, hava durumu ve gerçek BrandMeister konumu durur, ilgili ekranlar uyarı verir.",
+        "en": "• Radio settings → Location: when off, APRS position, weather and the real BrandMeister position stop; related screens show a warning."
+      }
+    },
+    {
       "versionCode": 73,
       "versionName": "5.8.3",
       "tarih": "2026-10-24",
