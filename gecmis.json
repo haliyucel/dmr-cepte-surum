@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 64,
+      "versionName": "5.6.8",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Sürüm geçmişi: Güncellemeler → Sürüm geçmişi.\n• Ana menüde ve Son Depremler'de dokunmatik geri (‹): geri tuşu olmayan yerde (BlueStacks) de çıkılır.\n• Canlı: TG numarasını yazıp statik yapmadan geçici bağlanma.\n• BrandMeister ekranında API token'ı panodan yapıştırma.",
+        "en": "• Release history: Updates → Release history.\n• Touch back (‹) in the main menu and Recent earthquakes, for devices without a back key (BlueStacks).\n• Live: type a TG number to join it temporarily, without making it static.\n• BrandMeister screen: paste the API token from the clipboard."
+      }
+    },
+    {
       "versionCode": 62,
       "versionName": "5.6.6",
       "tarih": "2026-10-24",

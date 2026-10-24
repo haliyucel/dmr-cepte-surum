@@ -1,11 +1,11 @@
 {
-  "versionCode": 62,
-  "versionName": "5.6.6",
-  "apk": "DMRCepte-5.6.6.apk",
-  "sha256": "3311954962b9e59612a64def856f69f1eb96712620204567f817da92a294ed4b",
-  "boyut": 1996550,
+  "versionCode": 64,
+  "versionName": "5.6.8",
+  "apk": "DMRCepte-5.6.8.apk",
+  "sha256": "7ae72098363d224ce77c6b3a05483e1b4fafdf3bab74f3d02f7c48bb772a5f7b",
+  "boyut": 2004742,
   "notlar": {
-    "tr": "Güncellemeler artık ana menüde. Android 9 cihazlarda (BlueStacks 5) güncellemenin imza hatasıyla kurulmaması düzeltildi.",
-    "en": "Updates are now in the main menu. Fixed updates failing with a signature error on Android 9 (BlueStacks 5)."
+    "tr": "• Sürüm geçmişi: Güncellemeler → Sürüm geçmişi.\n• Ana menüde ve Son Depremler'de dokunmatik geri (‹): geri tuşu olmayan yerde (BlueStacks) de çıkılır.\n• Canlı: TG numarasını yazıp statik yapmadan geçici bağlanma.\n• BrandMeister ekranında API token'ı panodan yapıştırma.",
+    "en": "• Release history: Updates → Release history.\n• Touch back (‹) in the main menu and Recent earthquakes, for devices without a back key (BlueStacks).\n• Live: type a TG number to join it temporarily, without making it static.\n• BrandMeister screen: paste the API token from the clipboard."
   }
 }
