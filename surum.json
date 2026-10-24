@@ -1,11 +1,11 @@
 {
-  "versionCode": 77,
-  "versionName": "5.8.7",
-  "apk": "DMRCepte-5.8.7.apk",
-  "sha256": "3296c484735135cff02f138fd0d551c6c8c668dea3a3627234994d8a82ecea1d",
+  "versionCode": 78,
+  "versionName": "5.8.8",
+  "apk": "DMRCepte-5.8.8.apk",
+  "sha256": "b93173d5d0f909a435059fad72dcfeb25d5eae3d1335005db507d083039ad661",
   "boyut": 2045702,
   "notlar": {
-    "tr": "• Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: Zello uyumlu telsizlerde yayın sırası Zello'nunkiyle aynı yapıldı.",
-    "en": "• Device info: asked once; if you agree, device information is e-mailed to the developer (no location, contacts, recordings or passwords). • LED: broadcast order on Zello-compatible radios now matches Zello."
+    "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (5 dakikalık önbellek beklenmez). • Sürüm notları seçili uygulama dilinde gösterilir.",
+    "en": "• Update check sees a new version right after release (no 5-minute cache wait). • Release notes are shown in the selected app language."
   }
 }

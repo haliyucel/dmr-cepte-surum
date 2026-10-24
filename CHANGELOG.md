@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.8 (78) — 2026-10-25
+
+• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (5 dakikalık önbellek beklenmez). • Sürüm notları seçili uygulama dilinde gösterilir.
+
+*English:*
+
+• Update check sees a new version right after release (no 5-minute cache wait). • Release notes are shown in the selected app language.
+
 ## 5.8.7 (77) — 2026-10-25
 
 • Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: Zello uyumlu telsizlerde yayın sırası Zello'nunkiyle aynı yapıldı.
