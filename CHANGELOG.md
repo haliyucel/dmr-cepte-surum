@@ -1,5 +1,15 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.7.3 (69) — 2026-10-24
+
+• 1 saniyeden kısa gelen özel çağrı (kısa yayın) artık özel çağrı kipine sokmaz.
+• DMR SMS: alıcı çağrı işaretiyle görünür, ör. "TA5TX (2865427)".
+
+*English:*
+
+• An incoming private call shorter than 1 second (kerchunk) no longer switches to private call mode.
+• DMR SMS: the recipient shows with callsign, e.g. "TA5TX (2865427)".
+
 ## 5.7.2 (68) — 2026-10-24
 
 • Web paneli → Yedek: indirdiğiniz yedek dosyasını seçerek geri yükleme.

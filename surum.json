@@ -1,11 +1,11 @@
 {
-  "versionCode": 68,
-  "versionName": "5.7.2",
-  "apk": "DMRCepte-5.7.2.apk",
-  "sha256": "a387cf6d66a428ba4f64820f41fd69122c4293e61bc7f7aac0a06b537be0ba62",
+  "versionCode": 69,
+  "versionName": "5.7.3",
+  "apk": "DMRCepte-5.7.3.apk",
+  "sha256": "11e5d9ab0dd9945adb2197e0285f59bebb112dabbb490fa53b27cabeb45ca453",
   "boyut": 2008838,
   "notlar": {
-    "tr": "• Web paneli → Yedek: indirdiğiniz yedek dosyasını seçerek geri yükleme.",
-    "en": "• Web panel → Backup: restore by choosing the downloaded backup file."
+    "tr": "• 1 saniyeden kısa gelen özel çağrı (kısa yayın) artık özel çağrı kipine sokmaz.\n• DMR SMS: alıcı çağrı işaretiyle görünür, ör. \"TA5TX (2865427)\".",
+    "en": "• An incoming private call shorter than 1 second (kerchunk) no longer switches to private call mode.\n• DMR SMS: the recipient shows with callsign, e.g. \"TA5TX (2865427)\"."
   }
 }
