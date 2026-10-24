@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.6.9 (65) — 2026-10-24
+
+• Canlı'da elle TG: telefonda kutunun yanında dokunmatik "Geç" düğmesi.
+
+*English:*
+
+• Live manual TG: a touch "Join" button next to the box on phones.
+
 ## 5.6.8 (64) — 2026-10-24
 
 • Sürüm geçmişi: Güncellemeler → Sürüm geçmişi.
