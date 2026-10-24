@@ -1,11 +1,11 @@
 {
-  "versionCode": 64,
-  "versionName": "5.6.8",
-  "apk": "DMRCepte-5.6.8.apk",
-  "sha256": "7ae72098363d224ce77c6b3a05483e1b4fafdf3bab74f3d02f7c48bb772a5f7b",
+  "versionCode": 65,
+  "versionName": "5.6.9",
+  "apk": "DMRCepte-5.6.9.apk",
+  "sha256": "417457715f1edfcf1c4dadb094655256e3e7e67c5a7bb3b095fee6391048135d",
   "boyut": 2004742,
   "notlar": {
-    "tr": "• Sürüm geçmişi: Güncellemeler → Sürüm geçmişi.\n• Ana menüde ve Son Depremler'de dokunmatik geri (‹): geri tuşu olmayan yerde (BlueStacks) de çıkılır.\n• Canlı: TG numarasını yazıp statik yapmadan geçici bağlanma.\n• BrandMeister ekranında API token'ı panodan yapıştırma.",
-    "en": "• Release history: Updates → Release history.\n• Touch back (‹) in the main menu and Recent earthquakes, for devices without a back key (BlueStacks).\n• Live: type a TG number to join it temporarily, without making it static.\n• BrandMeister screen: paste the API token from the clipboard."
+    "tr": "• Canlı'da elle TG: telefonda kutunun yanında dokunmatik \"Geç\" düğmesi.",
+    "en": "• Live manual TG: a touch \"Join\" button next to the box on phones."
   }
 }
