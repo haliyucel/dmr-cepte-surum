@@ -1,5 +1,17 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.0 (70) — 2026-10-24
+
+• Ses kaydı: duyulan çağrılar ve yayınınız kaydedilir, eskiler 7 gün sonra silinir (Telsiz Ayarları'ndan değişir).
+• Ana menü → Ses Kayıtları: TG TG kayıtlar, tek tek ya da sırayla çalma. Çağrı Geçmişi'nde de ▶.
+• Telsizde liste pencerelerinde OK artık ilk satırda da çalışıyor.
+
+*English:*
+
+• Audio recording: heard calls and your transmissions are recorded, old ones deleted after 7 days (Radio settings).
+• Main menu → Recordings: by TG, play one or all in order. Also ▶ in Call History.
+• On the radio, OK now works on the first row of list windows.
+
 ## 5.7.3 (69) — 2026-10-24
 
 • 1 saniyeden kısa gelen özel çağrı (kısa yayın) artık özel çağrı kipine sokmaz.
