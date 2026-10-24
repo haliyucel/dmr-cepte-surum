@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.2 (72) — 2026-10-24
+
+• PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.
+
+*English:*
+
+• On Zello-capable POC radios whose PTT key does not reach apps, PTT also works from the radio's Zello PTT message.
+
 ## 5.8.1 (71) — 2026-10-24
 
 • HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).
