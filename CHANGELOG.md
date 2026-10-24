@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.9 (79) — 2026-10-25
+
+• LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.
+
+*English:*
+
+• LED: red/green light now works on radios whose LED can be driven directly, such as HIROYASU HI-B10. • Radio settings → Send device report: device information can be sent again on demand.
+
 ## 5.8.8 (78) — 2026-10-25
 
 • Güncelleme denetimi yeni sürümü yayından hemen sonra görür (5 dakikalık önbellek beklenmez). • Sürüm notları seçili uygulama dilinde gösterilir.

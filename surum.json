@@ -1,11 +1,11 @@
 {
-  "versionCode": 78,
-  "versionName": "5.8.8",
-  "apk": "DMRCepte-5.8.8.apk",
-  "sha256": "b93173d5d0f909a435059fad72dcfeb25d5eae3d1335005db507d083039ad661",
-  "boyut": 2045702,
+  "versionCode": 79,
+  "versionName": "5.8.9",
+  "apk": "DMRCepte-5.8.9.apk",
+  "sha256": "ffc7cd8671713ce35f73fd921aa143bcadd51217aecc0268d918d92f1f9a792c",
+  "boyut": 2049798,
   "notlar": {
-    "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (5 dakikalık önbellek beklenmez). • Sürüm notları seçili uygulama dilinde gösterilir.",
-    "en": "• Update check sees a new version right after release (no 5-minute cache wait). • Release notes are shown in the selected app language."
+    "tr": "• LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.",
+    "en": "• LED: red/green light now works on radios whose LED can be driven directly, such as HIROYASU HI-B10. • Radio settings → Send device report: device information can be sent again on demand."
   }
 }

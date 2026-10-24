@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 79,
+      "versionName": "5.8.9",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.",
+        "en": "• LED: red/green light now works on radios whose LED can be driven directly, such as HIROYASU HI-B10. • Radio settings → Send device report: device information can be sent again on demand."
+      }
+    },
+    {
       "versionCode": 78,
       "versionName": "5.8.8",
       "tarih": "2026-10-25",
