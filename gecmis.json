@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 73,
+      "versionName": "5.8.3",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Fikir: Hasan Ali YÜCEL (TA6HY) · kodlama: Claude (Anthropic) — menüde, Lisanslar'da ve web panelinde.",
+        "en": "• Idea: Hasan Ali YÜCEL (TA6HY) · coded by Claude (Anthropic) — in the menu, Licenses and the web panel."
+      }
+    },
+    {
       "versionCode": 72,
       "versionName": "5.8.2",
       "tarih": "2026-10-24",

@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.3 (73) — 2026-10-24
+
+• Fikir: Hasan Ali YÜCEL (TA6HY) · kodlama: Claude (Anthropic) — menüde, Lisanslar'da ve web panelinde.
+
+*English:*
+
+• Idea: Hasan Ali YÜCEL (TA6HY) · coded by Claude (Anthropic) — in the menu, Licenses and the web panel.
+
 ## 5.8.2 (72) — 2026-10-24
 
 • PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.

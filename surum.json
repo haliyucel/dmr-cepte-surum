@@ -1,11 +1,11 @@
 {
-  "versionCode": 72,
-  "versionName": "5.8.2",
-  "apk": "DMRCepte-5.8.2.apk",
-  "sha256": "4462c9a756220b4d79c31d8b5db27fd94fefa11e980f57f47b852d58f0bc5b8e",
-  "boyut": 2025222,
+  "versionCode": 73,
+  "versionName": "5.8.3",
+  "apk": "DMRCepte-5.8.3.apk",
+  "sha256": "00e22151e110b7669896c2dc2fa3f36e7d3ffcde562417da0e300ef70bcc13f3",
+  "boyut": 2029318,
   "notlar": {
-    "tr": "• PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.",
-    "en": "• On Zello-capable POC radios whose PTT key does not reach apps, PTT also works from the radio's Zello PTT message."
+    "tr": "• Fikir: Hasan Ali YÜCEL (TA6HY) · kodlama: Claude (Anthropic) — menüde, Lisanslar'da ve web panelinde.",
+    "en": "• Idea: Hasan Ali YÜCEL (TA6HY) · coded by Claude (Anthropic) — in the menu, Licenses and the web panel."
   }
 }
