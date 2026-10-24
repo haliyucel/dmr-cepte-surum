@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.8.1 (71) — 2026-10-24
+
+• HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).
+
+*English:*
+
+• LED on Zello-capable POC radios such as HIROYASU HI-B10: green on receive, red on transmit (the same method Zello uses).
+
 ## 5.8.0 (70) — 2026-10-24
 
 • Ses kaydı: duyulan çağrılar ve yayınınız kaydedilir, eskiler 7 gün sonra silinir (Telsiz Ayarları'ndan değişir).

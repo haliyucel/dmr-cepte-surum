@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 71,
+      "versionName": "5.8.1",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).",
+        "en": "• LED on Zello-capable POC radios such as HIROYASU HI-B10: green on receive, red on transmit (the same method Zello uses)."
+      }
+    },
+    {
       "versionCode": 70,
       "versionName": "5.8.0",
       "tarih": "2026-10-24",

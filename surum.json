@@ -1,11 +1,11 @@
 {
-  "versionCode": 70,
-  "versionName": "5.8.0",
-  "apk": "DMRCepte-5.8.0.apk",
-  "sha256": "f3d70d9ae3bfe77ac979bd7f68c93aa0fc4346e01d75ef07d6521ca10ec6f66e",
+  "versionCode": 71,
+  "versionName": "5.8.1",
+  "apk": "DMRCepte-5.8.1.apk",
+  "sha256": "4f4631df897b0603abeb8b4cc02ed0ec56b7b783c6faac40175477a55abfcd9a",
   "boyut": 2025222,
   "notlar": {
-    "tr": "• Ses kaydı: duyulan çağrılar ve yayınınız kaydedilir, eskiler 7 gün sonra silinir (Telsiz Ayarları'ndan değişir).\n• Ana menü → Ses Kayıtları: TG TG kayıtlar, tek tek ya da sırayla çalma. Çağrı Geçmişi'nde de ▶.\n• Telsizde liste pencerelerinde OK artık ilk satırda da çalışıyor.",
-    "en": "• Audio recording: heard calls and your transmissions are recorded, old ones deleted after 7 days (Radio settings).\n• Main menu → Recordings: by TG, play one or all in order. Also ▶ in Call History.\n• On the radio, OK now works on the first row of list windows."
+    "tr": "• HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).",
+    "en": "• LED on Zello-capable POC radios such as HIROYASU HI-B10: green on receive, red on transmit (the same method Zello uses)."
   }
 }
