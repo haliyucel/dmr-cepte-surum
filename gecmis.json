@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 70,
+      "versionName": "5.8.0",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Ses kaydı: duyulan çağrılar ve yayınınız kaydedilir, eskiler 7 gün sonra silinir (Telsiz Ayarları'ndan değişir).\n• Ana menü → Ses Kayıtları: TG TG kayıtlar, tek tek ya da sırayla çalma. Çağrı Geçmişi'nde de ▶.\n• Telsizde liste pencerelerinde OK artık ilk satırda da çalışıyor.",
+        "en": "• Audio recording: heard calls and your transmissions are recorded, old ones deleted after 7 days (Radio settings).\n• Main menu → Recordings: by TG, play one or all in order. Also ▶ in Call History.\n• On the radio, OK now works on the first row of list windows."
+      }
+    },
+    {
       "versionCode": 69,
       "versionName": "5.7.3",
       "tarih": "2026-10-24",
