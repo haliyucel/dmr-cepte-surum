@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 66,
+      "versionName": "5.7.0",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• Telefonda (Android 12+) güncelleme bundan sonra \"Yükle\" sormadan kurulur (ilk seferden sonra).\n• Güncellemeden sonra uygulama kendiliğinden yeniden açılır, ağlara bağlanır.\n• Telsizde kurulum penceresi sığmadığı için Güncellemeler'de uyarı: yan çevirin ya da kablo ile kurun.\n• EchoLink ve mikrofon otomatik seviyesi varsayılan açık.",
+        "en": "• On phones (Android 12+) updates now install without asking (after the first one).\n• After an update the app restarts by itself and reconnects.\n• On the radio the install window does not fit: Updates shows a note (turn sideways or install by cable).\n• EchoLink and microphone auto level are on by default."
+      }
+    },
+    {
       "versionCode": 65,
       "versionName": "5.6.9",
       "tarih": "2026-10-24",

@@ -1,5 +1,19 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.7.0 (66) — 2026-10-24
+
+• Telefonda (Android 12+) güncelleme bundan sonra "Yükle" sormadan kurulur (ilk seferden sonra).
+• Güncellemeden sonra uygulama kendiliğinden yeniden açılır, ağlara bağlanır.
+• Telsizde kurulum penceresi sığmadığı için Güncellemeler'de uyarı: yan çevirin ya da kablo ile kurun.
+• EchoLink ve mikrofon otomatik seviyesi varsayılan açık.
+
+*English:*
+
+• On phones (Android 12+) updates now install without asking (after the first one).
+• After an update the app restarts by itself and reconnects.
+• On the radio the install window does not fit: Updates shows a note (turn sideways or install by cable).
+• EchoLink and microphone auto level are on by default.
+
 ## 5.6.9 (65) — 2026-10-24
 
 • Canlı'da elle TG: telefonda kutunun yanında dokunmatik "Geç" düğmesi.
