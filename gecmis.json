@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 72,
+      "versionName": "5.8.2",
+      "tarih": "2026-10-24",
+      "notlar": {
+        "tr": "• PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.",
+        "en": "• On Zello-capable POC radios whose PTT key does not reach apps, PTT also works from the radio's Zello PTT message."
+      }
+    },
+    {
       "versionCode": 71,
       "versionName": "5.8.1",
       "tarih": "2026-10-24",

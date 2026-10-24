@@ -1,11 +1,11 @@
 {
-  "versionCode": 71,
-  "versionName": "5.8.1",
-  "apk": "DMRCepte-5.8.1.apk",
-  "sha256": "4f4631df897b0603abeb8b4cc02ed0ec56b7b783c6faac40175477a55abfcd9a",
+  "versionCode": 72,
+  "versionName": "5.8.2",
+  "apk": "DMRCepte-5.8.2.apk",
+  "sha256": "4462c9a756220b4d79c31d8b5db27fd94fefa11e980f57f47b852d58f0bc5b8e",
   "boyut": 2025222,
   "notlar": {
-    "tr": "• HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).",
-    "en": "• LED on Zello-capable POC radios such as HIROYASU HI-B10: green on receive, red on transmit (the same method Zello uses)."
+    "tr": "• PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.",
+    "en": "• On Zello-capable POC radios whose PTT key does not reach apps, PTT also works from the radio's Zello PTT message."
   }
 }
