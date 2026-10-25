@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 84,
+      "versionName": "5.9.4",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (GitHub önbelleği atlanır).",
+        "en": "• Update check sees a new version right after release (GitHub cache is bypassed)."
+      }
+    },
+    {
       "versionCode": 83,
       "versionName": "5.9.3",
       "tarih": "2026-10-25",
