@@ -1,11 +1,11 @@
 {
-  "versionCode": 80,
-  "versionName": "5.9.0",
-  "apk": "DMRCepte-5.9.0.apk",
-  "sha256": "2f1cfd8abaa7200b54537cfb9b8cd7765add7c643f35640fa369b3cbdcd9005e",
-  "boyut": 2049869,
+  "versionCode": 81,
+  "versionName": "5.9.1",
+  "apk": "DMRCepte-5.9.1.apk",
+  "sha256": "2b2b45c5f7269c0a4aad555a6da14d8d727b5994c072b817f972deb64be92438",
+  "boyut": 2074515,
   "notlar": {
-    "tr": "• Ana menünün en altında Çıkış: arka planda çalışsın (bağlantı açık kalır) ya da tamamen kapat (bağlantı kesilir). • Kapatınca bildirim çubuğunda silinemeyen eski bildirim kalmıyor.",
-    "en": "• Exit at the bottom of the main menu: keep running in background (stays connected) or close completely (disconnects). • Closing no longer leaves a stale, undismissable notification."
+    "tr": "• Sohbet: ana menünün en üstünde mIRC gibi ortak oda (DALnet #DMRCepte). Uygulaması olan herkes çağrı işaretiyle girer ve yazar; bilgisayardan mIRC ile de girilebilir. Telsiz Ayarları'ndan kapatılabilir.",
+    "en": "• Chat: a shared mIRC-style room at the top of the main menu (DALnet #DMRCepte). Everyone with the app joins with their callsign; you can also join from a PC with mIRC. Can be turned off in Radio settings."
   }
 }

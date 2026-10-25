@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.1 (81) — 2026-10-25
+
+• Sohbet: ana menünün en üstünde mIRC gibi ortak oda (DALnet #DMRCepte). Uygulaması olan herkes çağrı işaretiyle girer ve yazar; bilgisayardan mIRC ile de girilebilir. Telsiz Ayarları'ndan kapatılabilir.
+
+*English:*
+
+• Chat: a shared mIRC-style room at the top of the main menu (DALnet #DMRCepte). Everyone with the app joins with their callsign; you can also join from a PC with mIRC. Can be turned off in Radio settings.
+
 ## 5.9.0 (80) — 2026-10-25
 
 • Ana menünün en altında Çıkış: arka planda çalışsın (bağlantı açık kalır) ya da tamamen kapat (bağlantı kesilir). • Kapatınca bildirim çubuğunda silinemeyen eski bildirim kalmıyor.
