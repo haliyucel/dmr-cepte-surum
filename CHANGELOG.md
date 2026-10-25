@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.6 (86) — 2026-10-25
+
+• Cihaz raporu daha ayrıntılı (Telsiz Ayarları → Cihaz raporu gönder): cihaz kimlikleri, bağlantı, arka plan ve izin durumu, ses çözücü, son çağrıların ses ölçümleri.
+
+*English:*
+
+• More detailed device report (Radio settings → Send device report): device IDs, connection, background and permission state, codec, audio measurements of recent calls.
+
 ## 5.9.5 (85) — 2026-10-25
 
 • İlk kurulum: Sunucu Ayarları kaydedilince ses çözücü kurulu değilse doğrudan Ses Çözücü ekranı açılır.

@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 86,
+      "versionName": "5.9.6",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Cihaz raporu daha ayrıntılı (Telsiz Ayarları → Cihaz raporu gönder): cihaz kimlikleri, bağlantı, arka plan ve izin durumu, ses çözücü, son çağrıların ses ölçümleri.",
+        "en": "• More detailed device report (Radio settings → Send device report): device IDs, connection, background and permission state, codec, audio measurements of recent calls."
+      }
+    },
+    {
       "versionCode": 85,
       "versionName": "5.9.5",
       "tarih": "2026-10-25",
