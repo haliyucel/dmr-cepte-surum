@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 82,
+      "versionName": "5.9.2",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• Roger Beep: Telsiz Ayarları'ndan açılır (varsayılan kapalı). PTT bırakılınca karşı tarafa kısa iki ton gider (DMR, EchoLink, NXDN). • Sohbet: imleç hep yazma kutusunda kalır.",
+        "en": "• Roger beep: enable in Radio settings (off by default). A short two-tone beep is sent when you release PTT (DMR, EchoLink, NXDN). • Chat: the cursor stays in the message box."
+      }
+    },
+    {
       "versionCode": 81,
       "versionName": "5.9.1",
       "tarih": "2026-10-25",
