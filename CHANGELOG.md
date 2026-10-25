@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.7 (87) — 2026-10-25
+
+• Arka planda PTT: uygulama arkadayken PTT tuşu Konuşma ekranını açıp yayını başlatır (Telsiz Ayarları → Arka planda PTT; Android Erişilebilirlik ayarından açılır). • Daha çok POC telsizin PTT ve SOS tuşu tanınır. • Dış PTT komutları: tuş atama ve otomasyon uygulamaları PTT'ye basabilir (varsayılan kapalı). • SOS tuşu: 5 sn geri sayım ve Vazgeç; seçilen kişiye konumlu DMR SMS ve APRS acil durum konumu (varsayılan kapalı, göndermeden deneme düğmesi var). • Roger beep türü: iki ton, tek bip, çift bip ya da kendi ses dosyanız. • Ses kazancı Telsiz Ayarları'nda: ağ başına otomatik seviye ve hoparlör kazancı, mikrofon kazancı. • Ana menüde "Canlı" artık "Canlı TG Yayınları".
+
+*English:*
+
+• Background PTT: while the app is in the background, the PTT key opens the Talk screen and starts transmitting (Radio settings → Background PTT; turned on in Android Accessibility settings). • PTT and SOS keys of more POC radios are recognised. • External PTT commands: key-mapping and automation apps can press PTT (off by default). • SOS key: 5 s countdown with Cancel; DMR SMS with position to a chosen contact and an APRS emergency position (off by default, with a test button that sends nothing). • Roger beep type: two tones, single beep, double beep or your own sound file. • Sound gain in Radio settings: auto level and speaker gain per network, microphone gain. • Main menu: "Live" is now "Live TG Traffic".
+
 ## 5.9.6 (86) — 2026-10-25
 
 • Cihaz raporu daha ayrıntılı (Telsiz Ayarları → Cihaz raporu gönder): cihaz kimlikleri, bağlantı, arka plan ve izin durumu, ses çözücü, son çağrıların ses ölçümleri.
