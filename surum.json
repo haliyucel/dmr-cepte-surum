@@ -1,11 +1,11 @@
 {
-  "versionCode": 82,
-  "versionName": "5.9.2",
-  "apk": "DMRCepte-5.9.2.apk",
-  "sha256": "7d018ded0949cc1a6c5d09318330c77debce9b943d4b273d3acdb48a498c7bc4",
+  "versionCode": 83,
+  "versionName": "5.9.3",
+  "apk": "DMRCepte-5.9.3.apk",
+  "sha256": "64f7b2a2a1a2ac21eded2a7c81fd20ac11b13ca2f85152304768cb3491ee5910",
   "boyut": 2078611,
   "notlar": {
-    "tr": "• Roger Beep: Telsiz Ayarları'ndan açılır (varsayılan kapalı). PTT bırakılınca karşı tarafa kısa iki ton gider (DMR, EchoLink, NXDN). • Sohbet: imleç hep yazma kutusunda kalır.",
-    "en": "• Roger beep: enable in Radio settings (off by default). A short two-tone beep is sent when you release PTT (DMR, EchoLink, NXDN). • Chat: the cursor stays in the message box."
+    "tr": "• Roger Beep: karşı tarafın yayını bitince de çalar (yalnız bu cihazda). Ses düzeyi medyaya değil bildirim sesine bağlı; medya kısık olsa da duyulur.",
+    "en": "• Roger beep: also plays when the other side stops (on this device only). Its volume follows notification volume, not media, so it is heard even when media is low."
   }
 }
