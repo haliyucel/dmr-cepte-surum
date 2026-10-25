@@ -1,11 +1,11 @@
 {
-  "versionCode": 90,
-  "versionName": "5.9.9",
-  "apk": "DMRCepte-5.9.9.apk",
-  "sha256": "ed4082cd6bb890a24df58b88181d302c814569c8c0aed7e187156d358d780466",
+  "versionCode": 91,
+  "versionName": "5.9.10",
+  "apk": "DMRCepte-5.9.10.apk",
+  "sha256": "0e50d7aaf6c244ccb36078cb870915d2dcde7ea917dca67c80a5218ef86b5448",
   "boyut": 2123735,
   "notlar": {
-    "tr": "• FreeDMR ve ADN sunucu listeleri kendiliğinden güncel kalır: günde bir yenilenir, seçili sunucunun adresi değişirse yeni adres otomatik yazılır.",
-    "en": "• FreeDMR and ADN server lists stay up to date by themselves: refreshed daily; if the selected server's address changes, the new address is written automatically."
+    "tr": "• Sohbet: gönderilemeyen mesaj artık ekranda \"Mesaj gitmedi\" diye görünür. • SOS: geri sayım biterken yayın sürüyorsa yayın ışığı sönmez; \"Dış PTT\" değişince dış SOS komutu hemen dinlenir. • Roger beep: bozuk ses dosyası seçilince uygulama takılmaz.",
+    "en": "• Chat: a message that could not be sent is now shown as \"Message not sent\". • SOS: the transmit light stays on if a transmission is running when the countdown ends; the external SOS command follows the \"External PTT\" switch at once. • Roger beep: choosing a broken sound file no longer hangs."
   }
 }
