@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 90,
+      "versionName": "5.9.9",
+      "tarih": "2026-10-26",
+      "notlar": {
+        "tr": "• FreeDMR ve ADN sunucu listeleri kendiliğinden güncel kalır: günde bir yenilenir, seçili sunucunun adresi değişirse yeni adres otomatik yazılır.",
+        "en": "• FreeDMR and ADN server lists stay up to date by themselves: refreshed daily; if the selected server's address changes, the new address is written automatically."
+      }
+    },
+    {
       "versionCode": 89,
       "versionName": "5.9.8",
       "tarih": "2026-10-26",
