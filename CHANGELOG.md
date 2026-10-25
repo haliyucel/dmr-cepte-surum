@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.4 (84) — 2026-10-25
+
+• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (GitHub önbelleği atlanır).
+
+*English:*
+
+• Update check sees a new version right after release (GitHub cache is bypassed).
+
 ## 5.9.3 (83) — 2026-10-25
 
 • Roger Beep: karşı tarafın yayını bitince de çalar (yalnız bu cihazda). Ses düzeyi medyaya değil bildirim sesine bağlı; medya kısık olsa da duyulur.

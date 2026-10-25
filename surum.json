@@ -1,11 +1,11 @@
 {
-  "versionCode": 83,
-  "versionName": "5.9.3",
-  "apk": "DMRCepte-5.9.3.apk",
-  "sha256": "64f7b2a2a1a2ac21eded2a7c81fd20ac11b13ca2f85152304768cb3491ee5910",
-  "boyut": 2078611,
+  "versionCode": 84,
+  "versionName": "5.9.4",
+  "apk": "DMRCepte-5.9.4.apk",
+  "sha256": "c3ea9bf593c3bb4944a8a5700be632e9ba7e7f43b081ef1569da2d2bc2237f98",
+  "boyut": 2082707,
   "notlar": {
-    "tr": "• Roger Beep: karşı tarafın yayını bitince de çalar (yalnız bu cihazda). Ses düzeyi medyaya değil bildirim sesine bağlı; medya kısık olsa da duyulur.",
-    "en": "• Roger beep: also plays when the other side stops (on this device only). Its volume follows notification volume, not media, so it is heard even when media is low."
+    "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (GitHub önbelleği atlanır).",
+    "en": "• Update check sees a new version right after release (GitHub cache is bypassed)."
   }
 }
