@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.10 (91) — 2026-10-26
+
+• Sohbet: gönderilemeyen mesaj artık ekranda "Mesaj gitmedi" diye görünür. • SOS: geri sayım biterken yayın sürüyorsa yayın ışığı sönmez; "Dış PTT" değişince dış SOS komutu hemen dinlenir. • Roger beep: bozuk ses dosyası seçilince uygulama takılmaz.
+
+*English:*
+
+• Chat: a message that could not be sent is now shown as "Message not sent". • SOS: the transmit light stays on if a transmission is running when the countdown ends; the external SOS command follows the "External PTT" switch at once. • Roger beep: choosing a broken sound file no longer hangs.
+
 ## 5.9.9 (90) — 2026-10-26
 
 • FreeDMR ve ADN sunucu listeleri kendiliğinden güncel kalır: günde bir yenilenir, seçili sunucunun adresi değişirse yeni adres otomatik yazılır.
