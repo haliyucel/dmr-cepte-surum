@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.9 (90) — 2026-10-26
+
+• FreeDMR ve ADN sunucu listeleri kendiliğinden güncel kalır: günde bir yenilenir, seçili sunucunun adresi değişirse yeni adres otomatik yazılır.
+
+*English:*
+
+• FreeDMR and ADN server lists stay up to date by themselves: refreshed daily; if the selected server's address changes, the new address is written automatically.
+
 ## 5.9.8 (89) — 2026-10-26
 
 • Güncelleme Google Play Protect tarafından durdurulursa ham hata kodu yerine anlaşılır bir açıklama gösterilir; tuşlu telsizlerde ayrı bir açıklama çıkar.
