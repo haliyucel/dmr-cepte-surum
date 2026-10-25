@@ -1,11 +1,11 @@
 {
-  "versionCode": 84,
-  "versionName": "5.9.4",
-  "apk": "DMRCepte-5.9.4.apk",
-  "sha256": "c3ea9bf593c3bb4944a8a5700be632e9ba7e7f43b081ef1569da2d2bc2237f98",
+  "versionCode": 85,
+  "versionName": "5.9.5",
+  "apk": "DMRCepte-5.9.5.apk",
+  "sha256": "ec9de1a0705f97461dfeebe8602a440bce26e975895dd3cdf7ab334a2a4e9fa4",
   "boyut": 2082707,
   "notlar": {
-    "tr": "• Güncelleme denetimi yeni sürümü yayından hemen sonra görür (GitHub önbelleği atlanır).",
-    "en": "• Update check sees a new version right after release (GitHub cache is bypassed)."
+    "tr": "• İlk kurulum: Sunucu Ayarları kaydedilince ses çözücü kurulu değilse doğrudan Ses Çözücü ekranı açılır.",
+    "en": "• First setup: after saving Server settings, the Codec screen opens directly if the codec is not installed."
   }
 }

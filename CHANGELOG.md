@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.5 (85) — 2026-10-25
+
+• İlk kurulum: Sunucu Ayarları kaydedilince ses çözücü kurulu değilse doğrudan Ses Çözücü ekranı açılır.
+
+*English:*
+
+• First setup: after saving Server settings, the Codec screen opens directly if the codec is not installed.
+
 ## 5.9.4 (84) — 2026-10-25
 
 • Güncelleme denetimi yeni sürümü yayından hemen sonra görür (GitHub önbelleği atlanır).
