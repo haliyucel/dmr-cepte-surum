@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 85,
+      "versionName": "5.9.5",
+      "tarih": "2026-10-25",
+      "notlar": {
+        "tr": "• İlk kurulum: Sunucu Ayarları kaydedilince ses çözücü kurulu değilse doğrudan Ses Çözücü ekranı açılır.",
+        "en": "• First setup: after saving Server settings, the Codec screen opens directly if the codec is not installed."
+      }
+    },
+    {
       "versionCode": 84,
       "versionName": "5.9.4",
       "tarih": "2026-10-25",
