@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.2 (82) — 2026-10-25
+
+• Roger Beep: Telsiz Ayarları'ndan açılır (varsayılan kapalı). PTT bırakılınca karşı tarafa kısa iki ton gider (DMR, EchoLink, NXDN). • Sohbet: imleç hep yazma kutusunda kalır.
+
+*English:*
+
+• Roger beep: enable in Radio settings (off by default). A short two-tone beep is sent when you release PTT (DMR, EchoLink, NXDN). • Chat: the cursor stays in the message box.
+
 ## 5.9.1 (81) — 2026-10-25
 
 • Sohbet: ana menünün en üstünde mIRC gibi ortak oda (DALnet #DMRCepte). Uygulaması olan herkes çağrı işaretiyle girer ve yazar; bilgisayardan mIRC ile de girilebilir. Telsiz Ayarları'ndan kapatılabilir.
