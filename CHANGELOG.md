@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.3 (83) — 2026-10-25
+
+• Roger Beep: karşı tarafın yayını bitince de çalar (yalnız bu cihazda). Ses düzeyi medyaya değil bildirim sesine bağlı; medya kısık olsa da duyulur.
+
+*English:*
+
+• Roger beep: also plays when the other side stops (on this device only). Its volume follows notification volume, not media, so it is heard even when media is low.
+
 ## 5.9.2 (82) — 2026-10-25
 
 • Roger Beep: Telsiz Ayarları'ndan açılır (varsayılan kapalı). PTT bırakılınca karşı tarafa kısa iki ton gider (DMR, EchoLink, NXDN). • Sohbet: imleç hep yazma kutusunda kalır.
