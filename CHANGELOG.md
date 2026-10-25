@@ -58,11 +58,11 @@
 
 ## 5.8.9 (79) — 2026-10-25
 
-• LED: HIROYASU HI-B10 gibi LED'i doğrudan sürülebilen telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.
+• LED: LED'i doğrudan sürülebilen bazı telsizlerde kırmızı/yeşil ışık artık yanar. • Telsiz Ayarları → Cihaz raporu gönder: cihaz bilgisi istendiğinde yeniden gönderilebilir.
 
 *English:*
 
-• LED: red/green light now works on radios whose LED can be driven directly, such as HIROYASU HI-B10. • Radio settings → Send device report: device information can be sent again on demand.
+• LED: red/green light now works on some radios whose LED can be driven directly. • Radio settings → Send device report: device information can be sent again on demand.
 
 ## 5.8.8 (78) — 2026-10-25
 
@@ -74,11 +74,11 @@
 
 ## 5.8.7 (77) — 2026-10-25
 
-• Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: Zello uyumlu telsizlerde yayın sırası Zello'nunkiyle aynı yapıldı.
+• Cihaz bilgisi: bir kez sorulur, onaylarsanız cihaz bilgisi geliştiriciye e-postayla gider (konum, rehber, kayıt, parola gitmez). • LED: bazı POC telsizlerde LED komutlarının sırası düzeltildi.
 
 *English:*
 
-• Device info: asked once; if you agree, device information is e-mailed to the developer (no location, contacts, recordings or passwords). • LED: broadcast order on Zello-compatible radios now matches Zello.
+• Device info: asked once; if you agree, device information is e-mailed to the developer (no location, contacts, recordings or passwords). • LED: LED command order fixed on some POC radios.
 
 ## 5.8.6 (76) — 2026-10-25
 
@@ -114,19 +114,19 @@
 
 ## 5.8.2 (72) — 2026-10-24
 
-• PTT tuşu uygulamaya gelmeyen Zello destekli POC telsizlerde PTT, telsizin Zello'ya gönderdiği mesajdan da çalışır.
+• PTT tuşu uygulamaya gelmeyen bazı POC telsizlerde PTT, telsizin PTT uygulamalarına gönderdiği mesajdan da çalışır.
 
 *English:*
 
-• On Zello-capable POC radios whose PTT key does not reach apps, PTT also works from the radio's Zello PTT message.
+• On some POC radios whose PTT key does not reach apps, PTT also works from the radio's PTT broadcast.
 
 ## 5.8.1 (71) — 2026-10-24
 
-• HIROYASU HI-B10 gibi Zello destekli POC telsizlerinde LED: ses gelirken yeşil, konuşurken kırmızı (Zello'nun kullandığı yöntemle).
+• Bazı POC telsizlerde LED: ses gelirken yeşil, konuşurken kırmızı.
 
 *English:*
 
-• LED on Zello-capable POC radios such as HIROYASU HI-B10: green on receive, red on transmit (the same method Zello uses).
+• LED on some POC radios: green on receive, red on transmit.
 
 ## 5.8.0 (70) — 2026-10-24
 
@@ -191,26 +191,26 @@
 ## 5.6.8 (64) — 2026-10-24
 
 • Sürüm geçmişi: Güncellemeler → Sürüm geçmişi.
-• Ana menüde ve Son Depremler'de dokunmatik geri (‹): geri tuşu olmayan yerde (BlueStacks) de çıkılır.
+• Ana menüde ve Son Depremler'de dokunmatik geri (‹): geri tuşu olmayan cihazlarda da çıkılır.
 • Canlı: TG numarasını yazıp statik yapmadan geçici bağlanma.
 • BrandMeister ekranında API token'ı panodan yapıştırma.
 
 *English:*
 
 • Release history: Updates → Release history.
-• Touch back (‹) in the main menu and Recent earthquakes, for devices without a back key (BlueStacks).
+• Touch back (‹) in the main menu and Recent earthquakes, for devices without a back key.
 • Live: type a TG number to join it temporarily, without making it static.
 • BrandMeister screen: paste the API token from the clipboard.
 
 ## 5.6.6 (62) — 2026-10-24
 
 • Güncellemeler artık ana menüde (Telsiz Ayarları'nın altında); yeni sürüm varsa alt yazıda görünür.
-• Android 9 cihazlarda (BlueStacks 5) güncellemenin "imza taşımıyor" hatasıyla kurulmaması düzeltildi.
+• Android 9 cihazlarda güncellemenin "imza taşımıyor" hatasıyla kurulmaması düzeltildi.
 
 *English:*
 
 • Updates are now in the main menu (below Radio settings); a new version shows in the subtitle.
-• Fixed updates being rejected with a signature error on Android 9 (BlueStacks 5).
+• Fixed updates being rejected with a signature error on Android 9.
 
 ## 5.6.4 (60) — 2026-10-23
 
@@ -254,7 +254,7 @@
 • Uygulama içi güncelleme: açılışta ve elle, GitHub'dan.
 • APRS: giden mesajda teslim takibi ve yeniden gönderme; e-posta (EMAIL-2) ve WhatsApp (WTSAPP) kısayolları.
 • RadioID rehber indirmesi ekrandan çıkınca da sürer; ilerleme çubuğu ve bildirim. Türkiye de hızlı iner.
-• BlueStacks gibi ARM olmayan cihazda MD-380 denenmez, eklenti önerilir.
+• ARM olmayan cihazlarda (emülatörler) yerleşik ses çözücü denenmez, eklenti önerilir.
 
 *English:*
 
@@ -262,13 +262,13 @@
 • In-app updates: at start and manually, from GitHub.
 • APRS: delivery tracking with retries for outgoing messages; e-mail (EMAIL-2) and WhatsApp (WTSAPP) shortcuts.
 • RadioID download continues in the background with a progress bar and notification; Turkey downloads fast too.
-• MD-380 is not tried on non-ARM devices such as BlueStacks; the plugin is suggested.
+• The built-in codec is not tried on non-ARM devices (emulators); the plugin is suggested.
 
 ## 5.5.0 (55) — 2026-10-15
 
 • FreeDMR ve TGIF: ADN gibi ayrı, BrandMeister ile aynı anda çalışan ağlar.
 • Canlı: şu an kim konuşuyor (BrandMeister tüm ağ, ek ağlar).
-• DMR SMS gönderme (teslim onaylı); Motorola TMS alma; mesajlarda "Gruptan çık".
+• DMR SMS gönderme (teslim onaylı); TMS biçimli SMS alma; mesajlarda "Gruptan çık".
 • Bluetooth PTT düğmesi ve kulaklık mikrofonu; Talker Alias gönderme (isteğe bağlı).
 • Web panelinde tüm ağlar tek "Ağlar" sayfasında.
 • Ses: tampon ve kayıp dolgusu iyileştirmeleri; Bluetooth'ta ilk hecenin kırpılması düzeltildi.
@@ -279,7 +279,7 @@
 
 • FreeDMR and TGIF: separate networks running alongside BrandMeister, like ADN.
 • Live: who is talking right now (whole BrandMeister network, extra networks).
-• Sending DMR SMS (with delivery receipt); Motorola TMS receive; "Leave group" in messages.
+• Sending DMR SMS (with delivery receipt); TMS-format SMS receive; "Leave group" in messages.
 • Bluetooth PTT button and headset microphone; Talker Alias sending (optional).
 • All networks on one "Networks" page in the web panel.
 • Audio: buffer and loss-fill improvements; fixed the first syllable being clipped over Bluetooth.
@@ -297,7 +297,7 @@
 ## 5.3.0 (53) — 2026-10-04
 
 • ADN Systems ağı desteği.
-• Telefonda gerçek AMBE+2 ses (MD-380 firmware'i).
+• Telefonda yerleşik dijital ses çözücü.
 • DMR SMS alma (Gelen Mesajlar) ve "aldım" yanıtı.
 • Almanca, İspanyolca, İtalyanca, Fransızca: 6 dil.
 • Çağrı gelince kapalı ekran açılır; kilitliyken Konuşma ekranı kilidin üstünde (yalnız görüntü).
@@ -307,7 +307,7 @@
 *English:*
 
 • ADN Systems network support.
-• Real AMBE+2 audio on phones (MD-380 firmware).
+• Built-in digital voice codec on phones.
 • Receiving DMR SMS (Incoming messages) with a "received" reply.
 • German, Spanish, Italian, French: 6 languages.
 • The screen wakes on a call; when locked the Talk screen shows above the lock (view only).
