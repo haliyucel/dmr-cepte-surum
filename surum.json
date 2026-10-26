@@ -1,11 +1,11 @@
 {
-  "versionCode": 94,
-  "versionName": "5.9.13",
-  "apk": "DMRCepte-5.9.13.apk",
-  "sha256": "116e07cb613c299fe4d20ae2b89a5acbd07bb1a3ede21dd0bee5878ec6d6a09e",
-  "boyut": 2127831,
+  "versionCode": 95,
+  "versionName": "5.10.0",
+  "apk": "DMRCepte-5.10.0.apk",
+  "sha256": "47b3ccd698ea42d51736050c23f51a5a2da4f00d653fb119fb823b02172f3591",
+  "boyut": 2156503,
   "notlar": {
-    "tr": "Ses çözücü eklentisi için DMR Cepte'nin kendi indirme adresi eklendi (ilk sırada); ulaşılamazsa eski adres kullanılıyor. Elle kurulumda dosya artık uygulamanın kendi klasöründe aranıyor (Android/data/com.dmrcepte.app/files); önceden depolama izni olmadığı için kurulamıyordu. Ses Çözücü ekranı ve bağlantı günlüğü hangi eklentinin çalıştığını gösteriyor.",
-    "en": "Added DMR Cepte's own download address for the vocoder plugin (tried first); if it is unreachable, the previous address is used. Manual install now looks in the app's own folder (Android/data/com.dmrcepte.app/files); before, it failed for lack of storage permission. The Vocoder screen and the connection log show which plugin is running."
+    "tr": "YSF reflector desteği: Ana menü → YSF'den bir reflector seçin; Konuşma ekranında NXDN'den sonra YSF yuvası açılır (dinleme ve PTT). Reflector seçilmedikçe YSF kapalıdır. Canlı TG Yayınları'nda YSF'de duyulanlar görünür; Telsiz Ayarları'nda ve web panelinde YSF ses kazancı ve otomatik seviye ayarı var. Liste boş aramada önce kendi ülkenizin reflector'larını gösterir.",
+    "en": "YSF reflector support: pick a reflector in Main menu → YSF; a YSF slot appears on the Talk screen after NXDN (listen and PTT). YSF stays off until a reflector is chosen. Live TG Traffic shows what is heard on YSF; Radio Settings and the web panel have YSF gain and automatic level. An empty search lists your own country's reflectors first."
   }
 }
