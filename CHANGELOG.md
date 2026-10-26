@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.12 (93) — 2026-10-26
+
+• Canlı TG Yayınları (ADN): seçili sunucunun canlı listesi önce şifreli, olmazsa şifresiz bağlantıyla alınır; Bulgaristan gibi sunucularda liste artık kendi sunucusundan gelir. İkisi de olmazsa yanıt veren başka bir ADN sunucusu kullanılır.
+
+*English:*
+
+• Live TG Traffic (ADN): the selected server's live list is fetched over an encrypted connection first, then unencrypted; on servers like Bulgaria the list now comes from that server itself. If neither works, another ADN server that answers is used.
+
 ## 5.9.11 (92) — 2026-10-26
 
 • Canlı TG Yayınları (ADN): seçili sunucunun canlı izleme sayfası yoksa liste artık boş kalmaz; yanıt veren başka bir ADN sunucusundan gösterilir.

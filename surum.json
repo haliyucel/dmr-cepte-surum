@@ -1,11 +1,11 @@
 {
-  "versionCode": 92,
-  "versionName": "5.9.11",
-  "apk": "DMRCepte-5.9.11.apk",
-  "sha256": "a973f8df9c706138f5b52460788b03937e045fefd2f0e499660d829cb556e121",
+  "versionCode": 93,
+  "versionName": "5.9.12",
+  "apk": "DMRCepte-5.9.12.apk",
+  "sha256": "278e710053ecbb500d92ca622062cde49f86740f54c32c7ca52afed914993e9b",
   "boyut": 2123735,
   "notlar": {
-    "tr": "• Canlı TG Yayınları (ADN): seçili sunucunun canlı izleme sayfası yoksa liste artık boş kalmaz; yanıt veren başka bir ADN sunucusundan gösterilir.",
-    "en": "• Live TG Traffic (ADN): if the selected server has no live monitor, the list no longer stays empty; it is shown from another ADN server that answers."
+    "tr": "• Canlı TG Yayınları (ADN): seçili sunucunun canlı listesi önce şifreli, olmazsa şifresiz bağlantıyla alınır; Bulgaristan gibi sunucularda liste artık kendi sunucusundan gelir. İkisi de olmazsa yanıt veren başka bir ADN sunucusu kullanılır.",
+    "en": "• Live TG Traffic (ADN): the selected server's live list is fetched over an encrypted connection first, then unencrypted; on servers like Bulgaria the list now comes from that server itself. If neither works, another ADN server that answers is used."
   }
 }
