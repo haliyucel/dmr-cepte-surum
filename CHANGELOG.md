@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.13 (94) — 2026-10-26
+
+Ses çözücü eklentisi için DMR Cepte'nin kendi indirme adresi eklendi (ilk sırada); ulaşılamazsa eski adres kullanılıyor. Elle kurulumda dosya artık uygulamanın kendi klasöründe aranıyor (Android/data/com.dmrcepte.app/files); önceden depolama izni olmadığı için kurulamıyordu. Ses Çözücü ekranı ve bağlantı günlüğü hangi eklentinin çalıştığını gösteriyor.
+
+*English:*
+
+Added DMR Cepte's own download address for the vocoder plugin (tried first); if it is unreachable, the previous address is used. Manual install now looks in the app's own folder (Android/data/com.dmrcepte.app/files); before, it failed for lack of storage permission. The Vocoder screen and the connection log show which plugin is running.
+
 ## 5.9.12 (93) — 2026-10-26
 
 • Canlı TG Yayınları (ADN): seçili sunucunun canlı listesi önce şifreli, olmazsa şifresiz bağlantıyla alınır; Bulgaristan gibi sunucularda liste artık kendi sunucusundan gelir. İkisi de olmazsa yanıt veren başka bir ADN sunucusu kullanılır.

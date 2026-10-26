@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 94,
+      "versionName": "5.9.13",
+      "tarih": "2026-10-26",
+      "notlar": {
+        "tr": "Ses çözücü eklentisi için DMR Cepte'nin kendi indirme adresi eklendi (ilk sırada); ulaşılamazsa eski adres kullanılıyor. Elle kurulumda dosya artık uygulamanın kendi klasöründe aranıyor (Android/data/com.dmrcepte.app/files); önceden depolama izni olmadığı için kurulamıyordu. Ses Çözücü ekranı ve bağlantı günlüğü hangi eklentinin çalıştığını gösteriyor.",
+        "en": "Added DMR Cepte's own download address for the vocoder plugin (tried first); if it is unreachable, the previous address is used. Manual install now looks in the app's own folder (Android/data/com.dmrcepte.app/files); before, it failed for lack of storage permission. The Vocoder screen and the connection log show which plugin is running."
+      }
+    },
+    {
       "versionCode": 93,
       "versionName": "5.9.12",
       "tarih": "2026-10-26",
