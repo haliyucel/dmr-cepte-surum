@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.10.0 (95) — 2026-10-26
+
+YSF reflector desteği: Ana menü → YSF'den bir reflector seçin; Konuşma ekranında NXDN'den sonra YSF yuvası açılır (dinleme ve PTT). Reflector seçilmedikçe YSF kapalıdır. Canlı TG Yayınları'nda YSF'de duyulanlar görünür; Telsiz Ayarları'nda ve web panelinde YSF ses kazancı ve otomatik seviye ayarı var. Liste boş aramada önce kendi ülkenizin reflector'larını gösterir.
+
+*English:*
+
+YSF reflector support: pick a reflector in Main menu → YSF; a YSF slot appears on the Talk screen after NXDN (listen and PTT). YSF stays off until a reflector is chosen. Live TG Traffic shows what is heard on YSF; Radio Settings and the web panel have YSF gain and automatic level. An empty search lists your own country's reflectors first.
+
 ## 5.9.13 (94) — 2026-10-26
 
 Ses çözücü eklentisi için DMR Cepte'nin kendi indirme adresi eklendi (ilk sırada); ulaşılamazsa eski adres kullanılıyor. Elle kurulumda dosya artık uygulamanın kendi klasöründe aranıyor (Android/data/com.dmrcepte.app/files); önceden depolama izni olmadığı için kurulamıyordu. Ses Çözücü ekranı ve bağlantı günlüğü hangi eklentinin çalıştığını gösteriyor.
