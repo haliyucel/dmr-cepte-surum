@@ -1,11 +1,11 @@
 {
-  "versionCode": 93,
-  "versionName": "5.9.12",
-  "apk": "DMRCepte-5.9.12.apk",
-  "sha256": "278e710053ecbb500d92ca622062cde49f86740f54c32c7ca52afed914993e9b",
-  "boyut": 2123735,
+  "versionCode": 94,
+  "versionName": "5.9.13",
+  "apk": "DMRCepte-5.9.13.apk",
+  "sha256": "116e07cb613c299fe4d20ae2b89a5acbd07bb1a3ede21dd0bee5878ec6d6a09e",
+  "boyut": 2127831,
   "notlar": {
-    "tr": "• Canlı TG Yayınları (ADN): seçili sunucunun canlı listesi önce şifreli, olmazsa şifresiz bağlantıyla alınır; Bulgaristan gibi sunucularda liste artık kendi sunucusundan gelir. İkisi de olmazsa yanıt veren başka bir ADN sunucusu kullanılır.",
-    "en": "• Live TG Traffic (ADN): the selected server's live list is fetched over an encrypted connection first, then unencrypted; on servers like Bulgaria the list now comes from that server itself. If neither works, another ADN server that answers is used."
+    "tr": "Ses çözücü eklentisi için DMR Cepte'nin kendi indirme adresi eklendi (ilk sırada); ulaşılamazsa eski adres kullanılıyor. Elle kurulumda dosya artık uygulamanın kendi klasöründe aranıyor (Android/data/com.dmrcepte.app/files); önceden depolama izni olmadığı için kurulamıyordu. Ses Çözücü ekranı ve bağlantı günlüğü hangi eklentinin çalıştığını gösteriyor.",
+    "en": "Added DMR Cepte's own download address for the vocoder plugin (tried first); if it is unreachable, the previous address is used. Manual install now looks in the app's own folder (Android/data/com.dmrcepte.app/files); before, it failed for lack of storage permission. The Vocoder screen and the connection log show which plugin is running."
   }
 }
