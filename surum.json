@@ -1,11 +1,11 @@
 {
-  "versionCode": 91,
-  "versionName": "5.9.10",
-  "apk": "DMRCepte-5.9.10.apk",
-  "sha256": "0e50d7aaf6c244ccb36078cb870915d2dcde7ea917dca67c80a5218ef86b5448",
+  "versionCode": 92,
+  "versionName": "5.9.11",
+  "apk": "DMRCepte-5.9.11.apk",
+  "sha256": "a973f8df9c706138f5b52460788b03937e045fefd2f0e499660d829cb556e121",
   "boyut": 2123735,
   "notlar": {
-    "tr": "• Sohbet: gönderilemeyen mesaj artık ekranda \"Mesaj gitmedi\" diye görünür. • SOS: geri sayım biterken yayın sürüyorsa yayın ışığı sönmez; \"Dış PTT\" değişince dış SOS komutu hemen dinlenir. • Roger beep: bozuk ses dosyası seçilince uygulama takılmaz.",
-    "en": "• Chat: a message that could not be sent is now shown as \"Message not sent\". • SOS: the transmit light stays on if a transmission is running when the countdown ends; the external SOS command follows the \"External PTT\" switch at once. • Roger beep: choosing a broken sound file no longer hangs."
+    "tr": "• Canlı TG Yayınları (ADN): seçili sunucunun canlı izleme sayfası yoksa liste artık boş kalmaz; yanıt veren başka bir ADN sunucusundan gösterilir.",
+    "en": "• Live TG Traffic (ADN): if the selected server has no live monitor, the list no longer stays empty; it is shown from another ADN server that answers."
   }
 }

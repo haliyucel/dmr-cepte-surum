@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 92,
+      "versionName": "5.9.11",
+      "tarih": "2026-10-26",
+      "notlar": {
+        "tr": "• Canlı TG Yayınları (ADN): seçili sunucunun canlı izleme sayfası yoksa liste artık boş kalmaz; yanıt veren başka bir ADN sunucusundan gösterilir.",
+        "en": "• Live TG Traffic (ADN): if the selected server has no live monitor, the list no longer stays empty; it is shown from another ADN server that answers."
+      }
+    },
+    {
       "versionCode": 91,
       "versionName": "5.9.10",
       "tarih": "2026-10-26",

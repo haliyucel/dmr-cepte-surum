@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.9.11 (92) — 2026-10-26
+
+• Canlı TG Yayınları (ADN): seçili sunucunun canlı izleme sayfası yoksa liste artık boş kalmaz; yanıt veren başka bir ADN sunucusundan gösterilir.
+
+*English:*
+
+• Live TG Traffic (ADN): if the selected server has no live monitor, the list no longer stays empty; it is shown from another ADN server that answers.
+
 ## 5.9.10 (91) — 2026-10-26
 
 • Sohbet: gönderilemeyen mesaj artık ekranda "Mesaj gitmedi" diye görünür. • SOS: geri sayım biterken yayın sürüyorsa yayın ışığı sönmez; "Dış PTT" değişince dış SOS komutu hemen dinlenir. • Roger beep: bozuk ses dosyası seçilince uygulama takılmaz.
