@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.11.0 (97) — 2026-10-27
+
+D-STAR ve P25 reflector desteği: Ana menü → D-STAR (reflector + modül) ve P25'ten seçin; Konuşma ekranında YSF'den sonra kendi yuvaları açılır (dinleme ve PTT). Seçilmedikçe kapalıdır. Bu iki ağın sesi için ses çözücü eklentisi gerekir; yoksa durum satırı bildirir. Tüm ağlarda (YSF, NXDN, D-STAR, P25, EchoLink) çağrılar Çağrı Geçmişi'ne çağrı işaretiyle yazılır ve ses kaydı alınır (gelen ve giden). Roger beep artık karşı taraf bırakır bırakmaz, sesin hemen arkasından çalar. Canlı TG Yayınları'nda D-STAR, seçili reflector'un panosundan tüm modülleri gösterir; satır seçilince o modüle geçilir. NXDN'de PTT başlangıç/bitiş paketlerinin gitmemesi düzeltildi.
+
+*English:*
+
+D-STAR and P25 reflector support: pick them in Main menu → D-STAR (reflector + module) and P25; their own slots appear on the Talk screen after YSF (listen and PTT). They stay off until chosen. Audio on these two networks needs the voice decoder add-on; the status line tells you if it is missing. On every network (YSF, NXDN, D-STAR, P25, EchoLink) calls are written to Call History with the callsign and recorded (incoming and outgoing). Roger beep now plays right after the other station releases, directly behind the audio. In Live TG Traffic, D-STAR shows all modules from the selected reflector's dashboard; picking a row switches to that module. Fixed NXDN PTT start/end packets not being sent.
+
 ## 5.10.0 (95) — 2026-10-26
 
 YSF reflector desteği: Ana menü → YSF'den bir reflector seçin; Konuşma ekranında NXDN'den sonra YSF yuvası açılır (dinleme ve PTT). Reflector seçilmedikçe YSF kapalıdır. Canlı TG Yayınları'nda YSF'de duyulanlar görünür; Telsiz Ayarları'nda ve web panelinde YSF ses kazancı ve otomatik seviye ayarı var. Liste boş aramada önce kendi ülkenizin reflector'larını gösterir.
