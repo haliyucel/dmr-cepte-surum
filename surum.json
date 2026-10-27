@@ -1,11 +1,11 @@
 {
-  "versionCode": 95,
-  "versionName": "5.10.0",
-  "apk": "DMRCepte-5.10.0.apk",
-  "sha256": "47b3ccd698ea42d51736050c23f51a5a2da4f00d653fb119fb823b02172f3591",
-  "boyut": 2156503,
+  "versionCode": 97,
+  "versionName": "5.11.0",
+  "apk": "DMRCepte-5.11.0.apk",
+  "sha256": "f92d5c5421b9a9525472e666d05412092ddf63830dbb4f1de7f9a8ee9b323a01",
+  "boyut": 2209751,
   "notlar": {
-    "tr": "YSF reflector desteği: Ana menü → YSF'den bir reflector seçin; Konuşma ekranında NXDN'den sonra YSF yuvası açılır (dinleme ve PTT). Reflector seçilmedikçe YSF kapalıdır. Canlı TG Yayınları'nda YSF'de duyulanlar görünür; Telsiz Ayarları'nda ve web panelinde YSF ses kazancı ve otomatik seviye ayarı var. Liste boş aramada önce kendi ülkenizin reflector'larını gösterir.",
-    "en": "YSF reflector support: pick a reflector in Main menu → YSF; a YSF slot appears on the Talk screen after NXDN (listen and PTT). YSF stays off until a reflector is chosen. Live TG Traffic shows what is heard on YSF; Radio Settings and the web panel have YSF gain and automatic level. An empty search lists your own country's reflectors first."
+    "tr": "D-STAR ve P25 reflector desteği: Ana menü → D-STAR (reflector + modül) ve P25'ten seçin; Konuşma ekranında YSF'den sonra kendi yuvaları açılır (dinleme ve PTT). Seçilmedikçe kapalıdır. Bu iki ağın sesi için ses çözücü eklentisi gerekir; yoksa durum satırı bildirir. Tüm ağlarda (YSF, NXDN, D-STAR, P25, EchoLink) çağrılar Çağrı Geçmişi'ne çağrı işaretiyle yazılır ve ses kaydı alınır (gelen ve giden). Roger beep artık karşı taraf bırakır bırakmaz, sesin hemen arkasından çalar. Canlı TG Yayınları'nda D-STAR, seçili reflector'un panosundan tüm modülleri gösterir; satır seçilince o modüle geçilir. NXDN'de PTT başlangıç/bitiş paketlerinin gitmemesi düzeltildi.",
+    "en": "D-STAR and P25 reflector support: pick them in Main menu → D-STAR (reflector + module) and P25; their own slots appear on the Talk screen after YSF (listen and PTT). They stay off until chosen. Audio on these two networks needs the voice decoder add-on; the status line tells you if it is missing. On every network (YSF, NXDN, D-STAR, P25, EchoLink) calls are written to Call History with the callsign and recorded (incoming and outgoing). Roger beep now plays right after the other station releases, directly behind the audio. In Live TG Traffic, D-STAR shows all modules from the selected reflector's dashboard; picking a row switches to that module. Fixed NXDN PTT start/end packets not being sent."
   }
 }
