@@ -1,11 +1,11 @@
 {
-  "versionCode": 97,
-  "versionName": "5.11.0",
-  "apk": "DMRCepte-5.11.0.apk",
-  "sha256": "f92d5c5421b9a9525472e666d05412092ddf63830dbb4f1de7f9a8ee9b323a01",
+  "versionCode": 98,
+  "versionName": "5.11.1",
+  "apk": "DMRCepte-5.11.1.apk",
+  "sha256": "ce795382dd98eea41101cb0b6bfbf1d537b461fc0963400f8127f936dfdac5c3",
   "boyut": 2209751,
   "notlar": {
-    "tr": "D-STAR ve P25 reflector desteği: Ana menü → D-STAR (reflector + modül) ve P25'ten seçin; Konuşma ekranında YSF'den sonra kendi yuvaları açılır (dinleme ve PTT). Seçilmedikçe kapalıdır. Bu iki ağın sesi için ses çözücü eklentisi gerekir; yoksa durum satırı bildirir. Tüm ağlarda (YSF, NXDN, D-STAR, P25, EchoLink) çağrılar Çağrı Geçmişi'ne çağrı işaretiyle yazılır ve ses kaydı alınır (gelen ve giden). Roger beep artık karşı taraf bırakır bırakmaz, sesin hemen arkasından çalar. Canlı TG Yayınları'nda D-STAR, seçili reflector'un panosundan tüm modülleri gösterir; satır seçilince o modüle geçilir. NXDN'de PTT başlangıç/bitiş paketlerinin gitmemesi düzeltildi.",
-    "en": "D-STAR and P25 reflector support: pick them in Main menu → D-STAR (reflector + module) and P25; their own slots appear on the Talk screen after YSF (listen and PTT). They stay off until chosen. Audio on these two networks needs the voice decoder add-on; the status line tells you if it is missing. On every network (YSF, NXDN, D-STAR, P25, EchoLink) calls are written to Call History with the callsign and recorded (incoming and outgoing). Roger beep now plays right after the other station releases, directly behind the audio. In Live TG Traffic, D-STAR shows all modules from the selected reflector's dashboard; picking a row switches to that module. Fixed NXDN PTT start/end packets not being sent."
+    "tr": "Düzeltme: Roger beep açıkken bip, konuşma sürerken araya girebiliyordu (arka planda dinlenen başka bir ağın yayını bitince ya da başka bir yayın araya girince). Artık yalnız duyduğunuz konuşma gerçekten bittiğinde, sesin hemen arkasından çalar.",
+    "en": "Fix: with Roger beep on, the beep could cut into a call in progress (when a transmission ended on another network listened in the background, or another stream interrupted). It now plays only when the call you hear has really ended, right behind the audio."
   }
 }
