@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.11.2 (99) — 2026-10-28
+
+Ağlar artık sürekli bağlı: EchoLink, NXDN, YSF, D-STAR ve P25 bağlantıları Konuşma ekranından bağımsız olarak arka planda kurulur ve koparsa kendiliğinden geri gelir; ekran kapalıyken de ses çalar. ADN ve FreeDMR'de listede olmayan bir TG'ye geçmek artık bağlantıyı yeniden kurmuyor, oturum açıkken TG eklenip çıkarılıyor. Kopmuş bağlantının 'bağlı' görünmesi düzeltildi. Roger beep, dinlemediğiniz bir yayının sonunda artık çalmıyor. Canlı TG Yayınları'nda YSF için ABD reflector'larındaki canlı trafik ve EchoLink konferans/link node'ları görünür; bir satır seçilince o reflector'a ya da node'a geçilir.
+
+*English:*
+
+Networks now stay connected: EchoLink, NXDN, YSF, D-STAR and P25 connect in the background independently of the Talk screen and come back by themselves if dropped; audio plays with the screen closed. On ADN and FreeDMR, switching to a talkgroup that is not in your list no longer reconnects; talkgroups are added and removed while the session stays open. A dropped connection no longer shows as connected. Roger beep no longer plays at the end of a transmission you were not listening to. Live TG Traffic shows live traffic on US YSF reflectors and EchoLink conference/link nodes; picking a row switches to that reflector or node.
+
 ## 5.11.1 (98) — 2026-10-28
 
 Düzeltme: Roger beep açıkken bip, konuşma sürerken araya girebiliyordu (arka planda dinlenen başka bir ağın yayını bitince ya da başka bir yayın araya girince). Artık yalnız duyduğunuz konuşma gerçekten bittiğinde, sesin hemen arkasından çalar.
