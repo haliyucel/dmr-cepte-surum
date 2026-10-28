@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.11.1 (98) — 2026-10-28
+
+Düzeltme: Roger beep açıkken bip, konuşma sürerken araya girebiliyordu (arka planda dinlenen başka bir ağın yayını bitince ya da başka bir yayın araya girince). Artık yalnız duyduğunuz konuşma gerçekten bittiğinde, sesin hemen arkasından çalar.
+
+*English:*
+
+Fix: with Roger beep on, the beep could cut into a call in progress (when a transmission ended on another network listened in the background, or another stream interrupted). It now plays only when the call you hear has really ended, right behind the audio.
+
 ## 5.11.0 (97) — 2026-10-27
 
 D-STAR ve P25 reflector desteği: Ana menü → D-STAR (reflector + modül) ve P25'ten seçin; Konuşma ekranında YSF'den sonra kendi yuvaları açılır (dinleme ve PTT). Seçilmedikçe kapalıdır. Bu iki ağın sesi için ses çözücü eklentisi gerekir; yoksa durum satırı bildirir. Tüm ağlarda (YSF, NXDN, D-STAR, P25, EchoLink) çağrılar Çağrı Geçmişi'ne çağrı işaretiyle yazılır ve ses kaydı alınır (gelen ve giden). Roger beep artık karşı taraf bırakır bırakmaz, sesin hemen arkasından çalar. Canlı TG Yayınları'nda D-STAR, seçili reflector'un panosundan tüm modülleri gösterir; satır seçilince o modüle geçilir. NXDN'de PTT başlangıç/bitiş paketlerinin gitmemesi düzeltildi.
