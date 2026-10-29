@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 101,
+      "versionName": "5.12.1",
+      "tarih": "2026-10-29",
+      "notlar": {
+        "tr": "İçerik 5.12.0 ile aynı: yeni ücretsiz ve merkeziyetsiz sohbet (Nostr), internetsiz Wi-Fi'de mobil veriyle devam ve diğer düzeltmeler (ayrıntı: Sürüm geçmişi → 5.12.0). Sürüm numarası, 5.12.0'ın ön sürümünü kurmuş cihazların da güncellemeyi alabilmesi için yükseltildi.",
+        "en": "Same content as 5.12.0: the new free, decentralized chat (Nostr), keeping working over mobile data on a Wi-Fi network without internet, and other fixes (details: Release history → 5.12.0). The version number was raised so that devices that installed a 5.12.0 pre-release also receive the update."
+      }
+    },
+    {
       "versionCode": 100,
       "versionName": "5.12.0",
       "tarih": "2026-10-29",
