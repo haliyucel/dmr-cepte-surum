@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.12.1 (101) — 2026-10-29
+
+İçerik 5.12.0 ile aynı: yeni ücretsiz ve merkeziyetsiz sohbet (Nostr), internetsiz Wi-Fi'de mobil veriyle devam ve diğer düzeltmeler (ayrıntı: Sürüm geçmişi → 5.12.0). Sürüm numarası, 5.12.0'ın ön sürümünü kurmuş cihazların da güncellemeyi alabilmesi için yükseltildi.
+
+*English:*
+
+Same content as 5.12.0: the new free, decentralized chat (Nostr), keeping working over mobile data on a Wi-Fi network without internet, and other fixes (details: Release history → 5.12.0). The version number was raised so that devices that installed a 5.12.0 pre-release also receive the update.
+
 ## 5.12.0 (100) — 2026-10-29
 
 Sohbet yenilendi: eski sohbet sunucusu yerine ücretsiz ve merkeziyetsiz Nostr ağı kullanılıyor. Mesajlar dört ayrı sunucuya birden gidiyor, biri kapansa da sohbet sürüyor. Geçmiş cihazda saklanıyor; uygulama açılınca kaçırılan mesajlar (en çok 7 gün) tamamlanıyor. Eski sürümü kullananlar yeni sohbeti görmez, herkesin güncellemesi gerekir. İnternetsiz bir Wi-Fi'ye bağlıyken uygulama artık mobil veriyle çalışmayı sürdürüyor. Web panelinden yedek geri yükledikten sonra Telsiz Ayarları'nın bazı durumlarda kapanması düzeltildi. EchoLink'te bir node'dan hemen başka birine geçince "Bağlanıyor"da takılma giderildi; Canlı'dan seçim yapınca bağlantı beklemeden kuruluyor. Listede olmayan bir BrandMeister TG'sini dinlerken ağa giden kısa yayın 2 dakikada bir yerine 10 dakikada bir yapılıyor. Hiçbir TG seçili değilken BrandMeister TG'lerinin sesi artık çalmıyor. YSF, D-STAR ve P25'te bağlantı koptuğunda roger beep çalmıyor.
