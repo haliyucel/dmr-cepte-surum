@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.12.3 (103) — 2026-10-29
+
+Sohbet sunucularından biri boşta bekleyen bağlantıları 30 saniyede kestiği için değiştirildi; sohbet artık dört sunucuya kopmadan bağlı kalıyor. Uygulama değiştirilmiş (resmi olmayan) bir kopyada çalıştığını fark ederse kullanıcıyı bir kez uyarıyor ve izin verilirse geliştiriciye bildiriyor. Web panelindeki ayar yedeği artık parolaları ve BrandMeister anahtarını içermiyor; istenirse kutu işaretlenerek dosyaya eklenebiliyor, parolasız yedek geri yüklenince cihazdaki parolalar korunuyor. Arka plan PTT için Android 13 ve sonrasında gereken "kısıtlanmış ayarlar" izni ekranda açıklanıyor. Yalnız 64 bit çalışan telefonlarda yerleşik dijital ses çözücünün neden kullanılamadığı yazıyor; ses eklentiyle çalışıyor.
+
+*English:*
+
+One of the chat servers dropped idle connections after 30 seconds and was replaced; chat now stays connected to all four servers. If the app detects that it is running as a modified (unofficial) copy, it warns the user once and, with permission, reports it to the developer. The settings backup in the web panel no longer includes passwords or the BrandMeister token; they can be added to the file by ticking a box, and restoring a backup without passwords keeps the passwords on the device. The "restricted settings" permission needed for background PTT on Android 13 and later is explained on screen. On phones that can only run 64-bit code, the app explains why the built-in digital voice decoder cannot be used; audio works with the plug-in.
+
 ## 5.12.2 (102) — 2026-10-29
 
 Sohbet daha sağlam: yeni cihazların mesajlarını saklamayan iki sohbet sunucusu, mesajları sakladığı doğrulanan iki sunucuyla değiştirildi. Artık mesajlar ve geçmiş dört sunucunun dördünde de tutuluyor; biri kapansa da sohbet ve geçmiş sürüyor.
