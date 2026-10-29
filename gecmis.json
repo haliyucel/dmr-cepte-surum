@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 102,
+      "versionName": "5.12.2",
+      "tarih": "2026-10-29",
+      "notlar": {
+        "tr": "Sohbet daha sağlam: yeni cihazların mesajlarını saklamayan iki sohbet sunucusu, mesajları sakladığı doğrulanan iki sunucuyla değiştirildi. Artık mesajlar ve geçmiş dört sunucunun dördünde de tutuluyor; biri kapansa da sohbet ve geçmiş sürüyor.",
+        "en": "More reliable chat: two chat servers that did not keep messages from new devices were replaced with two servers verified to keep them. Messages and history are now kept on all four servers, so chat and history continue even if one goes down."
+      }
+    },
+    {
       "versionCode": 101,
       "versionName": "5.12.1",
       "tarih": "2026-10-29",
