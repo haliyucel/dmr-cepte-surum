@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.12.0 (100) — 2026-10-29
+
+Sohbet yenilendi: eski sohbet sunucusu yerine ücretsiz ve merkeziyetsiz Nostr ağı kullanılıyor. Mesajlar dört ayrı sunucuya birden gidiyor, biri kapansa da sohbet sürüyor. Geçmiş cihazda saklanıyor; uygulama açılınca kaçırılan mesajlar (en çok 7 gün) tamamlanıyor. Eski sürümü kullananlar yeni sohbeti görmez, herkesin güncellemesi gerekir. İnternetsiz bir Wi-Fi'ye bağlıyken uygulama artık mobil veriyle çalışmayı sürdürüyor. Web panelinden yedek geri yükledikten sonra Telsiz Ayarları'nın bazı durumlarda kapanması düzeltildi. EchoLink'te bir node'dan hemen başka birine geçince "Bağlanıyor"da takılma giderildi; Canlı'dan seçim yapınca bağlantı beklemeden kuruluyor. Listede olmayan bir BrandMeister TG'sini dinlerken ağa giden kısa yayın 2 dakikada bir yerine 10 dakikada bir yapılıyor. Hiçbir TG seçili değilken BrandMeister TG'lerinin sesi artık çalmıyor. YSF, D-STAR ve P25'te bağlantı koptuğunda roger beep çalmıyor.
+
+*English:*
+
+Chat renewed: instead of the old chat server it now uses the free, decentralized Nostr network. Messages go to four separate servers at once, so chat keeps working if one goes down. History is kept on the device, and messages missed while the app was closed (up to 7 days) are fetched when it opens. Users on older versions will not see the new chat, so everyone needs to update. On a Wi-Fi network without internet the app now keeps working over mobile data. Fixed Radio Settings closing in some cases after restoring a backup from the web panel. EchoLink no longer gets stuck on "Connecting" when switching quickly from one node to another; picking a row in Live TG Traffic connects right away. While listening to a BrandMeister talkgroup that is not in your list, the short transmission sent to the network now happens every 10 minutes instead of every 2. When no talkgroup is selected, BrandMeister talkgroups no longer play. Roger beep no longer plays when a YSF, D-STAR or P25 connection drops.
+
 ## 5.11.2 (99) — 2026-10-28
 
 Ağlar artık sürekli bağlı: EchoLink, NXDN, YSF, D-STAR ve P25 bağlantıları Konuşma ekranından bağımsız olarak arka planda kurulur ve koparsa kendiliğinden geri gelir; ekran kapalıyken de ses çalar. ADN ve FreeDMR'de listede olmayan bir TG'ye geçmek artık bağlantıyı yeniden kurmuyor, oturum açıkken TG eklenip çıkarılıyor. Kopmuş bağlantının 'bağlı' görünmesi düzeltildi. Roger beep, dinlemediğiniz bir yayının sonunda artık çalmıyor. Canlı TG Yayınları'nda YSF için ABD reflector'larındaki canlı trafik ve EchoLink konferans/link node'ları görünür; bir satır seçilince o reflector'a ya da node'a geçilir.
