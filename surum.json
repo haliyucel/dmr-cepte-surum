@@ -1,11 +1,11 @@
 {
-  "versionCode": 101,
-  "versionName": "5.12.1",
-  "apk": "DMRCepte-5.12.1.apk",
-  "sha256": "bb92663179bfdcfce83f7ef15a4e7e752190fc440f2443c9343b1e2b09661aba",
+  "versionCode": 102,
+  "versionName": "5.12.2",
+  "apk": "DMRCepte-5.12.2.apk",
+  "sha256": "2feaa914322d37302f3b47777c56af159c289024a9d9a74ad7495d8c47310496",
   "boyut": 2242519,
   "notlar": {
-    "tr": "İçerik 5.12.0 ile aynı: yeni ücretsiz ve merkeziyetsiz sohbet (Nostr), internetsiz Wi-Fi'de mobil veriyle devam ve diğer düzeltmeler (ayrıntı: Sürüm geçmişi → 5.12.0). Sürüm numarası, 5.12.0'ın ön sürümünü kurmuş cihazların da güncellemeyi alabilmesi için yükseltildi.",
-    "en": "Same content as 5.12.0: the new free, decentralized chat (Nostr), keeping working over mobile data on a Wi-Fi network without internet, and other fixes (details: Release history → 5.12.0). The version number was raised so that devices that installed a 5.12.0 pre-release also receive the update."
+    "tr": "Sohbet daha sağlam: yeni cihazların mesajlarını saklamayan iki sohbet sunucusu, mesajları sakladığı doğrulanan iki sunucuyla değiştirildi. Artık mesajlar ve geçmiş dört sunucunun dördünde de tutuluyor; biri kapansa da sohbet ve geçmiş sürüyor.",
+    "en": "More reliable chat: two chat servers that did not keep messages from new devices were replaced with two servers verified to keep them. Messages and history are now kept on all four servers, so chat and history continue even if one goes down."
   }
 }
