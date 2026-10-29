@@ -1,11 +1,11 @@
 {
-  "versionCode": 102,
-  "versionName": "5.12.2",
-  "apk": "DMRCepte-5.12.2.apk",
-  "sha256": "2feaa914322d37302f3b47777c56af159c289024a9d9a74ad7495d8c47310496",
-  "boyut": 2242519,
+  "versionCode": 103,
+  "versionName": "5.12.3",
+  "apk": "DMRCepte-5.12.3.apk",
+  "sha256": "00ff7ec7bcf9d240685e125f74d9652f43447f5880cda8b64ca8e2aa597b7752",
+  "boyut": 2254807,
   "notlar": {
-    "tr": "Sohbet daha sağlam: yeni cihazların mesajlarını saklamayan iki sohbet sunucusu, mesajları sakladığı doğrulanan iki sunucuyla değiştirildi. Artık mesajlar ve geçmiş dört sunucunun dördünde de tutuluyor; biri kapansa da sohbet ve geçmiş sürüyor.",
-    "en": "More reliable chat: two chat servers that did not keep messages from new devices were replaced with two servers verified to keep them. Messages and history are now kept on all four servers, so chat and history continue even if one goes down."
+    "tr": "Sohbet sunucularından biri boşta bekleyen bağlantıları 30 saniyede kestiği için değiştirildi; sohbet artık dört sunucuya kopmadan bağlı kalıyor. Uygulama değiştirilmiş (resmi olmayan) bir kopyada çalıştığını fark ederse kullanıcıyı bir kez uyarıyor ve izin verilirse geliştiriciye bildiriyor. Web panelindeki ayar yedeği artık parolaları ve BrandMeister anahtarını içermiyor; istenirse kutu işaretlenerek dosyaya eklenebiliyor, parolasız yedek geri yüklenince cihazdaki parolalar korunuyor. Arka plan PTT için Android 13 ve sonrasında gereken \"kısıtlanmış ayarlar\" izni ekranda açıklanıyor. Yalnız 64 bit çalışan telefonlarda yerleşik dijital ses çözücünün neden kullanılamadığı yazıyor; ses eklentiyle çalışıyor.",
+    "en": "One of the chat servers dropped idle connections after 30 seconds and was replaced; chat now stays connected to all four servers. If the app detects that it is running as a modified (unofficial) copy, it warns the user once and, with permission, reports it to the developer. The settings backup in the web panel no longer includes passwords or the BrandMeister token; they can be added to the file by ticking a box, and restoring a backup without passwords keeps the passwords on the device. The \"restricted settings\" permission needed for background PTT on Android 13 and later is explained on screen. On phones that can only run 64-bit code, the app explains why the built-in digital voice decoder cannot be used; audio works with the plug-in."
   }
 }
