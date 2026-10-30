@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 104,
+      "versionName": "5.12.4",
+      "tarih": "2026-10-30",
+      "notlar": {
+        "tr": "BrandMeister ayarları (eski adıyla Sunucu Ayarları) artık ana menüde diğer ağların yanında, \"BrandMeister\" adıyla duruyor. Sohbet ekranına \"Geçmişi temizle\" düğmesi eklendi; geçmiş yalnız o cihazdan silinir, başkalarının cihazlarındaki mesajlar yerinde kalır. En uzun konuşma süresi Telsiz Ayarları'ndan seçilebiliyor (1, 2, 3, 5 ya da 10 dakika; varsayılan 2 dakika); süre dolup yayın kesilince nedeni ekranda yazıyor. BrandMeister'a bağlanırken konum ve yer adı bilgileri sunucunun beklediği biçimde gönderiliyor; sunucu bağlantıyı yine reddederse uygulama nötr konumla yeniden deniyor.",
+        "en": "BrandMeister settings (formerly Server Settings) now appear in the main menu next to the other networks, under the name \"BrandMeister\". The chat screen has a new \"Clear history\" button; it deletes the history only on that device, and messages on other people's devices stay. The maximum transmission time can be chosen in Radio Settings (1, 2, 3, 5 or 10 minutes; default 2 minutes), and when a transmission is stopped at the limit the reason is shown on screen. When connecting to BrandMeister, location and place-name fields are sent in the format the server expects; if the server still rejects the connection, the app retries with a neutral location."
+      }
+    },
+    {
       "versionCode": 103,
       "versionName": "5.12.3",
       "tarih": "2026-10-29",
