@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.12.4 (104) — 2026-10-30
+
+BrandMeister ayarları (eski adıyla Sunucu Ayarları) artık ana menüde diğer ağların yanında, "BrandMeister" adıyla duruyor. Sohbet ekranına "Geçmişi temizle" düğmesi eklendi; geçmiş yalnız o cihazdan silinir, başkalarının cihazlarındaki mesajlar yerinde kalır. En uzun konuşma süresi Telsiz Ayarları'ndan seçilebiliyor (1, 2, 3, 5 ya da 10 dakika; varsayılan 2 dakika); süre dolup yayın kesilince nedeni ekranda yazıyor. BrandMeister'a bağlanırken konum ve yer adı bilgileri sunucunun beklediği biçimde gönderiliyor; sunucu bağlantıyı yine reddederse uygulama nötr konumla yeniden deniyor.
+
+*English:*
+
+BrandMeister settings (formerly Server Settings) now appear in the main menu next to the other networks, under the name "BrandMeister". The chat screen has a new "Clear history" button; it deletes the history only on that device, and messages on other people's devices stay. The maximum transmission time can be chosen in Radio Settings (1, 2, 3, 5 or 10 minutes; default 2 minutes), and when a transmission is stopped at the limit the reason is shown on screen. When connecting to BrandMeister, location and place-name fields are sent in the format the server expects; if the server still rejects the connection, the app retries with a neutral location.
+
 ## 5.12.3 (103) — 2026-10-29
 
 Sohbet sunucularından biri boşta bekleyen bağlantıları 30 saniyede kestiği için değiştirildi; sohbet artık dört sunucuya kopmadan bağlı kalıyor. Uygulama değiştirilmiş (resmi olmayan) bir kopyada çalıştığını fark ederse kullanıcıyı bir kez uyarıyor ve izin verilirse geliştiriciye bildiriyor. Web panelindeki ayar yedeği artık parolaları ve BrandMeister anahtarını içermiyor; istenirse kutu işaretlenerek dosyaya eklenebiliyor, parolasız yedek geri yüklenince cihazdaki parolalar korunuyor. Arka plan PTT için Android 13 ve sonrasında gereken "kısıtlanmış ayarlar" izni ekranda açıklanıyor. Yalnız 64 bit çalışan telefonlarda yerleşik dijital ses çözücünün neden kullanılamadığı yazıyor; ses eklentiyle çalışıyor.

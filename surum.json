@@ -1,11 +1,11 @@
 {
-  "versionCode": 103,
-  "versionName": "5.12.3",
-  "apk": "DMRCepte-5.12.3.apk",
-  "sha256": "00ff7ec7bcf9d240685e125f74d9652f43447f5880cda8b64ca8e2aa597b7752",
-  "boyut": 2254807,
+  "versionCode": 104,
+  "versionName": "5.12.4",
+  "apk": "DMRCepte-5.12.4.apk",
+  "sha256": "4e2c8a036083faabf5ebc60f77b77ba89e9b60f74118d4d18a7159b3f32e42d6",
+  "boyut": 2258903,
   "notlar": {
-    "tr": "Sohbet sunucularından biri boşta bekleyen bağlantıları 30 saniyede kestiği için değiştirildi; sohbet artık dört sunucuya kopmadan bağlı kalıyor. Uygulama değiştirilmiş (resmi olmayan) bir kopyada çalıştığını fark ederse kullanıcıyı bir kez uyarıyor ve izin verilirse geliştiriciye bildiriyor. Web panelindeki ayar yedeği artık parolaları ve BrandMeister anahtarını içermiyor; istenirse kutu işaretlenerek dosyaya eklenebiliyor, parolasız yedek geri yüklenince cihazdaki parolalar korunuyor. Arka plan PTT için Android 13 ve sonrasında gereken \"kısıtlanmış ayarlar\" izni ekranda açıklanıyor. Yalnız 64 bit çalışan telefonlarda yerleşik dijital ses çözücünün neden kullanılamadığı yazıyor; ses eklentiyle çalışıyor.",
-    "en": "One of the chat servers dropped idle connections after 30 seconds and was replaced; chat now stays connected to all four servers. If the app detects that it is running as a modified (unofficial) copy, it warns the user once and, with permission, reports it to the developer. The settings backup in the web panel no longer includes passwords or the BrandMeister token; they can be added to the file by ticking a box, and restoring a backup without passwords keeps the passwords on the device. The \"restricted settings\" permission needed for background PTT on Android 13 and later is explained on screen. On phones that can only run 64-bit code, the app explains why the built-in digital voice decoder cannot be used; audio works with the plug-in."
+    "tr": "BrandMeister ayarları (eski adıyla Sunucu Ayarları) artık ana menüde diğer ağların yanında, \"BrandMeister\" adıyla duruyor. Sohbet ekranına \"Geçmişi temizle\" düğmesi eklendi; geçmiş yalnız o cihazdan silinir, başkalarının cihazlarındaki mesajlar yerinde kalır. En uzun konuşma süresi Telsiz Ayarları'ndan seçilebiliyor (1, 2, 3, 5 ya da 10 dakika; varsayılan 2 dakika); süre dolup yayın kesilince nedeni ekranda yazıyor. BrandMeister'a bağlanırken konum ve yer adı bilgileri sunucunun beklediği biçimde gönderiliyor; sunucu bağlantıyı yine reddederse uygulama nötr konumla yeniden deniyor.",
+    "en": "BrandMeister settings (formerly Server Settings) now appear in the main menu next to the other networks, under the name \"BrandMeister\". The chat screen has a new \"Clear history\" button; it deletes the history only on that device, and messages on other people's devices stay. The maximum transmission time can be chosen in Radio Settings (1, 2, 3, 5 or 10 minutes; default 2 minutes), and when a transmission is stopped at the limit the reason is shown on screen. When connecting to BrandMeister, location and place-name fields are sent in the format the server expects; if the server still rejects the connection, the app retries with a neutral location."
   }
 }
