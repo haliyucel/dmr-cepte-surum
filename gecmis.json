@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 105,
+      "versionName": "5.12.5",
+      "tarih": "2026-10-31",
+      "notlar": {
+        "tr": "NXDN'e bağlıyken arka planda saniyede onlarca paketin gidip geldiği bir hata giderildi; bu trafik mobil veri ve pil harcıyordu. Wi-Fi henüz hazır değilken açılan NXDN, YSF, D-STAR, P25 ve EchoLink bağlantıları Wi-Fi gelince ona geçiyor; böylece cihaz Wi-Fi ile mobil veri arasında gidip gelse de bu bağlantılar Wi-Fi'de kalıyor. Canlı ekranında ADN verisi yedek sunucudan geliyorsa kaynağı yazıyor.",
+        "en": "Fixed a bug where an NXDN connection kept dozens of packets per second flowing in the background, wasting mobile data and battery. NXDN, YSF, D-STAR, P25 and EchoLink connections opened before Wi-Fi was ready now move to Wi-Fi once it is available, so they stay on Wi-Fi even when the device switches between Wi-Fi and mobile data. The Live screen shows the source when ADN data comes from a backup server."
+      }
+    },
+    {
       "versionCode": 104,
       "versionName": "5.12.4",
       "tarih": "2026-10-30",
