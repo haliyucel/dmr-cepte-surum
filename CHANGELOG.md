@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.12.5 (105) — 2026-10-31
+
+NXDN'e bağlıyken arka planda saniyede onlarca paketin gidip geldiği bir hata giderildi; bu trafik mobil veri ve pil harcıyordu. Wi-Fi henüz hazır değilken açılan NXDN, YSF, D-STAR, P25 ve EchoLink bağlantıları Wi-Fi gelince ona geçiyor; böylece cihaz Wi-Fi ile mobil veri arasında gidip gelse de bu bağlantılar Wi-Fi'de kalıyor. Canlı ekranında ADN verisi yedek sunucudan geliyorsa kaynağı yazıyor.
+
+*English:*
+
+Fixed a bug where an NXDN connection kept dozens of packets per second flowing in the background, wasting mobile data and battery. NXDN, YSF, D-STAR, P25 and EchoLink connections opened before Wi-Fi was ready now move to Wi-Fi once it is available, so they stay on Wi-Fi even when the device switches between Wi-Fi and mobile data. The Live screen shows the source when ADN data comes from a backup server.
+
 ## 5.12.4 (104) — 2026-10-30
 
 BrandMeister ayarları (eski adıyla Sunucu Ayarları) artık ana menüde diğer ağların yanında, "BrandMeister" adıyla duruyor. Sohbet ekranına "Geçmişi temizle" düğmesi eklendi; geçmiş yalnız o cihazdan silinir, başkalarının cihazlarındaki mesajlar yerinde kalır. En uzun konuşma süresi Telsiz Ayarları'ndan seçilebiliyor (1, 2, 3, 5 ya da 10 dakika; varsayılan 2 dakika); süre dolup yayın kesilince nedeni ekranda yazıyor. BrandMeister'a bağlanırken konum ve yer adı bilgileri sunucunun beklediği biçimde gönderiliyor; sunucu bağlantıyı yine reddederse uygulama nötr konumla yeniden deniyor.
