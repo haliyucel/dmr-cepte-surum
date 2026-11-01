@@ -1,11 +1,11 @@
 {
-  "versionCode": 107,
-  "versionName": "5.13.1",
-  "apk": "DMRCepte-5.13.1.apk",
-  "sha256": "e98d40c7701af62569b2bc3d375c8a7a16f2e3f9fb3fb9992d04e54ba5009e3f",
+  "versionCode": 108,
+  "versionName": "5.13.2",
+  "apk": "DMRCepte-5.13.2.apk",
+  "sha256": "7a7180fd077c8d3c6abf2c46dca4ba830dd23507a35a888eb07dab22af5be0fd",
   "boyut": 2271191,
   "notlar": {
-    "tr": "Seçili BrandMeister TG'sinde konuşmaların kaybolması giderildi. Hotspot tek hatlı olduğu için, abone olunan başka bir TG'deki konuşma ya da size gelen bir SMS hattı tutarken seçili TG'deki yayın cihaza hiç gelmiyor ya da başı kesik geliyordu. Uygulama artık böyle anlarda aynı yayını BrandMeister'ın kendi web dinleme akışından çalıyor. Hotspot yayını verebiliyorsa her zamanki gibi hotspot'tan çalar ve hiçbir yayın iki kez çalmaz. Bu özellik ağa hiçbir şey göndermez; Wi-Fi'de seçili TG'yi sürekli dinler, mobil veride yalnız hat meşgulken (konuşma sırasında saniyede yaklaşık 8 KB).",
-    "en": "Fixed lost transmissions on the selected BrandMeister talkgroup. Because a hotspot has a single slot, transmissions on the selected talkgroup never reached the device, or arrived with their beginning cut off, while another subscribed talkgroup or an incoming SMS was holding the slot. At such moments the app now plays the same transmission from BrandMeister's own web listening stream. When the hotspot can deliver a transmission, it still plays from the hotspot, and nothing plays twice. This feature sends nothing to the network; on Wi-Fi it follows the selected talkgroup continuously, on mobile data only while the slot is busy (about 8 KB/s while someone is talking)."
+    "tr": "#APRSThursday katılım mesajı gönderildikten 1 dakika sonra uygulama HOTG grubundan kendiliğinden çıkıyor. Mesajınız etkinliğe yine düşüyor, ama grubun sonraki mesajları cihaza SMS olarak gelip hattı meşgul etmiyor. Uygulama bu arada kapanırsa çıkış bir sonraki açılışta tamamlanıyor.",
+    "en": "One minute after the #APRSThursday participation message is sent, the app now leaves the HOTG group automatically. Your message still counts for the event, but later group messages no longer arrive on the device as SMS and occupy the slot. If the app is closed in the meantime, it completes the leave the next time it starts."
   }
 }

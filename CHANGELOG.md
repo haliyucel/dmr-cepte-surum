@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.13.2 (108) — 2026-11-02
+
+#APRSThursday katılım mesajı gönderildikten 1 dakika sonra uygulama HOTG grubundan kendiliğinden çıkıyor. Mesajınız etkinliğe yine düşüyor, ama grubun sonraki mesajları cihaza SMS olarak gelip hattı meşgul etmiyor. Uygulama bu arada kapanırsa çıkış bir sonraki açılışta tamamlanıyor.
+
+*English:*
+
+One minute after the #APRSThursday participation message is sent, the app now leaves the HOTG group automatically. Your message still counts for the event, but later group messages no longer arrive on the device as SMS and occupy the slot. If the app is closed in the meantime, it completes the leave the next time it starts.
+
 ## 5.13.1 (107) — 2026-11-02
 
 Seçili BrandMeister TG'sinde konuşmaların kaybolması giderildi. Hotspot tek hatlı olduğu için, abone olunan başka bir TG'deki konuşma ya da size gelen bir SMS hattı tutarken seçili TG'deki yayın cihaza hiç gelmiyor ya da başı kesik geliyordu. Uygulama artık böyle anlarda aynı yayını BrandMeister'ın kendi web dinleme akışından çalıyor. Hotspot yayını verebiliyorsa her zamanki gibi hotspot'tan çalar ve hiçbir yayın iki kez çalmaz. Bu özellik ağa hiçbir şey göndermez; Wi-Fi'de seçili TG'yi sürekli dinler, mobil veride yalnız hat meşgulken (konuşma sırasında saniyede yaklaşık 8 KB).

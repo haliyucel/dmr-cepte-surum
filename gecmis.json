@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 108,
+      "versionName": "5.13.2",
+      "tarih": "2026-11-02",
+      "notlar": {
+        "tr": "#APRSThursday katılım mesajı gönderildikten 1 dakika sonra uygulama HOTG grubundan kendiliğinden çıkıyor. Mesajınız etkinliğe yine düşüyor, ama grubun sonraki mesajları cihaza SMS olarak gelip hattı meşgul etmiyor. Uygulama bu arada kapanırsa çıkış bir sonraki açılışta tamamlanıyor.",
+        "en": "One minute after the #APRSThursday participation message is sent, the app now leaves the HOTG group automatically. Your message still counts for the event, but later group messages no longer arrive on the device as SMS and occupy the slot. If the app is closed in the meantime, it completes the leave the next time it starts."
+      }
+    },
+    {
       "versionCode": 107,
       "versionName": "5.13.1",
       "tarih": "2026-11-02",
