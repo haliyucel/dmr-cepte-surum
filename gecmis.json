@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 107,
+      "versionName": "5.13.1",
+      "tarih": "2026-11-02",
+      "notlar": {
+        "tr": "Seçili BrandMeister TG'sinde konuşmaların kaybolması giderildi. Hotspot tek hatlı olduğu için, abone olunan başka bir TG'deki konuşma ya da size gelen bir SMS hattı tutarken seçili TG'deki yayın cihaza hiç gelmiyor ya da başı kesik geliyordu. Uygulama artık böyle anlarda aynı yayını BrandMeister'ın kendi web dinleme akışından çalıyor. Hotspot yayını verebiliyorsa her zamanki gibi hotspot'tan çalar ve hiçbir yayın iki kez çalmaz. Bu özellik ağa hiçbir şey göndermez; Wi-Fi'de seçili TG'yi sürekli dinler, mobil veride yalnız hat meşgulken (konuşma sırasında saniyede yaklaşık 8 KB).",
+        "en": "Fixed lost transmissions on the selected BrandMeister talkgroup. Because a hotspot has a single slot, transmissions on the selected talkgroup never reached the device, or arrived with their beginning cut off, while another subscribed talkgroup or an incoming SMS was holding the slot. At such moments the app now plays the same transmission from BrandMeister's own web listening stream. When the hotspot can deliver a transmission, it still plays from the hotspot, and nothing plays twice. This feature sends nothing to the network; on Wi-Fi it follows the selected talkgroup continuously, on mobile data only while the slot is busy (about 8 KB/s while someone is talking)."
+      }
+    },
+    {
       "versionCode": 105,
       "versionName": "5.12.5",
       "tarih": "2026-10-31",
