@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.13.1 (107) — 2026-11-02
+
+Seçili BrandMeister TG'sinde konuşmaların kaybolması giderildi. Hotspot tek hatlı olduğu için, abone olunan başka bir TG'deki konuşma ya da size gelen bir SMS hattı tutarken seçili TG'deki yayın cihaza hiç gelmiyor ya da başı kesik geliyordu. Uygulama artık böyle anlarda aynı yayını BrandMeister'ın kendi web dinleme akışından çalıyor. Hotspot yayını verebiliyorsa her zamanki gibi hotspot'tan çalar ve hiçbir yayın iki kez çalmaz. Bu özellik ağa hiçbir şey göndermez; Wi-Fi'de seçili TG'yi sürekli dinler, mobil veride yalnız hat meşgulken (konuşma sırasında saniyede yaklaşık 8 KB).
+
+*English:*
+
+Fixed lost transmissions on the selected BrandMeister talkgroup. Because a hotspot has a single slot, transmissions on the selected talkgroup never reached the device, or arrived with their beginning cut off, while another subscribed talkgroup or an incoming SMS was holding the slot. At such moments the app now plays the same transmission from BrandMeister's own web listening stream. When the hotspot can deliver a transmission, it still plays from the hotspot, and nothing plays twice. This feature sends nothing to the network; on Wi-Fi it follows the selected talkgroup continuously, on mobile data only while the slot is busy (about 8 KB/s while someone is talking).
+
 ## 5.12.5 (105) — 2026-10-31
 
 NXDN'e bağlıyken arka planda saniyede onlarca paketin gidip geldiği bir hata giderildi; bu trafik mobil veri ve pil harcıyordu. Wi-Fi henüz hazır değilken açılan NXDN, YSF, D-STAR, P25 ve EchoLink bağlantıları Wi-Fi gelince ona geçiyor; böylece cihaz Wi-Fi ile mobil veri arasında gidip gelse de bu bağlantılar Wi-Fi'de kalıyor. Canlı ekranında ADN verisi yedek sunucudan geliyorsa kaynağı yazıyor.
