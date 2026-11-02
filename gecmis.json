@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 114,
+      "versionName": "5.13.8",
+      "tarih": "2026-11-02",
+      "notlar": {
+        "tr": "Cihaz raporunun izin sorusu artık gönderilen her bilgiyi tek tek sayıyor; bu yüzden soru herkese bir kez daha soruluyor. Ses çözücü eklentisi yalnız tanınan dosyalardan kuruluyor: indirilen ya da elle konan dosya bilinen DMR Cepte eklentilerinden biri değilse güvenlik için kurulmuyor. İndirme sabit bir eklenti sürümünden yapılıyor, ilk adres açılmazsa yedeği deneniyor; kurulu eklentiler olduğu gibi çalışmaya devam ediyor. Sohbette bir çağrı işareti, bu cihazda onunla ilk görülen anahtara bağlanıyor. Aynı adı başka bir anahtar kullanırsa adın yanında ? görünüyor (taklit ya da kişinin başka bir cihazı olabilir) ve özel mesajlar bağlı anahtara gidiyor; bağlı anahtar 30 gün görülmezse ad yenisine geçiyor.",
+        "en": "The device report consent question now lists every piece of information that is sent, so it is asked once more for everyone. The voice decoder plugin is now installed only from recognized files: if a downloaded or manually placed file is not one of the known DMR Cepte plugins, it is not installed, for safety. Downloads come from a fixed plugin version, and a backup address is tried if the first one fails; plugins already installed keep working. In chat, a callsign is now bound to the first key seen with it on this device. If another key uses the same name, a ? appears next to the name (it may be an impersonator or the person's other device), and private messages go to the bound key; if the bound key is not seen for 30 days, the name moves to the new key."
+      }
+    },
+    {
       "versionCode": 111,
       "versionName": "5.13.5",
       "tarih": "2026-11-02",
