@@ -1,11 +1,11 @@
 {
-  "versionCode": 108,
-  "versionName": "5.13.2",
-  "apk": "DMRCepte-5.13.2.apk",
-  "sha256": "7a7180fd077c8d3c6abf2c46dca4ba830dd23507a35a888eb07dab22af5be0fd",
-  "boyut": 2271191,
+  "versionCode": 111,
+  "versionName": "5.13.5",
+  "apk": "DMRCepte-5.13.5.apk",
+  "sha256": "1d8fdbfdfe7de0444ec9fe7591315f8b2c509bbaff6fb01ccb3adec2c9f4e1f3",
+  "boyut": 2275287,
   "notlar": {
-    "tr": "#APRSThursday katılım mesajı gönderildikten 1 dakika sonra uygulama HOTG grubundan kendiliğinden çıkıyor. Mesajınız etkinliğe yine düşüyor, ama grubun sonraki mesajları cihaza SMS olarak gelip hattı meşgul etmiyor. Uygulama bu arada kapanırsa çıkış bir sonraki açılışta tamamlanıyor.",
-    "en": "One minute after the #APRSThursday participation message is sent, the app now leaves the HOTG group automatically. Your message still counts for the event, but later group messages no longer arrive on the device as SMS and occupy the slot. If the app is closed in the meantime, it completes the leave the next time it starts."
+    "tr": "Kod incelemesinde bulunan hatalar giderildi. BrandMeister çağrısında LED ekran kapalıyken de yanıyor ve çağrı bitince sönüyor; LED denemesinden sonra da sönüyor. Özel çağrı sürerken PTT artık \"önce TG seçin\" demiyor. EchoLink'te konuşan istasyonun adı her bağlantı türünde görünüyor, bağlantı kurulamazsa ekranda gerçek sebep yazıyor. Sunucunun adresi değişirse yeniden bağlanma eski adrese takılmıyor. TGIF Canlı akışını açık tutan paket artık gerçekten gidiyor. Çağrı geçmişi, APRS kayıtları ve kişiler, yazma yarıda kesilse ya da aynı anda iki değişiklik olsa da kaybolmuyor. NXDN'de anlık bir ağ hatası istasyonu kalıcı olarak \"kayıtlı değil\" göstermiyor. Konum kapalıyken APRS konum ekranına dönünce GPS açılmıyor. Deprem listesi yalnız ekranda görünen satırların yer adını soruyor. Cihaz raporu gönderilemezse en çok 6 saatte bir yeniden deneniyor ve izin sorusu kilit ekranının üstünde açılmıyor. Web panelinde hotspot kimliği değişince BrandMeister işlemleri eski cihaza gitmiyor, adres boşsa ses çözücü eklentisi bilinen adreslerden sırayla deneniyor; oturum açmadan gönderilen isteklerin boyutu ve sayısı sınırlandı. Sohbet ayarındaki not, oda mesajlarının herkese açık rölelerde de kaldığını belirtiyor.",
+    "en": "Fixed the bugs found in a thorough code review. During BrandMeister calls the LED now also lights with the screen off and goes out when the call ends; it also goes out after the LED test. PTT no longer says \"select a TG first\" during a private call. EchoLink shows the talking station's name on every connection type, and when a connection fails the screen shows the real reason. If a server's address changes, reconnecting no longer sticks to the old address. The packet that keeps the TGIF Live feed open is now actually sent. Call history, APRS records and contacts are no longer lost when a write is interrupted or two changes happen at once. A momentary network error on NXDN no longer marks a station as \"not registered\" for good. With location off, returning to the APRS location screen no longer turns on GPS. The earthquake list only looks up place names for the rows on screen. If the device report cannot be sent, it is retried at most every 6 hours, and the consent question no longer opens over the lock screen. In the web panel, BrandMeister actions no longer go to the old device after the hotspot ID changes, and with an empty address the decoder plugin is tried from the known addresses in turn; requests sent without logging in are now limited in size and number. The note in chat settings now says room messages also stay on the public relays."
   }
 }
