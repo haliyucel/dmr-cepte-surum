@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.13.9 (115) — 2026-11-05
+
+Arka planda PTT özelliği kaldırıldı. Bu özellik bir erişilebilirlik servisi kullanıyordu; bazı cihazlarda Android'in güvenlik koruması bu yüzden DMR Cepte'nin kurulumunu "Uygulama, cihazınızı korumak için engellendi" diyerek durduruyordu. Konuşma ekranındaki PTT ve uygulama açıkken PTT tuşu eskisi gibi çalışıyor. Özelliği açmış olanların bir şey yapmasına gerek yok.
+
+*English:*
+
+Background PTT has been removed. It used an accessibility service, and because of that, Android's security protection on some devices blocked installing DMR Cepte with the message "App blocked to protect your device". PTT on the Talk screen and the PTT key while the app is open work as before. If you had turned the feature on, there is nothing you need to do.
+
 ## 5.13.8 (114) — 2026-11-02
 
 Cihaz raporunun izin sorusu artık gönderilen her bilgiyi tek tek sayıyor; bu yüzden soru herkese bir kez daha soruluyor. Ses çözücü eklentisi yalnız tanınan dosyalardan kuruluyor: indirilen ya da elle konan dosya bilinen DMR Cepte eklentilerinden biri değilse güvenlik için kurulmuyor. İndirme sabit bir eklenti sürümünden yapılıyor, ilk adres açılmazsa yedeği deneniyor; kurulu eklentiler olduğu gibi çalışmaya devam ediyor. Sohbette bir çağrı işareti, bu cihazda onunla ilk görülen anahtara bağlanıyor. Aynı adı başka bir anahtar kullanırsa adın yanında ? görünüyor (taklit ya da kişinin başka bir cihazı olabilir) ve özel mesajlar bağlı anahtara gidiyor; bağlı anahtar 30 gün görülmezse ad yenisine geçiyor.
