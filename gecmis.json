@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 115,
+      "versionName": "5.13.9",
+      "tarih": "2026-11-05",
+      "notlar": {
+        "tr": "Arka planda PTT özelliği kaldırıldı. Bu özellik bir erişilebilirlik servisi kullanıyordu; bazı cihazlarda Android'in güvenlik koruması bu yüzden DMR Cepte'nin kurulumunu \"Uygulama, cihazınızı korumak için engellendi\" diyerek durduruyordu. Konuşma ekranındaki PTT ve uygulama açıkken PTT tuşu eskisi gibi çalışıyor. Özelliği açmış olanların bir şey yapmasına gerek yok.",
+        "en": "Background PTT has been removed. It used an accessibility service, and because of that, Android's security protection on some devices blocked installing DMR Cepte with the message \"App blocked to protect your device\". PTT on the Talk screen and the PTT key while the app is open work as before. If you had turned the feature on, there is nothing you need to do."
+      }
+    },
+    {
       "versionCode": 114,
       "versionName": "5.13.8",
       "tarih": "2026-11-02",
