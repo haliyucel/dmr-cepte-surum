@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 6 Kasım 2026 (sürüm 5.14.0)
+**Son güncelleme:** 7 Kasım 2026 (sürüm 5.14.1)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** GNU GPL v3
@@ -27,7 +27,7 @@ Uygulamayı kaldırdığınızda silinirler.
 | Veri | Neden |
 |---|---|
 | Çağrı işaretiniz, DMR ID, NXDN ID | Ağlara kimliğinizi bildirmek için (amatör telsizde zorunlu) |
-| BrandMeister, ADN, FreeDMR ve TGIF hotspot kimlikleri ve parolaları, BrandMeister API anahtarı | Bu ağlara bağlanmak için |
+| BrandMeister, ADN, FreeDMR ve TGIF hotspot kimlikleri ve parolaları, BrandMeister API anahtarı, TGIF statik TG API anahtarı | Bu ağlara bağlanmak ve statik grupları yönetmek için |
 | EchoLink çağrı işareti, adı ve parolası | EchoLink ağına giriş için |
 | Sabit konum ya da son GPS konumu | APRS konum bildirimi, DMR ağlarındaki cihaz kaydı (varsayılan olarak yaklaşık 1 km'ye yuvarlanmış), yer adı ve hava durumu için |
 | Çağrı geçmişi, gelen ve giden APRS mesajları, DMR SMS'leri | Listeler ve mesaj kutusu için |
@@ -82,11 +82,12 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 | Sunucu | Gönderilen | Neden |
 |---|---|---|
 | `api.brandmeister.network` | Hotspot kimliğiniz ve API anahtarınız (girdiyseniz) | Statik grupları okumak/değiştirmek, Canlı ekranı |
+| `api.tgif.network` | TGIF hotspot kimliğiniz ve TGIF statik TG API anahtarınız (girdiyseniz) | TGIF statik gruplarını okumak (açılışta ve ayar ekranı açılınca bir kez) ve siz isteyince değiştirmek |
 | `radioid.net`, `database.radioid.net` | Sorguladığınız çağrı işareti ya da DMR ID | Rehber: kimin konuştuğunu ada çevirmek |
 | `nominatim.openstreetmap.org` | **Enlem/boylam** (sizin konumunuz ya da deprem listesindeki yerler) | Yer adını bulmak |
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
 | `www.seismicportal.eu` | Seçtiğiniz ülkenin sınır kutusu (kişisel konum değil) | Deprem listesi |
-| `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, seçili D-STAR ve M17 reflektörünün kendi panosu | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
+| `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
 | `github.com`, `api.github.com`, `raw.githubusercontent.com`, `cdn.jsdelivr.net` | Kişisel veri yok | Güncelleme denetimi ve indirme, ses çözücü eklentisi |
 | `md380.org`, `www.dudetronics.com` | Kişisel veri yok | MD-380 firmware'ini indirmek (onayınızla) |
 
@@ -194,7 +195,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 6 November 2026 (version 5.14.0)
+**Last updated:** 7 November 2026 (version 5.14.1)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** GNU GPL v3
 
@@ -209,7 +210,7 @@ network servers, chat relays and a few public services, each listed below.
 ## Stored on your device only
 
 Your callsign, DMR ID and NXDN ID; hotspot IDs and passwords for BrandMeister, ADN,
-FreeDMR and TGIF, and your BrandMeister API key; EchoLink callsign, name and password;
+FreeDMR and TGIF, your BrandMeister API key and TGIF Static TG API token; EchoLink callsign, name and password;
 fixed or last known location; call history, APRS messages and DMR SMS; your contacts
 list (name, callsign, phone, e-mail, IDs); chat history, the chat key (the private key
 never leaves the device and is not included in backups) and callsign–key bindings; voice recordings if you enable
@@ -255,12 +256,15 @@ the app (the developer and version entry at the bottom of the menu > Privacy pol
 ## Sent to supporting services
 
 `api.brandmeister.network` receives your hotspot ID and API key (if entered), for static
-groups and the Live screen. `radioid.net` receives the callsign or ID you look up.
+groups and the Live screen. `api.tgif.network` receives your TGIF hotspot ID and TGIF Static TG
+API token (if entered), to read your TGIF static talkgroups (once at startup and when the
+settings screen opens) and to change them when you ask. `radioid.net` receives the callsign or ID you look up.
 `nominatim.openstreetmap.org` receives latitude/longitude (yours or the earthquake list's)
 to show a place name; `api.open-meteo.com` receives **your latitude and longitude** for the
 weather. `www.seismicportal.eu` receives the bounding box of the selected country.
 `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` and ADN servers, `freedmr.dvswitch.org`,
-`tgif.network`, `ysflive.com` and the dashboard of the selected D-STAR and M17 reflector
+`tgif.network`, `ysflive.com` and the dashboard of the selected D-STAR, M17, YSF, NXDN and P25
+reflector (address from the DVRef list built into the app)
 receive no personal data (only the TG numbers you watch on the Live screen). `github.com`, `api.github.com`, `raw.githubusercontent.com` and
 `cdn.jsdelivr.net` serve updates and the vocoder plugin; `md380.org` and
 `www.dudetronics.com` serve the MD-380 firmware. None of these belong to the developer;
