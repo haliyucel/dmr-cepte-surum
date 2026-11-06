@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.14.1 (117) — 2026-11-07
+
+TGIF statik TG: TGIF'in statik TG anahtarıyla statik gruplarınızı uygulamadan okuyup yazabilirsiniz (Menü > TGIF; anahtar web panelinden de yapıştırılabilir). TGIF'te statik olan TG'ye katılmak için kısa yayın gönderilmez. Canlı TG Yayınları: M17, YSF, NXDN ve P25'te seçili reflector'un kendi panosu okunur (panosu olanlarda). M17: modül listesi yalnız reflector'un modüllerini gösterir; reflector'da olmayan modül seçiliyse ilk geçerli modüle geçilir. Gizlilik politikası güncellendi.
+
+*English:*
+
+TGIF static talkgroups: read and set your TGIF static TGs from the app with TGIF's static TG token (Menu > TGIF; the token can also be pasted in the web panel). No short transmission is sent to join a TG that is static on TGIF. Live TG Traffic: for M17, YSF, NXDN and P25 the selected reflector's own dashboard is read (where it has one). M17: the module list shows only the reflector's modules; if the selected module doesn't exist there, the first valid one is used. Privacy policy updated.
+
 ## 5.14.0 (116) — 2026-11-07
 
 Yeni ağ: M17. Menü > M17'den bir reflector ve modül seçin (Türkiye'nin M17-286'sı dahil); ses çözücü uygulamanın içinde, ayrıca indirme gerekmez. Konuşma ekranında M17 yuvası, Canlı'da M17 sekmesi ve web panelinde M17 ayarları var. Gizlilik: DMR ağlarına giden GPS konumu artık yaklaşık 1 km'ye yuvarlanıyor (tam konum Telsiz Ayarları'ndan açılabilir). Konum izni ilk kez sorulmadan önce neye kullanıldığı anlatılıyor; gizlilik politikası uygulamanın içinden okunabiliyor.

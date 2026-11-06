@@ -1,11 +1,11 @@
 {
-  "versionCode": 116,
-  "versionName": "5.14.0",
-  "apk": "DMRCepte-5.14.0.apk",
-  "sha256": "42e0f10f6b39f049f13a8f1934f5e3870c50a1434f611c1cada327f49871b0c3",
-  "boyut": 2377976,
+  "versionCode": 117,
+  "versionName": "5.14.1",
+  "apk": "DMRCepte-5.14.1.apk",
+  "sha256": "0dcdb646e13f5d3b8dbe6786aa62bdffc05f23c3e949ccd71be8db16775f0d54",
+  "boyut": 2427198,
   "notlar": {
-    "tr": "Yeni ağ: M17. Menü > M17'den bir reflector ve modül seçin (Türkiye'nin M17-286'sı dahil); ses çözücü uygulamanın içinde, ayrıca indirme gerekmez. Konuşma ekranında M17 yuvası, Canlı'da M17 sekmesi ve web panelinde M17 ayarları var. Gizlilik: DMR ağlarına giden GPS konumu artık yaklaşık 1 km'ye yuvarlanıyor (tam konum Telsiz Ayarları'ndan açılabilir). Konum izni ilk kez sorulmadan önce neye kullanıldığı anlatılıyor; gizlilik politikası uygulamanın içinden okunabiliyor.",
-    "en": "New network: M17. Pick a reflector and module under Menu > M17 (including Turkey's M17-286); the audio decoder is built in, nothing extra to download. M17 has its own slot on the Talk screen, a tab on the Live screen and settings in the web panel. Privacy: the GPS location sent to DMR networks is now rounded to about 1 km (exact location can be turned on in Radio Settings). Before the location permission is first requested, the app explains what it is used for; the privacy policy can be read inside the app."
+    "tr": "TGIF statik TG: TGIF'in statik TG anahtarıyla statik gruplarınızı uygulamadan okuyup yazabilirsiniz (Menü > TGIF; anahtar web panelinden de yapıştırılabilir). TGIF'te statik olan TG'ye katılmak için kısa yayın gönderilmez. Canlı TG Yayınları: M17, YSF, NXDN ve P25'te seçili reflector'un kendi panosu okunur (panosu olanlarda). M17: modül listesi yalnız reflector'un modüllerini gösterir; reflector'da olmayan modül seçiliyse ilk geçerli modüle geçilir. Gizlilik politikası güncellendi.",
+    "en": "TGIF static talkgroups: read and set your TGIF static TGs from the app with TGIF's static TG token (Menu > TGIF; the token can also be pasted in the web panel). No short transmission is sent to join a TG that is static on TGIF. Live TG Traffic: for M17, YSF, NXDN and P25 the selected reflector's own dashboard is read (where it has one). M17: the module list shows only the reflector's modules; if the selected module doesn't exist there, the first valid one is used. Privacy policy updated."
   }
 }
