@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.14.0 (116) — 2026-11-07
+
+Yeni ağ: M17. Menü > M17'den bir reflector ve modül seçin (Türkiye'nin M17-286'sı dahil); ses çözücü uygulamanın içinde, ayrıca indirme gerekmez. Konuşma ekranında M17 yuvası, Canlı'da M17 sekmesi ve web panelinde M17 ayarları var. Gizlilik: DMR ağlarına giden GPS konumu artık yaklaşık 1 km'ye yuvarlanıyor (tam konum Telsiz Ayarları'ndan açılabilir). Konum izni ilk kez sorulmadan önce neye kullanıldığı anlatılıyor; gizlilik politikası uygulamanın içinden okunabiliyor.
+
+*English:*
+
+New network: M17. Pick a reflector and module under Menu > M17 (including Turkey's M17-286); the audio decoder is built in, nothing extra to download. M17 has its own slot on the Talk screen, a tab on the Live screen and settings in the web panel. Privacy: the GPS location sent to DMR networks is now rounded to about 1 km (exact location can be turned on in Radio Settings). Before the location permission is first requested, the app explains what it is used for; the privacy policy can be read inside the app.
+
 ## 5.13.9 (115) — 2026-11-05
 
 Arka planda PTT özelliği kaldırıldı. Bu özellik bir erişilebilirlik servisi kullanıyordu; bazı cihazlarda Android'in güvenlik koruması bu yüzden DMR Cepte'nin kurulumunu "Uygulama, cihazınızı korumak için engellendi" diyerek durduruyordu. Konuşma ekranındaki PTT ve uygulama açıkken PTT tuşu eskisi gibi çalışıyor. Özelliği açmış olanların bir şey yapmasına gerek yok.
