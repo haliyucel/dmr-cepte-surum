@@ -1,11 +1,11 @@
 {
-  "versionCode": 117,
-  "versionName": "5.14.1",
-  "apk": "DMRCepte-5.14.1.apk",
-  "sha256": "0dcdb646e13f5d3b8dbe6786aa62bdffc05f23c3e949ccd71be8db16775f0d54",
+  "versionCode": 118,
+  "versionName": "5.14.2",
+  "apk": "DMRCepte-5.14.2.apk",
+  "sha256": "1957cd8337bd62b76632f275e9a9013bcde9e0d89c8100abf4ba39a49ecf84a3",
   "boyut": 2427198,
   "notlar": {
-    "tr": "TGIF statik TG: TGIF'in statik TG anahtarıyla statik gruplarınızı uygulamadan okuyup yazabilirsiniz (Menü > TGIF; anahtar web panelinden de yapıştırılabilir). TGIF'te statik olan TG'ye katılmak için kısa yayın gönderilmez. Canlı TG Yayınları: M17, YSF, NXDN ve P25'te seçili reflector'un kendi panosu okunur (panosu olanlarda). M17: modül listesi yalnız reflector'un modüllerini gösterir; reflector'da olmayan modül seçiliyse ilk geçerli modüle geçilir. Gizlilik politikası güncellendi.",
-    "en": "TGIF static talkgroups: read and set your TGIF static TGs from the app with TGIF's static TG token (Menu > TGIF; the token can also be pasted in the web panel). No short transmission is sent to join a TG that is static on TGIF. Live TG Traffic: for M17, YSF, NXDN and P25 the selected reflector's own dashboard is read (where it has one). M17: the module list shows only the reflector's modules; if the selected module doesn't exist there, the first valid one is used. Privacy policy updated."
+    "tr": "M17: bazı istasyonların yayını kısa parçalar halinde geldiğinde her parça ayrı yayın sayılıyordu: araya roger beep giriyor, ses seviyesi her parçada yeniden ayarlanıyor, geçmişe ve ses kayıtlarına parça başına ayrı satır açılıyordu. Artık aynı istasyonun art arda gelen parçaları tek yayın sayılır.",
+    "en": "M17: when a station's transmission arrived in short pieces, each piece was treated as a separate transmission: a roger beep was inserted, the audio level was readjusted for every piece, and history and recordings got a separate entry per piece. Consecutive pieces from the same station are now treated as one transmission."
   }
 }

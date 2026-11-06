@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.14.2 (118) — 2026-11-07
+
+M17: bazı istasyonların yayını kısa parçalar halinde geldiğinde her parça ayrı yayın sayılıyordu: araya roger beep giriyor, ses seviyesi her parçada yeniden ayarlanıyor, geçmişe ve ses kayıtlarına parça başına ayrı satır açılıyordu. Artık aynı istasyonun art arda gelen parçaları tek yayın sayılır.
+
+*English:*
+
+M17: when a station's transmission arrived in short pieces, each piece was treated as a separate transmission: a roger beep was inserted, the audio level was readjusted for every piece, and history and recordings got a separate entry per piece. Consecutive pieces from the same station are now treated as one transmission.
+
 ## 5.14.1 (117) — 2026-11-07
 
 TGIF statik TG: TGIF'in statik TG anahtarıyla statik gruplarınızı uygulamadan okuyup yazabilirsiniz (Menü > TGIF; anahtar web panelinden de yapıştırılabilir). TGIF'te statik olan TG'ye katılmak için kısa yayın gönderilmez. Canlı TG Yayınları: M17, YSF, NXDN ve P25'te seçili reflector'un kendi panosu okunur (panosu olanlarda). M17: modül listesi yalnız reflector'un modüllerini gösterir; reflector'da olmayan modül seçiliyse ilk geçerli modüle geçilir. Gizlilik politikası güncellendi.
