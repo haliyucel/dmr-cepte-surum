@@ -1,11 +1,11 @@
 {
-  "versionCode": 120,
-  "versionName": "5.15.1",
-  "apk": "DMRCepte-5.15.1.apk",
-  "sha256": "f865b89248c439ff4111006ee107d2fcc6ffe19b9322090e06c63ef3240ae558",
+  "versionCode": 121,
+  "versionName": "5.15.2",
+  "apk": "DMRCepte-5.15.2.apk",
+  "sha256": "0dec11504b3af142d3f1845ad6cebfda8a4ccb185bbb92d8ba04983301d621cc",
   "boyut": 2435390,
   "notlar": {
-    "tr": "D-STAR: REF reflector'larına bağlanılabilir. Konuşmak için çağrı işaretinin D-STAR kaydında onaylı olması ve terminal eklenmiş olması gerekir; değilse yalnız dinlenir. Canlı'da DCS satırı aynı sunucudaki XRF'e, REF satırı doğrudan bağlanır. Gizlilik politikası güncellendi.",
-    "en": "D-STAR: REF reflectors can be used. Transmitting requires your callsign to be approved in the D-STAR registration with terminals added; otherwise listen only. On the Live screen a DCS row connects through the XRF on the same server, a REF row connects directly. Privacy policy updated."
+    "tr": "D-STAR: DCS reflector'larına da bağlanılabilir (yalnız DCS kullanan sunucular dahil). Canlı'da DCS satırına dokununca bağlanır. Ayar listesinde REF ve DCS kapıları doğru gösterilir.",
+    "en": "D-STAR: DCS reflectors can now be used too (including DCS-only servers). Tapping a DCS row on the Live screen connects to it. The settings list shows the correct port for REF and DCS."
   }
 }
