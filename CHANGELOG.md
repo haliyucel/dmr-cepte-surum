@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.15.3 (122) — 2026-11-08
+
+Kişisel hotspot'tan konuşan bazı istasyonlar röle sanılıp Konuşma ekranında ve Çağrı Geçmişi'nde gösterilmiyordu (sesleri geliyordu). Artık kişi kimlikleri hiç gizlenmez; daha önce yanlış gizlenenler kendiliğinden düzelir.
+
+*English:*
+
+Some stations talking through a personal hotspot were mistaken for repeaters and not shown on the Talk screen or in Call History (their audio still played). Personal IDs are no longer hidden; earlier mistakes fix themselves.
+
 ## 5.15.2 (121) — 2026-11-07
 
 D-STAR: DCS reflector'larına da bağlanılabilir (yalnız DCS kullanan sunucular dahil). Canlı'da DCS satırına dokununca bağlanır. Ayar listesinde REF ve DCS kapıları doğru gösterilir.

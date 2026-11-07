@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 122,
+      "versionName": "5.15.3",
+      "tarih": "2026-11-08",
+      "notlar": {
+        "tr": "Kişisel hotspot'tan konuşan bazı istasyonlar röle sanılıp Konuşma ekranında ve Çağrı Geçmişi'nde gösterilmiyordu (sesleri geliyordu). Artık kişi kimlikleri hiç gizlenmez; daha önce yanlış gizlenenler kendiliğinden düzelir.",
+        "en": "Some stations talking through a personal hotspot were mistaken for repeaters and not shown on the Talk screen or in Call History (their audio still played). Personal IDs are no longer hidden; earlier mistakes fix themselves."
+      }
+    },
+    {
       "versionCode": 121,
       "versionName": "5.15.2",
       "tarih": "2026-11-07",
