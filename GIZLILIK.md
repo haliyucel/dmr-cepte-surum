@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 7 Kasım 2026 (sürüm 5.15.0)
+**Son güncelleme:** 7 Kasım 2026 (sürüm 5.15.1)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** GNU GPL v3
@@ -83,6 +83,7 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 |---|---|---|
 | `api.brandmeister.network` | Hotspot kimliğiniz ve API anahtarınız (girdiyseniz) | Statik grupları okumak/değiştirmek, Canlı ekranı |
 | `api.tgif.network` | TGIF hotspot kimliğiniz ve TGIF statik TG API anahtarınız (girdiyseniz) | TGIF statik gruplarını okumak (açılışta ve ayar ekranı açılınca bir kez) ve siz isteyince değiştirmek |
+| `auth.dstargateway.org` | Çağrı işaretiniz (şifre gitmez) | D-STAR REF reflektörüne (DPlus) bağlanırken kimlik doğrulaması (en çok 30 dakikada bir) |
 | `radioid.net`, `database.radioid.net` | Sorguladığınız çağrı işareti ya da DMR ID | Rehber: kimin konuştuğunu ada çevirmek |
 | `nominatim.openstreetmap.org` | **Enlem/boylam** (sizin konumunuz ya da deprem listesindeki yerler) | Yer adını bulmak |
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
@@ -195,7 +196,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 7 November 2026 (version 5.15.0)
+**Last updated:** 7 November 2026 (version 5.15.1)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** GNU GPL v3
 
@@ -258,7 +259,9 @@ the app (the developer and version entry at the bottom of the menu > Privacy pol
 `api.brandmeister.network` receives your hotspot ID and API key (if entered), for static
 groups and the Live screen. `api.tgif.network` receives your TGIF hotspot ID and TGIF Static TG
 API token (if entered), to read your TGIF static talkgroups (once at startup and when the
-settings screen opens) and to change them when you ask. `radioid.net` receives the callsign or ID you look up.
+settings screen opens) and to change them when you ask. `auth.dstargateway.org` receives your
+callsign (no password) when you connect to a D-STAR REF reflector (DPlus), at most every 30 minutes.
+`radioid.net` receives the callsign or ID you look up.
 `nominatim.openstreetmap.org` receives latitude/longitude (yours or the earthquake list's)
 to show a place name; `api.open-meteo.com` receives **your latitude and longitude** for the
 weather. `www.seismicportal.eu` receives the bounding box of the selected country.
