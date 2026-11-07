@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.15.1 (120) — 2026-11-07
+
+D-STAR: REF reflector'larına bağlanılabilir. Konuşmak için çağrı işaretinin D-STAR kaydında onaylı olması ve terminal eklenmiş olması gerekir; değilse yalnız dinlenir. Canlı'da DCS satırı aynı sunucudaki XRF'e, REF satırı doğrudan bağlanır. Gizlilik politikası güncellendi.
+
+*English:*
+
+D-STAR: REF reflectors can be used. Transmitting requires your callsign to be approved in the D-STAR registration with terminals added; otherwise listen only. On the Live screen a DCS row connects through the XRF on the same server, a REF row connects directly. Privacy policy updated.
+
 ## 5.15.0 (119) — 2026-11-07
 
 Canlı TG Yayınları: M17'de seçili reflector'un yanında en yoğun M17 reflector'ları ve anlık bir durum akışı; D-STAR'da ağ genelinde konuşanlar (ircDDB ve QuadNet). Satıra dokununca o reflector'a geçilir (D-STAR'da XRF/XLX); geçilemeyen satırda uyarı çıkar. Gizlilik politikası güncellendi.
