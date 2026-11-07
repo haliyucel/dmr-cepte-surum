@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 7 Kasım 2026 (sürüm 5.14.1)
+**Son güncelleme:** 7 Kasım 2026 (sürüm 5.15.0)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** GNU GPL v3
@@ -87,7 +87,7 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 | `nominatim.openstreetmap.org` | **Enlem/boylam** (sizin konumunuz ya da deprem listesindeki yerler) | Yer adını bulmak |
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
 | `www.seismicportal.eu` | Seçtiğiniz ülkenin sınır kutusu (kişisel konum değil) | Deprem listesi |
-| `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
+| `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, `live.ircddb.net` ve `live3.ircddb.net` (ircDDB canlı günlüğü), `openquad.net` (QuadNet son duyulanlar), `stream.oe3xor.at` (M17 durum akışı), seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün ve birkaç yoğun M17 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
 | `github.com`, `api.github.com`, `raw.githubusercontent.com`, `cdn.jsdelivr.net` | Kişisel veri yok | Güncelleme denetimi ve indirme, ses çözücü eklentisi |
 | `md380.org`, `www.dudetronics.com` | Kişisel veri yok | MD-380 firmware'ini indirmek (onayınızla) |
 
@@ -195,7 +195,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 7 November 2026 (version 5.14.1)
+**Last updated:** 7 November 2026 (version 5.15.0)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** GNU GPL v3
 
@@ -263,8 +263,10 @@ settings screen opens) and to change them when you ask. `radioid.net` receives t
 to show a place name; `api.open-meteo.com` receives **your latitude and longitude** for the
 weather. `www.seismicportal.eu` receives the bounding box of the selected country.
 `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` and ADN servers, `freedmr.dvswitch.org`,
-`tgif.network`, `ysflive.com` and the dashboard of the selected D-STAR, M17, YSF, NXDN and P25
-reflector (address from the DVRef list built into the app)
+`tgif.network`, `ysflive.com`, `live.ircddb.net` and `live3.ircddb.net` (ircDDB live log),
+`openquad.net` (QuadNet last heard), `stream.oe3xor.at` (M17 status feed) and the dashboards of
+the selected D-STAR, M17, YSF, NXDN and P25 reflector and of a few busy M17 reflectors (address
+from the DVRef list built into the app)
 receive no personal data (only the TG numbers you watch on the Live screen). `github.com`, `api.github.com`, `raw.githubusercontent.com` and
 `cdn.jsdelivr.net` serve updates and the vocoder plugin; `md380.org` and
 `www.dudetronics.com` serve the MD-380 firmware. None of these belong to the developer;
