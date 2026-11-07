@@ -1,11 +1,11 @@
 {
-  "versionCode": 118,
-  "versionName": "5.14.2",
-  "apk": "DMRCepte-5.14.2.apk",
-  "sha256": "1957cd8337bd62b76632f275e9a9013bcde9e0d89c8100abf4ba39a49ecf84a3",
-  "boyut": 2427198,
+  "versionCode": 119,
+  "versionName": "5.15.0",
+  "apk": "DMRCepte-5.15.0.apk",
+  "sha256": "2b524e02f8545ac9931301494e733074d8a0105de1aa38020ca63da20d8d41b1",
+  "boyut": 2431294,
   "notlar": {
-    "tr": "M17: bazı istasyonların yayını kısa parçalar halinde geldiğinde her parça ayrı yayın sayılıyordu: araya roger beep giriyor, ses seviyesi her parçada yeniden ayarlanıyor, geçmişe ve ses kayıtlarına parça başına ayrı satır açılıyordu. Artık aynı istasyonun art arda gelen parçaları tek yayın sayılır.",
-    "en": "M17: when a station's transmission arrived in short pieces, each piece was treated as a separate transmission: a roger beep was inserted, the audio level was readjusted for every piece, and history and recordings got a separate entry per piece. Consecutive pieces from the same station are now treated as one transmission."
+    "tr": "Canlı TG Yayınları: M17'de seçili reflector'un yanında en yoğun M17 reflector'ları ve anlık bir durum akışı; D-STAR'da ağ genelinde konuşanlar (ircDDB ve QuadNet). Satıra dokununca o reflector'a geçilir (D-STAR'da XRF/XLX); geçilemeyen satırda uyarı çıkar. Gizlilik politikası güncellendi.",
+    "en": "Live TG Traffic: M17 now also shows the busiest M17 reflectors and a live status feed next to the selected reflector; D-STAR shows network-wide traffic (ircDDB and QuadNet). Tapping a row switches to that reflector (XRF/XLX on D-STAR); rows that can't be selected show a notice. Privacy policy updated."
   }
 }

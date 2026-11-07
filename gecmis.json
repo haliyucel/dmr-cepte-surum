@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 119,
+      "versionName": "5.15.0",
+      "tarih": "2026-11-07",
+      "notlar": {
+        "tr": "Canlı TG Yayınları: M17'de seçili reflector'un yanında en yoğun M17 reflector'ları ve anlık bir durum akışı; D-STAR'da ağ genelinde konuşanlar (ircDDB ve QuadNet). Satıra dokununca o reflector'a geçilir (D-STAR'da XRF/XLX); geçilemeyen satırda uyarı çıkar. Gizlilik politikası güncellendi.",
+        "en": "Live TG Traffic: M17 now also shows the busiest M17 reflectors and a live status feed next to the selected reflector; D-STAR shows network-wide traffic (ircDDB and QuadNet). Tapping a row switches to that reflector (XRF/XLX on D-STAR); rows that can't be selected show a notice. Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 118,
       "versionName": "5.14.2",
       "tarih": "2026-11-07",

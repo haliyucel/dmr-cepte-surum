@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.15.0 (119) — 2026-11-07
+
+Canlı TG Yayınları: M17'de seçili reflector'un yanında en yoğun M17 reflector'ları ve anlık bir durum akışı; D-STAR'da ağ genelinde konuşanlar (ircDDB ve QuadNet). Satıra dokununca o reflector'a geçilir (D-STAR'da XRF/XLX); geçilemeyen satırda uyarı çıkar. Gizlilik politikası güncellendi.
+
+*English:*
+
+Live TG Traffic: M17 now also shows the busiest M17 reflectors and a live status feed next to the selected reflector; D-STAR shows network-wide traffic (ircDDB and QuadNet). Tapping a row switches to that reflector (XRF/XLX on D-STAR); rows that can't be selected show a notice. Privacy policy updated.
+
 ## 5.14.2 (118) — 2026-11-07
 
 M17: bazı istasyonların yayını kısa parçalar halinde geldiğinde her parça ayrı yayın sayılıyordu: araya roger beep giriyor, ses seviyesi her parçada yeniden ayarlanıyor, geçmişe ve ses kayıtlarına parça başına ayrı satır açılıyordu. Artık aynı istasyonun art arda gelen parçaları tek yayın sayılır.
