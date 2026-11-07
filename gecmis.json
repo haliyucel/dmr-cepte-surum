@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 120,
+      "versionName": "5.15.1",
+      "tarih": "2026-11-07",
+      "notlar": {
+        "tr": "D-STAR: REF reflector'larına bağlanılabilir. Konuşmak için çağrı işaretinin D-STAR kaydında onaylı olması ve terminal eklenmiş olması gerekir; değilse yalnız dinlenir. Canlı'da DCS satırı aynı sunucudaki XRF'e, REF satırı doğrudan bağlanır. Gizlilik politikası güncellendi.",
+        "en": "D-STAR: REF reflectors can be used. Transmitting requires your callsign to be approved in the D-STAR registration with terminals added; otherwise listen only. On the Live screen a DCS row connects through the XRF on the same server, a REF row connects directly. Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 119,
       "versionName": "5.15.0",
       "tarih": "2026-11-07",
