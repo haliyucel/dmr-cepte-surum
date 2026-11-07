@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.15.2 (121) — 2026-11-07
+
+D-STAR: DCS reflector'larına da bağlanılabilir (yalnız DCS kullanan sunucular dahil). Canlı'da DCS satırına dokununca bağlanır. Ayar listesinde REF ve DCS kapıları doğru gösterilir.
+
+*English:*
+
+D-STAR: DCS reflectors can now be used too (including DCS-only servers). Tapping a DCS row on the Live screen connects to it. The settings list shows the correct port for REF and DCS.
+
 ## 5.15.1 (120) — 2026-11-07
 
 D-STAR: REF reflector'larına bağlanılabilir. Konuşmak için çağrı işaretinin D-STAR kaydında onaylı olması ve terminal eklenmiş olması gerekir; değilse yalnız dinlenir. Canlı'da DCS satırı aynı sunucudaki XRF'e, REF satırı doğrudan bağlanır. Gizlilik politikası güncellendi.

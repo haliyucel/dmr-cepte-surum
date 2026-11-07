@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 121,
+      "versionName": "5.15.2",
+      "tarih": "2026-11-07",
+      "notlar": {
+        "tr": "D-STAR: DCS reflector'larına da bağlanılabilir (yalnız DCS kullanan sunucular dahil). Canlı'da DCS satırına dokununca bağlanır. Ayar listesinde REF ve DCS kapıları doğru gösterilir.",
+        "en": "D-STAR: DCS reflectors can now be used too (including DCS-only servers). Tapping a DCS row on the Live screen connects to it. The settings list shows the correct port for REF and DCS."
+      }
+    },
+    {
       "versionCode": 120,
       "versionName": "5.15.1",
       "tarih": "2026-11-07",
