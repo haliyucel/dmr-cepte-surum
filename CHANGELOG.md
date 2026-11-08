@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.0 (123) — 2026-11-08
+
+M17: gelen yayınlardaki metin mesajı, konum ve asıl konuşan Konuşma ekranında görünür. M17 ayarlarından kendi metninizi ve isteğe bağlı olarak konumunuzu (yaklaşık 1 km'ye yuvarlanır) gönderebilirsiniz. Gizlilik politikası güncellendi.
+
+*English:*
+
+M17: text messages, location and the original talker from incoming transmissions are shown on the Talk screen. In M17 settings you can send your own text and, optionally, your location (rounded to about 1 km). Privacy policy updated.
+
 ## 5.15.3 (122) — 2026-11-08
 
 Kişisel hotspot'tan konuşan bazı istasyonlar röle sanılıp Konuşma ekranında ve Çağrı Geçmişi'nde gösterilmiyordu (sesleri geliyordu). Artık kişi kimlikleri hiç gizlenmez; daha önce yanlış gizlenenler kendiliğinden düzelir.

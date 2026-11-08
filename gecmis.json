@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 123,
+      "versionName": "5.16.0",
+      "tarih": "2026-11-08",
+      "notlar": {
+        "tr": "M17: gelen yayınlardaki metin mesajı, konum ve asıl konuşan Konuşma ekranında görünür. M17 ayarlarından kendi metninizi ve isteğe bağlı olarak konumunuzu (yaklaşık 1 km'ye yuvarlanır) gönderebilirsiniz. Gizlilik politikası güncellendi.",
+        "en": "M17: text messages, location and the original talker from incoming transmissions are shown on the Talk screen. In M17 settings you can send your own text and, optionally, your location (rounded to about 1 km). Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 122,
       "versionName": "5.15.3",
       "tarih": "2026-11-08",
