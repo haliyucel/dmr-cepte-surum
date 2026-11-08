@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.2 (125) — 2026-11-08
+
+Mikrofon seviyesi artık her ağ için ayrı ayarlanabiliyor (Telsiz Ayarları > Ses kazancı ve web paneli). M17'de başlangıç −12 dB: M17'de ses karşıya fazla yüksek gidiyordu. D-STAR: bağlanıp hemen kopan reflector giderek daha seyrek deneniyor; bağlantıyı reddeden reflector/modül, ayar değişene kadar yeniden denenmiyor. Web paneli yedeğinde parola işlenirken 'bekleyin' notu gösteriliyor.
+
+*English:*
+
+Microphone level can now be set separately for each network (Radio Settings > Audio gain and the web panel). M17 starts at −12 dB: audio was going out too loud on M17. D-STAR: a reflector that connects and drops right away is retried less and less often; a reflector/module that rejects the connection is not retried until the setting changes. The web panel backup shows a 'please wait' note while the password is processed.
+
 ## 5.16.1 (124) — 2026-11-08
 
 Web paneli yedeği: parolalar ve API anahtarları dosyaya artık düz metin girmez. Kutuyu işaretleyip bir yedek parolası girerseniz şifrelenerek eklenir; geri yüklerken aynı parola sorulur. Gizlilik politikası güncellendi.
