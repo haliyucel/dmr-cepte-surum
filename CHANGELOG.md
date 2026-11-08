@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.1 (124) — 2026-11-08
+
+Web paneli yedeği: parolalar ve API anahtarları dosyaya artık düz metin girmez. Kutuyu işaretleyip bir yedek parolası girerseniz şifrelenerek eklenir; geri yüklerken aynı parola sorulur. Gizlilik politikası güncellendi.
+
+*English:*
+
+Web panel backup: passwords and API keys are no longer written to the file in plain text. If you tick the box and enter a backup password, they are added encrypted; the same password is asked when restoring. Privacy policy updated.
+
 ## 5.16.0 (123) — 2026-11-08
 
 M17: gelen yayınlardaki metin mesajı, konum ve asıl konuşan Konuşma ekranında görünür. M17 ayarlarından kendi metninizi ve isteğe bağlı olarak konumunuzu (yaklaşık 1 km'ye yuvarlanır) gönderebilirsiniz. Gizlilik politikası güncellendi.

@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 124,
+      "versionName": "5.16.1",
+      "tarih": "2026-11-08",
+      "notlar": {
+        "tr": "Web paneli yedeği: parolalar ve API anahtarları dosyaya artık düz metin girmez. Kutuyu işaretleyip bir yedek parolası girerseniz şifrelenerek eklenir; geri yüklerken aynı parola sorulur. Gizlilik politikası güncellendi.",
+        "en": "Web panel backup: passwords and API keys are no longer written to the file in plain text. If you tick the box and enter a backup password, they are added encrypted; the same password is asked when restoring. Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 123,
       "versionName": "5.16.0",
       "tarih": "2026-11-08",
