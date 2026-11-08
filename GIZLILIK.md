@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 8 Kasım 2026 (sürüm 5.16.0)
+**Son güncelleme:** 8 Kasım 2026 (sürüm 5.16.1)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** GNU GPL v3
@@ -146,8 +146,8 @@ sunucusu açabilir (8080 portu).
   ekranı açıkken çalışır; ayardan sürekli açık tutulabilir.
 - Her açılışta **altı haneli yeni bir PIN** üretilir ve telsizin ekranında gösterilir.
   PIN'i bilmeyen giremez. 10 hatalı denemeden sonra sunucu kendini kapatır.
-- Bağlantı düz HTTP'dir (sertifika gerektirmemesi için). Yedek sayfası, isterseniz
-  parolaları da içerir. Bu yüzden paneli **yalnızca güvendiğiniz bir ağda** açık tutun:
+- Bağlantı düz HTTP'dir (sertifika gerektirmemesi için). Yedek dosyası parolaları
+  yalnızca isterseniz ve sizin belirlediğiniz yedek parolasıyla şifreli içerir. Bu yüzden paneli **yalnızca güvendiğiniz bir ağda** açık tutun:
   aynı Wi-Fi'daki biri trafiği dinleyebilir ya da PIN'i bilirse ayarlarınızı görebilir.
 
 ---
@@ -197,7 +197,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 8 November 2026 (version 5.16.0)
+**Last updated:** 8 November 2026 (version 5.16.1)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** GNU GPL v3
 
@@ -316,8 +316,8 @@ The app can run a small web server on the radio (port 8080) so you can enter set
 a computer. It is reachable **only on your own Wi-Fi**, runs while the web panel screen is
 open (or always, if you enable that), is protected by a **six-digit PIN regenerated at
 every start and shown on the radio screen**, and shuts itself down after 10 failed
-attempts. The connection is plain HTTP and the backup page can include passwords if you
-choose, so only keep the panel open on a network you trust.
+attempts. The connection is plain HTTP and the backup file includes passwords only if you
+choose, encrypted with a backup password you set, so only keep the panel open on a network you trust.
 
 ## Permissions
 
