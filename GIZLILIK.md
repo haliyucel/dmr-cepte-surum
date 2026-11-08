@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 7 Kasım 2026 (sürüm 5.15.1)
+**Son güncelleme:** 8 Kasım 2026 (sürüm 5.16.0)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** GNU GPL v3
@@ -84,6 +84,7 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 | `api.brandmeister.network` | Hotspot kimliğiniz ve API anahtarınız (girdiyseniz) | Statik grupları okumak/değiştirmek, Canlı ekranı |
 | `api.tgif.network` | TGIF hotspot kimliğiniz ve TGIF statik TG API anahtarınız (girdiyseniz) | TGIF statik gruplarını okumak (açılışta ve ayar ekranı açılınca bir kez) ve siz isteyince değiştirmek |
 | `auth.dstargateway.org` | Çağrı işaretiniz (şifre gitmez) | D-STAR REF reflektörüne (DPlus) bağlanırken kimlik doğrulaması (en çok 30 dakikada bir) |
+| M17 reflektörleri | (açtıysanız) M17 metniniz ve konumunuz (tam konum kapalıyken ~1 km'ye yuvarlı) | Her M17 yayınınızla birlikte; reflektördeki herkes görür |
 | `radioid.net`, `database.radioid.net` | Sorguladığınız çağrı işareti ya da DMR ID | Rehber: kimin konuştuğunu ada çevirmek |
 | `nominatim.openstreetmap.org` | **Enlem/boylam** (sizin konumunuz ya da deprem listesindeki yerler) | Yer adını bulmak |
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
@@ -196,7 +197,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 7 November 2026 (version 5.15.1)
+**Last updated:** 8 November 2026 (version 5.16.0)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** GNU GPL v3
 
@@ -261,6 +262,8 @@ groups and the Live screen. `api.tgif.network` receives your TGIF hotspot ID and
 API token (if entered), to read your TGIF static talkgroups (once at startup and when the
 settings screen opens) and to change them when you ask. `auth.dstargateway.org` receives your
 callsign (no password) when you connect to a D-STAR REF reflector (DPlus), at most every 30 minutes.
+M17 reflectors receive (if you enable them) your M17 text and your location (rounded to ~1 km unless
+exact location is on) with every M17 transmission; everyone on the reflector can see them.
 `radioid.net` receives the callsign or ID you look up.
 `nominatim.openstreetmap.org` receives latitude/longitude (yours or the earthquake list's)
 to show a place name; `api.open-meteo.com` receives **your latitude and longitude** for the
