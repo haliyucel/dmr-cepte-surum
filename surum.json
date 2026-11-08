@@ -1,11 +1,11 @@
 {
-  "versionCode": 122,
-  "versionName": "5.15.3",
-  "apk": "DMRCepte-5.15.3.apk",
-  "sha256": "1575fbb4d84b5e6b41f9a4519c0fcf4ff803aa30b00b117c2f82638939b484bc",
-  "boyut": 2435390,
+  "versionCode": 123,
+  "versionName": "5.16.0",
+  "apk": "DMRCepte-5.16.0.apk",
+  "sha256": "5d62836a70f9068de8e4b1b293df7cb5eb8fc223dfe7b644763d8a3c52bfa5b9",
+  "boyut": 2443582,
   "notlar": {
-    "tr": "Kişisel hotspot'tan konuşan bazı istasyonlar röle sanılıp Konuşma ekranında ve Çağrı Geçmişi'nde gösterilmiyordu (sesleri geliyordu). Artık kişi kimlikleri hiç gizlenmez; daha önce yanlış gizlenenler kendiliğinden düzelir.",
-    "en": "Some stations talking through a personal hotspot were mistaken for repeaters and not shown on the Talk screen or in Call History (their audio still played). Personal IDs are no longer hidden; earlier mistakes fix themselves."
+    "tr": "M17: gelen yayınlardaki metin mesajı, konum ve asıl konuşan Konuşma ekranında görünür. M17 ayarlarından kendi metninizi ve isteğe bağlı olarak konumunuzu (yaklaşık 1 km'ye yuvarlanır) gönderebilirsiniz. Gizlilik politikası güncellendi.",
+    "en": "M17: text messages, location and the original talker from incoming transmissions are shown on the Talk screen. In M17 settings you can send your own text and, optionally, your location (rounded to about 1 km). Privacy policy updated."
   }
 }
