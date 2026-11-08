@@ -1,11 +1,11 @@
 {
-  "versionCode": 123,
-  "versionName": "5.16.0",
-  "apk": "DMRCepte-5.16.0.apk",
-  "sha256": "5d62836a70f9068de8e4b1b293df7cb5eb8fc223dfe7b644763d8a3c52bfa5b9",
-  "boyut": 2443582,
+  "versionCode": 124,
+  "versionName": "5.16.1",
+  "apk": "DMRCepte-5.16.1.apk",
+  "sha256": "b93489e548c26dce0966ebb6aaabeab0cdae571f706f78264778b7a075ecc652",
+  "boyut": 2451774,
   "notlar": {
-    "tr": "M17: gelen yayınlardaki metin mesajı, konum ve asıl konuşan Konuşma ekranında görünür. M17 ayarlarından kendi metninizi ve isteğe bağlı olarak konumunuzu (yaklaşık 1 km'ye yuvarlanır) gönderebilirsiniz. Gizlilik politikası güncellendi.",
-    "en": "M17: text messages, location and the original talker from incoming transmissions are shown on the Talk screen. In M17 settings you can send your own text and, optionally, your location (rounded to about 1 km). Privacy policy updated."
+    "tr": "Web paneli yedeği: parolalar ve API anahtarları dosyaya artık düz metin girmez. Kutuyu işaretleyip bir yedek parolası girerseniz şifrelenerek eklenir; geri yüklerken aynı parola sorulur. Gizlilik politikası güncellendi.",
+    "en": "Web panel backup: passwords and API keys are no longer written to the file in plain text. If you tick the box and enter a backup password, they are added encrypted; the same password is asked when restoring. Privacy policy updated."
   }
 }
