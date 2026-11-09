@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 126,
+      "versionName": "5.16.3",
+      "tarih": "2026-11-10",
+      "notlar": {
+        "tr": "Çağrı sürerken ekran artık kapanmıyor; kapanma süresi çağrı bitince başlıyor. Uzun çağrılarda ekran kapanırken oluşan ses takılmaları azalır. ('Çağrıda ekranı aç' kapalıysa değişiklik yok.)",
+        "en": "The screen no longer turns off while a call is playing; the screen timeout starts when the call ends. This reduces audio stutter that happened when the screen turned off during long calls. (No change if 'Wake screen on call' is off.)"
+      }
+    },
+    {
       "versionCode": 125,
       "versionName": "5.16.2",
       "tarih": "2026-11-08",
