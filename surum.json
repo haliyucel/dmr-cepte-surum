@@ -1,11 +1,11 @@
 {
-  "versionCode": 125,
-  "versionName": "5.16.2",
-  "apk": "DMRCepte-5.16.2.apk",
-  "sha256": "d230c4ef0620ed0aaabc84797f9022de5abdd7f76e21f9c048e1ad6d0d389351",
-  "boyut": 2455870,
+  "versionCode": 126,
+  "versionName": "5.16.3",
+  "apk": "DMRCepte-5.16.3.apk",
+  "sha256": "b11c77f90ba5d1b01f5a237dbeb545bb6af5bc8ec3105ed86c4d5142a5dca857",
+  "boyut": 2459966,
   "notlar": {
-    "tr": "Mikrofon seviyesi artık her ağ için ayrı ayarlanabiliyor (Telsiz Ayarları > Ses kazancı ve web paneli). M17'de başlangıç −12 dB: M17'de ses karşıya fazla yüksek gidiyordu. D-STAR: bağlanıp hemen kopan reflector giderek daha seyrek deneniyor; bağlantıyı reddeden reflector/modül, ayar değişene kadar yeniden denenmiyor. Web paneli yedeğinde parola işlenirken 'bekleyin' notu gösteriliyor.",
-    "en": "Microphone level can now be set separately for each network (Radio Settings > Audio gain and the web panel). M17 starts at −12 dB: audio was going out too loud on M17. D-STAR: a reflector that connects and drops right away is retried less and less often; a reflector/module that rejects the connection is not retried until the setting changes. The web panel backup shows a 'please wait' note while the password is processed."
+    "tr": "Çağrı sürerken ekran artık kapanmıyor; kapanma süresi çağrı bitince başlıyor. Uzun çağrılarda ekran kapanırken oluşan ses takılmaları azalır. ('Çağrıda ekranı aç' kapalıysa değişiklik yok.)",
+    "en": "The screen no longer turns off while a call is playing; the screen timeout starts when the call ends. This reduces audio stutter that happened when the screen turned off during long calls. (No change if 'Wake screen on call' is off.)"
   }
 }

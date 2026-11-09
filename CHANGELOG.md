@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.3 (126) — 2026-11-10
+
+Çağrı sürerken ekran artık kapanmıyor; kapanma süresi çağrı bitince başlıyor. Uzun çağrılarda ekran kapanırken oluşan ses takılmaları azalır. ('Çağrıda ekranı aç' kapalıysa değişiklik yok.)
+
+*English:*
+
+The screen no longer turns off while a call is playing; the screen timeout starts when the call ends. This reduces audio stutter that happened when the screen turned off during long calls. (No change if 'Wake screen on call' is off.)
+
 ## 5.16.2 (125) — 2026-11-08
 
 Mikrofon seviyesi artık her ağ için ayrı ayarlanabiliyor (Telsiz Ayarları > Ses kazancı ve web paneli). M17'de başlangıç −12 dB: M17'de ses karşıya fazla yüksek gidiyordu. D-STAR: bağlanıp hemen kopan reflector giderek daha seyrek deneniyor; bağlantıyı reddeden reflector/modül, ayar değişene kadar yeniden denenmiyor. Web paneli yedeğinde parola işlenirken 'bekleyin' notu gösteriliyor.
