@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 127,
+      "versionName": "5.16.4",
+      "tarih": "2026-11-10",
+      "notlar": {
+        "tr": "Ekran kapalıyken PTT'ye ilk basışta yayın başlıyor (eskiden ilk basış yalnızca ekranı açıyordu). Çağrı gelince ekran 1 sn sonra açılıyor; çağrı başındaki ses takılmasını azaltması için deneniyor.",
+        "en": "With the screen off, the first PTT press now starts transmitting (before, the first press only woke the screen). On an incoming call the screen now turns on after 1 s; this is being tried to reduce stutter at the start of calls."
+      }
+    },
+    {
       "versionCode": 126,
       "versionName": "5.16.3",
       "tarih": "2026-11-10",
