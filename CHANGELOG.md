@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.4 (127) — 2026-11-10
+
+Ekran kapalıyken PTT'ye ilk basışta yayın başlıyor (eskiden ilk basış yalnızca ekranı açıyordu). Çağrı gelince ekran 1 sn sonra açılıyor; çağrı başındaki ses takılmasını azaltması için deneniyor.
+
+*English:*
+
+With the screen off, the first PTT press now starts transmitting (before, the first press only woke the screen). On an incoming call the screen now turns on after 1 s; this is being tried to reduce stutter at the start of calls.
+
 ## 5.16.3 (126) — 2026-11-10
 
 Çağrı sürerken ekran artık kapanmıyor; kapanma süresi çağrı bitince başlıyor. Uzun çağrılarda ekran kapanırken oluşan ses takılmaları azalır. ('Çağrıda ekranı aç' kapalıysa değişiklik yok.)
