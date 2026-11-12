@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.5 (128) — 2026-11-13
+
+Özel çağrı gelince Konuşma ekranında koyu kırmızı bir panel açılıyor: yanıp sönen ÖZEL ÇAĞRI yazısı, büyük harfle çağrı işareti, altında ağ, ID ve ad. Çağrıyı bitirince normal ekrana dönülür. TGIF: parola reddedilirse uygulama 3 denemeden sonra durur ve ayarı değiştirene kadar yeniden denemez (TGIF tekrarlanan hatalı girişleri kısıtlayabiliyor). TGIF ayarlarındaki alanın adı artık 'TGIF hotspot anahtarı': buraya TGIF Self Care'deki 16 karakterlik anahtar yazılır, site parolası değil.
+
+*English:*
+
+On a private call the Talk screen now shows a dark red panel: a blinking PRIVATE CALL label, the callsign in large letters, and the network, ID and name below. Ending the call returns to the normal screen. TGIF: if the password is rejected, the app stops after 3 attempts and does not retry until you change the setting (TGIF may restrict repeated failed logins). The field in TGIF settings is now called 'TGIF hotspot key': enter the 16-character key from TGIF Self Care there, not your website password.
+
 ## 5.16.4 (127) — 2026-11-10
 
 Ekran kapalıyken PTT'ye ilk basışta yayın başlıyor (eskiden ilk basış yalnızca ekranı açıyordu). Çağrı gelince ekran 1 sn sonra açılıyor; çağrı başındaki ses takılmasını azaltması için deneniyor.
