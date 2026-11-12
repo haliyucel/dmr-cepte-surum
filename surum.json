@@ -1,11 +1,11 @@
 {
-  "versionCode": 127,
-  "versionName": "5.16.4",
-  "apk": "DMRCepte-5.16.4.apk",
-  "sha256": "626ef646e9d0161b13d16d6d50f9e687bba90b5bf89403a35e47f9bdc9aa205f",
-  "boyut": 2459966,
+  "versionCode": 128,
+  "versionName": "5.16.5",
+  "apk": "DMRCepte-5.16.5.apk",
+  "sha256": "24eab44e23ff4fb5e3390711de64ed83e2c58abe0e8434f2d876451b4f06d726",
+  "boyut": 2464062,
   "notlar": {
-    "tr": "Ekran kapalıyken PTT'ye ilk basışta yayın başlıyor (eskiden ilk basış yalnızca ekranı açıyordu). Çağrı gelince ekran 1 sn sonra açılıyor; çağrı başındaki ses takılmasını azaltması için deneniyor.",
-    "en": "With the screen off, the first PTT press now starts transmitting (before, the first press only woke the screen). On an incoming call the screen now turns on after 1 s; this is being tried to reduce stutter at the start of calls."
+    "tr": "Özel çağrı gelince Konuşma ekranında koyu kırmızı bir panel açılıyor: yanıp sönen ÖZEL ÇAĞRI yazısı, büyük harfle çağrı işareti, altında ağ, ID ve ad. Çağrıyı bitirince normal ekrana dönülür. TGIF: parola reddedilirse uygulama 3 denemeden sonra durur ve ayarı değiştirene kadar yeniden denemez (TGIF tekrarlanan hatalı girişleri kısıtlayabiliyor). TGIF ayarlarındaki alanın adı artık 'TGIF hotspot anahtarı': buraya TGIF Self Care'deki 16 karakterlik anahtar yazılır, site parolası değil.",
+    "en": "On a private call the Talk screen now shows a dark red panel: a blinking PRIVATE CALL label, the callsign in large letters, and the network, ID and name below. Ending the call returns to the normal screen. TGIF: if the password is rejected, the app stops after 3 attempts and does not retry until you change the setting (TGIF may restrict repeated failed logins). The field in TGIF settings is now called 'TGIF hotspot key': enter the 16-character key from TGIF Self Care there, not your website password."
   }
 }
