@@ -1,11 +1,11 @@
 {
-  "versionCode": 128,
-  "versionName": "5.16.5",
-  "apk": "DMRCepte-5.16.5.apk",
-  "sha256": "24eab44e23ff4fb5e3390711de64ed83e2c58abe0e8434f2d876451b4f06d726",
-  "boyut": 2464062,
+  "versionCode": 129,
+  "versionName": "5.16.6",
+  "apk": "DMRCepte-5.16.6.apk",
+  "sha256": "c59b41796b5a101dc283730c3b83f795324240add6f28f73a232b730ca486a55",
+  "boyut": 2468158,
   "notlar": {
-    "tr": "Özel çağrı gelince Konuşma ekranında koyu kırmızı bir panel açılıyor: yanıp sönen ÖZEL ÇAĞRI yazısı, büyük harfle çağrı işareti, altında ağ, ID ve ad. Çağrıyı bitirince normal ekrana dönülür. TGIF: parola reddedilirse uygulama 3 denemeden sonra durur ve ayarı değiştirene kadar yeniden denemez (TGIF tekrarlanan hatalı girişleri kısıtlayabiliyor). TGIF ayarlarındaki alanın adı artık 'TGIF hotspot anahtarı': buraya TGIF Self Care'deki 16 karakterlik anahtar yazılır, site parolası değil.",
-    "en": "On a private call the Talk screen now shows a dark red panel: a blinking PRIVATE CALL label, the callsign in large letters, and the network, ID and name below. Ending the call returns to the normal screen. TGIF: if the password is rejected, the app stops after 3 attempts and does not retry until you change the setting (TGIF may restrict repeated failed logins). The field in TGIF settings is now called 'TGIF hotspot key': enter the 16-character key from TGIF Self Care there, not your website password."
+    "tr": "Wi-Fi ile mobil veri arasındaki geçişler düzeltildi: telsiz açılınca ya da Wi-Fi geri gelince bütün bağlantılar (APRS ve sohbet dahil) Wi-Fi'ye geçer, mobil veri gereksiz yere açık kalıp pili tüketmez. Reflector bağlantıları geçiş sırasında kopmaz. Wi-Fi gidince bağlantılar beklemeden mobil veride yeniden kurulur.",
+    "en": "Wi-Fi / mobile data switching fixed: at startup or when Wi-Fi comes back, all connections (including APRS and chat) move to Wi-Fi, so mobile data no longer stays active and drains the battery. Reflector links no longer drop during the switch. When Wi-Fi is lost, connections are re-established on mobile data right away."
   }
 }

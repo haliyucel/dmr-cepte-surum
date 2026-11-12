@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 129,
+      "versionName": "5.16.6",
+      "tarih": "2026-11-13",
+      "notlar": {
+        "tr": "Wi-Fi ile mobil veri arasındaki geçişler düzeltildi: telsiz açılınca ya da Wi-Fi geri gelince bütün bağlantılar (APRS ve sohbet dahil) Wi-Fi'ye geçer, mobil veri gereksiz yere açık kalıp pili tüketmez. Reflector bağlantıları geçiş sırasında kopmaz. Wi-Fi gidince bağlantılar beklemeden mobil veride yeniden kurulur.",
+        "en": "Wi-Fi / mobile data switching fixed: at startup or when Wi-Fi comes back, all connections (including APRS and chat) move to Wi-Fi, so mobile data no longer stays active and drains the battery. Reflector links no longer drop during the switch. When Wi-Fi is lost, connections are re-established on mobile data right away."
+      }
+    },
+    {
       "versionCode": 128,
       "versionName": "5.16.5",
       "tarih": "2026-11-13",

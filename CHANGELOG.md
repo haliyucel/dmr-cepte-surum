@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.6 (129) — 2026-11-13
+
+Wi-Fi ile mobil veri arasındaki geçişler düzeltildi: telsiz açılınca ya da Wi-Fi geri gelince bütün bağlantılar (APRS ve sohbet dahil) Wi-Fi'ye geçer, mobil veri gereksiz yere açık kalıp pili tüketmez. Reflector bağlantıları geçiş sırasında kopmaz. Wi-Fi gidince bağlantılar beklemeden mobil veride yeniden kurulur.
+
+*English:*
+
+Wi-Fi / mobile data switching fixed: at startup or when Wi-Fi comes back, all connections (including APRS and chat) move to Wi-Fi, so mobile data no longer stays active and drains the battery. Reflector links no longer drop during the switch. When Wi-Fi is lost, connections are re-established on mobile data right away.
+
 ## 5.16.5 (128) — 2026-11-13
 
 Özel çağrı gelince Konuşma ekranında koyu kırmızı bir panel açılıyor: yanıp sönen ÖZEL ÇAĞRI yazısı, büyük harfle çağrı işareti, altında ağ, ID ve ad. Çağrıyı bitirince normal ekrana dönülür. TGIF: parola reddedilirse uygulama 3 denemeden sonra durur ve ayarı değiştirene kadar yeniden denemez (TGIF tekrarlanan hatalı girişleri kısıtlayabiliyor). TGIF ayarlarındaki alanın adı artık 'TGIF hotspot anahtarı': buraya TGIF Self Care'deki 16 karakterlik anahtar yazılır, site parolası değil.
