@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.8 (131) — 2026-11-14
+
+Pil ömrü uzadı: ekran kapalıyken uygulamanın işlemci kullanımı yaklaşık yarıya indi. Listelerdeki kayan yazılar ekran kapalıyken durur, ekran açılınca yeniden kayar; ağ bağlantılarının bakım döngüleri boştayken daha seyrek uyanır. Uygulamanın değiştirilip yeniden paketlenmesine karşı koruma güçlendirildi.
+
+*English:*
+
+Longer battery life: with the screen off, the app's CPU use dropped by about half. Scrolling text in lists stops while the screen is off and resumes when it turns on; network link maintenance wakes up less often when idle. Stronger protection against the app being modified and repackaged.
+
 ## 5.16.6 (129) — 2026-11-13
 
 Wi-Fi ile mobil veri arasındaki geçişler düzeltildi: telsiz açılınca ya da Wi-Fi geri gelince bütün bağlantılar (APRS ve sohbet dahil) Wi-Fi'ye geçer, mobil veri gereksiz yere açık kalıp pili tüketmez. Reflector bağlantıları geçiş sırasında kopmaz. Wi-Fi gidince bağlantılar beklemeden mobil veride yeniden kurulur.
