@@ -1,11 +1,11 @@
 {
-  "versionCode": 133,
-  "versionName": "5.16.10",
-  "apk": "DMRCepte-5.16.10.apk",
-  "sha256": "c361a0f96f04212854d9cb8a0891bc66c009062a27ba058911682d0160710cc1",
-  "boyut": 2468158,
+  "versionCode": 134,
+  "versionName": "5.16.11",
+  "apk": "DMRCepte-5.16.11.apk",
+  "sha256": "aba3066c378c48b85c8324f56f9cb5e826bd9b9c438e41655390d221109c9033",
+  "boyut": 2476350,
   "notlar": {
-    "tr": "EchoLink: Bazı node'larda görülen \"Node yanıt vermedi\" uyarısına karşı, bağlanırken node'a kimlik bilgisi saniyede bir gönderiliyor. Relay bir node'a yol bulamazsa ekranda gerçek sebep yazıyor ve bir kez başka bir relay deneniyor. Bağlıyken EchoLink istasyon listesindeki kaydınız 5 dakikada bir tazeleniyor; önceden yaklaşık 10 dakika sonra listeden düşüyordu.",
-    "en": "EchoLink: to address the \"Node did not respond\" warning seen on some nodes, the app now sends its identity to the node every second while connecting. If the relay has no route to a node, the screen shows the real reason and another relay is tried once. While connected, your entry in the EchoLink station list is refreshed every 5 minutes; before, it dropped off the list after about 10 minutes."
+    "tr": "Web paneline Telsiz Ayarları'ndaki eksik ayarlar eklendi: en uzun konuşma süresi, roger beep ve türü (kendi ses dosyanızı panelden yükleyebilirsiniz), sohbet, Talker Alias, Bluetooth ve dış PTT, uygulama dili, SOS (tuş, SMS alıcısı, APRS acil konumu) ve APRS çağrı işareti.",
+    "en": "The web panel now has the settings that were missing from Radio Settings: longest transmission time, roger beep and its type (you can upload your own sound file from the panel), chat, Talker Alias, Bluetooth and external PTT, app language, SOS (key, SMS recipient, APRS emergency position) and APRS callsign."
   }
 }

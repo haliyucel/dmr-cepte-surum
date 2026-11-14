@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.11 (134) — 2026-11-14
+
+Web paneline Telsiz Ayarları'ndaki eksik ayarlar eklendi: en uzun konuşma süresi, roger beep ve türü (kendi ses dosyanızı panelden yükleyebilirsiniz), sohbet, Talker Alias, Bluetooth ve dış PTT, uygulama dili, SOS (tuş, SMS alıcısı, APRS acil konumu) ve APRS çağrı işareti.
+
+*English:*
+
+The web panel now has the settings that were missing from Radio Settings: longest transmission time, roger beep and its type (you can upload your own sound file from the panel), chat, Talker Alias, Bluetooth and external PTT, app language, SOS (key, SMS recipient, APRS emergency position) and APRS callsign.
+
 ## 5.16.10 (133) — 2026-11-14
 
 EchoLink: Bazı node'larda görülen "Node yanıt vermedi" uyarısına karşı, bağlanırken node'a kimlik bilgisi saniyede bir gönderiliyor. Relay bir node'a yol bulamazsa ekranda gerçek sebep yazıyor ve bir kez başka bir relay deneniyor. Bağlıyken EchoLink istasyon listesindeki kaydınız 5 dakikada bir tazeleniyor; önceden yaklaşık 10 dakika sonra listeden düşüyordu.
