@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.10 (133) — 2026-11-14
+
+EchoLink: Bazı node'larda görülen "Node yanıt vermedi" uyarısına karşı, bağlanırken node'a kimlik bilgisi saniyede bir gönderiliyor. Relay bir node'a yol bulamazsa ekranda gerçek sebep yazıyor ve bir kez başka bir relay deneniyor. Bağlıyken EchoLink istasyon listesindeki kaydınız 5 dakikada bir tazeleniyor; önceden yaklaşık 10 dakika sonra listeden düşüyordu.
+
+*English:*
+
+EchoLink: to address the "Node did not respond" warning seen on some nodes, the app now sends its identity to the node every second while connecting. If the relay has no route to a node, the screen shows the real reason and another relay is tried once. While connected, your entry in the EchoLink station list is refreshed every 5 minutes; before, it dropped off the list after about 10 minutes.
+
 ## 5.16.8 (131) — 2026-11-14
 
 Pil ömrü uzadı: ekran kapalıyken uygulamanın işlemci kullanımı yaklaşık yarıya indi. Listelerdeki kayan yazılar ekran kapalıyken durur, ekran açılınca yeniden kayar; ağ bağlantılarının bakım döngüleri boştayken daha seyrek uyanır. Uygulamanın değiştirilip yeniden paketlenmesine karşı koruma güçlendirildi.
