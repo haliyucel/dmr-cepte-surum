@@ -1,11 +1,11 @@
 {
-  "versionCode": 129,
-  "versionName": "5.16.6",
-  "apk": "DMRCepte-5.16.6.apk",
-  "sha256": "c59b41796b5a101dc283730c3b83f795324240add6f28f73a232b730ca486a55",
+  "versionCode": 131,
+  "versionName": "5.16.8",
+  "apk": "DMRCepte-5.16.8.apk",
+  "sha256": "771dbf1b447c53b1627888c02676a0a7667adb4b646abe256969a75ed41a4b42",
   "boyut": 2468158,
   "notlar": {
-    "tr": "Wi-Fi ile mobil veri arasındaki geçişler düzeltildi: telsiz açılınca ya da Wi-Fi geri gelince bütün bağlantılar (APRS ve sohbet dahil) Wi-Fi'ye geçer, mobil veri gereksiz yere açık kalıp pili tüketmez. Reflector bağlantıları geçiş sırasında kopmaz. Wi-Fi gidince bağlantılar beklemeden mobil veride yeniden kurulur.",
-    "en": "Wi-Fi / mobile data switching fixed: at startup or when Wi-Fi comes back, all connections (including APRS and chat) move to Wi-Fi, so mobile data no longer stays active and drains the battery. Reflector links no longer drop during the switch. When Wi-Fi is lost, connections are re-established on mobile data right away."
+    "tr": "Pil ömrü uzadı: ekran kapalıyken uygulamanın işlemci kullanımı yaklaşık yarıya indi. Listelerdeki kayan yazılar ekran kapalıyken durur, ekran açılınca yeniden kayar; ağ bağlantılarının bakım döngüleri boştayken daha seyrek uyanır. Uygulamanın değiştirilip yeniden paketlenmesine karşı koruma güçlendirildi.",
+    "en": "Longer battery life: with the screen off, the app's CPU use dropped by about half. Scrolling text in lists stops while the screen is off and resumes when it turns on; network link maintenance wakes up less often when idle. Stronger protection against the app being modified and repackaged."
   }
 }
