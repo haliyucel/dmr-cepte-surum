@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 134,
+      "versionName": "5.16.11",
+      "tarih": "2026-11-14",
+      "notlar": {
+        "tr": "Web paneline Telsiz Ayarları'ndaki eksik ayarlar eklendi: en uzun konuşma süresi, roger beep ve türü (kendi ses dosyanızı panelden yükleyebilirsiniz), sohbet, Talker Alias, Bluetooth ve dış PTT, uygulama dili, SOS (tuş, SMS alıcısı, APRS acil konumu) ve APRS çağrı işareti.",
+        "en": "The web panel now has the settings that were missing from Radio Settings: longest transmission time, roger beep and its type (you can upload your own sound file from the panel), chat, Talker Alias, Bluetooth and external PTT, app language, SOS (key, SMS recipient, APRS emergency position) and APRS callsign."
+      }
+    },
+    {
       "versionCode": 133,
       "versionName": "5.16.10",
       "tarih": "2026-11-14",
