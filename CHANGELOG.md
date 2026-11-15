@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.13 (136) — 2026-11-16
+
+TGIF: Tuşla yuvalar arasında gezinirken bir TGIF TG'sinden hemen çıkarsanız artık o TG'ye kısa yayın gönderilmiyor; TGIF'in son duyulanlar listesine gereksiz kayıt düşmüyor.
+
+*English:*
+
+TGIF: When stepping through slots with the keys, no short transmission is sent anymore to a TGIF talkgroup you have already left, so no needless entries appear in TGIF's last heard list.
+
 ## 5.16.12 (135) — 2026-11-15
 
 Konuşma ekranındaki son konuşanlar listesi düzeltildi: uzun karşılıklı konuşmalarda diğer istasyonlar artık listeden düşmüyor. Başka bir TG'ye ya da ağa geçip geri dönünce o TG'nin listesi yerinde duruyor.

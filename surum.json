@@ -1,11 +1,11 @@
 {
-  "versionCode": 135,
-  "versionName": "5.16.12",
-  "apk": "DMRCepte-5.16.12.apk",
-  "sha256": "05a731d22f5a4b0efe198146d19fa761125e3172b479d7cff492c9ec89f8e895",
+  "versionCode": 136,
+  "versionName": "5.16.13",
+  "apk": "DMRCepte-5.16.13.apk",
+  "sha256": "83f0ac83ff8832e3ae27bc8648d8b65eb74daddf22c4a86cd2f9df1fb67cbeea",
   "boyut": 2476350,
   "notlar": {
-    "tr": "Konuşma ekranındaki son konuşanlar listesi düzeltildi: uzun karşılıklı konuşmalarda diğer istasyonlar artık listeden düşmüyor. Başka bir TG'ye ya da ağa geçip geri dönünce o TG'nin listesi yerinde duruyor.",
-    "en": "Recent callers list on the talk screen fixed: other stations no longer drop off during long back-and-forth conversations. If you switch to another TG or network and come back, that TG's list is still there."
+    "tr": "TGIF: Tuşla yuvalar arasında gezinirken bir TGIF TG'sinden hemen çıkarsanız artık o TG'ye kısa yayın gönderilmiyor; TGIF'in son duyulanlar listesine gereksiz kayıt düşmüyor.",
+    "en": "TGIF: When stepping through slots with the keys, no short transmission is sent anymore to a TGIF talkgroup you have already left, so no needless entries appear in TGIF's last heard list."
   }
 }

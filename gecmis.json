@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 136,
+      "versionName": "5.16.13",
+      "tarih": "2026-11-16",
+      "notlar": {
+        "tr": "TGIF: Tuşla yuvalar arasında gezinirken bir TGIF TG'sinden hemen çıkarsanız artık o TG'ye kısa yayın gönderilmiyor; TGIF'in son duyulanlar listesine gereksiz kayıt düşmüyor.",
+        "en": "TGIF: When stepping through slots with the keys, no short transmission is sent anymore to a TGIF talkgroup you have already left, so no needless entries appear in TGIF's last heard list."
+      }
+    },
+    {
       "versionCode": 135,
       "versionName": "5.16.12",
       "tarih": "2026-11-15",
