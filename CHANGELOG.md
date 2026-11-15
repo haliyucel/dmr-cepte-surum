@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.12 (135) — 2026-11-15
+
+Konuşma ekranındaki son konuşanlar listesi düzeltildi: uzun karşılıklı konuşmalarda diğer istasyonlar artık listeden düşmüyor. Başka bir TG'ye ya da ağa geçip geri dönünce o TG'nin listesi yerinde duruyor.
+
+*English:*
+
+Recent callers list on the talk screen fixed: other stations no longer drop off during long back-and-forth conversations. If you switch to another TG or network and come back, that TG's list is still there.
+
 ## 5.16.11 (134) — 2026-11-14
 
 Web paneline Telsiz Ayarları'ndaki eksik ayarlar eklendi: en uzun konuşma süresi, roger beep ve türü (kendi ses dosyanızı panelden yükleyebilirsiniz), sohbet, Talker Alias, Bluetooth ve dış PTT, uygulama dili, SOS (tuş, SMS alıcısı, APRS acil konumu) ve APRS çağrı işareti.

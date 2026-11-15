@@ -1,11 +1,11 @@
 {
-  "versionCode": 134,
-  "versionName": "5.16.11",
-  "apk": "DMRCepte-5.16.11.apk",
-  "sha256": "aba3066c378c48b85c8324f56f9cb5e826bd9b9c438e41655390d221109c9033",
+  "versionCode": 135,
+  "versionName": "5.16.12",
+  "apk": "DMRCepte-5.16.12.apk",
+  "sha256": "05a731d22f5a4b0efe198146d19fa761125e3172b479d7cff492c9ec89f8e895",
   "boyut": 2476350,
   "notlar": {
-    "tr": "Web paneline Telsiz Ayarları'ndaki eksik ayarlar eklendi: en uzun konuşma süresi, roger beep ve türü (kendi ses dosyanızı panelden yükleyebilirsiniz), sohbet, Talker Alias, Bluetooth ve dış PTT, uygulama dili, SOS (tuş, SMS alıcısı, APRS acil konumu) ve APRS çağrı işareti.",
-    "en": "The web panel now has the settings that were missing from Radio Settings: longest transmission time, roger beep and its type (you can upload your own sound file from the panel), chat, Talker Alias, Bluetooth and external PTT, app language, SOS (key, SMS recipient, APRS emergency position) and APRS callsign."
+    "tr": "Konuşma ekranındaki son konuşanlar listesi düzeltildi: uzun karşılıklı konuşmalarda diğer istasyonlar artık listeden düşmüyor. Başka bir TG'ye ya da ağa geçip geri dönünce o TG'nin listesi yerinde duruyor.",
+    "en": "Recent callers list on the talk screen fixed: other stations no longer drop off during long back-and-forth conversations. If you switch to another TG or network and come back, that TG's list is still there."
   }
 }
