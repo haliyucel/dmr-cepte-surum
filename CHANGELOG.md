@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.19 (142) — 2026-11-16
+
+Ses çözücü eklentisi yenilendi: daha hızlı çözme ve ses düzeltmeleri. Yeni eklentiye geçmek için Ses Çözücü ekranında "İndir ve kur"a basın. Ses çözücü ve yardımcı programlar artık uygulamadan ayrı süreçte çalışıyor; kaynak kodları açık eklenti deposunda. Lisans ekranı güncellendi.
+
+*English:*
+
+Vocoder plugin updated: faster decoding and audio fixes. To switch to the new plugin, press "Download and install" on the Vocoder screen. The vocoder and helper programs now run in a separate process from the app; their source code is in the public plugin repository. License screen updated.
+
 ## 5.16.13 (136) — 2026-11-16
 
 TGIF: Tuşla yuvalar arasında gezinirken bir TGIF TG'sinden hemen çıkarsanız artık o TG'ye kısa yayın gönderilmiyor; TGIF'in son duyulanlar listesine gereksiz kayıt düşmüyor.
