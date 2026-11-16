@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.24 (147) — 2026-11-17
+
+Lisans ekranı güncellendi: M17 ses kodeğinin bağlantı kaynağı açık depoda.
+
+*English:*
+
+License screen updated: the source of the M17 audio codec bridge is in the public repository.
+
 ## 5.16.23 (146) — 2026-11-17
 
 Telsizde liste modunda (CALL) seçili satır yeniden sarı görünüyor. Liste modunda seçeneği olmayan satırda OK eskisi gibi ana menüyü açar. Ses çözücü eklentisinin deposu düzenlendi.

@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 147,
+      "versionName": "5.16.24",
+      "tarih": "2026-11-17",
+      "notlar": {
+        "tr": "Lisans ekranı güncellendi: M17 ses kodeğinin bağlantı kaynağı açık depoda.",
+        "en": "License screen updated: the source of the M17 audio codec bridge is in the public repository."
+      }
+    },
+    {
       "versionCode": 146,
       "versionName": "5.16.23",
       "tarih": "2026-11-17",
