@@ -1,11 +1,11 @@
 {
-  "versionCode": 142,
-  "versionName": "5.16.19",
-  "apk": "DMRCepte-5.16.19.apk",
-  "sha256": "d3855b68a3a6a5363f97fa4a9233b4f80db8b1a525e880d3060f7730f510c7fc",
-  "boyut": 2570569,
+  "versionCode": 144,
+  "versionName": "5.16.21",
+  "apk": "DMRCepte-5.16.21.apk",
+  "sha256": "78027cdef9e738486f0157d44c2849fcf4b3ec64012e56ce635469815cc46565",
+  "boyut": 2574753,
   "notlar": {
-    "tr": "Ses çözücü eklentisi yenilendi: daha hızlı çözme ve ses düzeltmeleri. Yeni eklentiye geçmek için Ses Çözücü ekranında \"İndir ve kur\"a basın. Ses çözücü ve yardımcı programlar artık uygulamadan ayrı süreçte çalışıyor; kaynak kodları açık eklenti deposunda. Lisans ekranı güncellendi.",
-    "en": "Vocoder plugin updated: faster decoding and audio fixes. To switch to the new plugin, press \"Download and install\" on the Vocoder screen. The vocoder and helper programs now run in a separate process from the app; their source code is in the public plugin repository. License screen updated."
+    "tr": "Ana ekrandaki son konuşanlar listesinde bir istasyona dokunun (telsizde CALL ile liste moduna geçip OK): doğrudan \"Çağır\" ve \"Rehbere ekle\" çıkar. Bilgisayar öykünücülerinde ses çözücü yeniden çalışıyor; gerekirse Ses Çözücü ekranında \"İndir ve kur\"a basın.",
+    "en": "Tap a station in the recent-talkers list on the main screen (on radios: CALL for list mode, then OK) to get \"Call\" and \"Add to contacts\" directly. The vocoder works again on PC emulators; if needed, press \"Download and install\" on the Vocoder screen."
   }
 }

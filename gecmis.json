@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 144,
+      "versionName": "5.16.21",
+      "tarih": "2026-11-17",
+      "notlar": {
+        "tr": "Ana ekrandaki son konuşanlar listesinde bir istasyona dokunun (telsizde CALL ile liste moduna geçip OK): doğrudan \"Çağır\" ve \"Rehbere ekle\" çıkar. Bilgisayar öykünücülerinde ses çözücü yeniden çalışıyor; gerekirse Ses Çözücü ekranında \"İndir ve kur\"a basın.",
+        "en": "Tap a station in the recent-talkers list on the main screen (on radios: CALL for list mode, then OK) to get \"Call\" and \"Add to contacts\" directly. The vocoder works again on PC emulators; if needed, press \"Download and install\" on the Vocoder screen."
+      }
+    },
+    {
       "versionCode": 142,
       "versionName": "5.16.19",
       "tarih": "2026-11-16",

@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.21 (144) — 2026-11-17
+
+Ana ekrandaki son konuşanlar listesinde bir istasyona dokunun (telsizde CALL ile liste moduna geçip OK): doğrudan "Çağır" ve "Rehbere ekle" çıkar. Bilgisayar öykünücülerinde ses çözücü yeniden çalışıyor; gerekirse Ses Çözücü ekranında "İndir ve kur"a basın.
+
+*English:*
+
+Tap a station in the recent-talkers list on the main screen (on radios: CALL for list mode, then OK) to get "Call" and "Add to contacts" directly. The vocoder works again on PC emulators; if needed, press "Download and install" on the Vocoder screen.
+
 ## 5.16.19 (142) — 2026-11-16
 
 Ses çözücü eklentisi yenilendi: daha hızlı çözme ve ses düzeltmeleri. Yeni eklentiye geçmek için Ses Çözücü ekranında "İndir ve kur"a basın. Ses çözücü ve yardımcı programlar artık uygulamadan ayrı süreçte çalışıyor; kaynak kodları açık eklenti deposunda. Lisans ekranı güncellendi.
