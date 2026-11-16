@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 146,
+      "versionName": "5.16.23",
+      "tarih": "2026-11-17",
+      "notlar": {
+        "tr": "Telsizde liste modunda (CALL) seçili satır yeniden sarı görünüyor. Liste modunda seçeneği olmayan satırda OK eskisi gibi ana menüyü açar. Ses çözücü eklentisinin deposu düzenlendi.",
+        "en": "On radios, the selected row in list mode (CALL) is highlighted again. In list mode, OK on a row without options opens the main menu as before. The vocoder plugin repository was reorganized."
+      }
+    },
+    {
       "versionCode": 144,
       "versionName": "5.16.21",
       "tarih": "2026-11-17",

@@ -1,11 +1,11 @@
 {
-  "versionCode": 144,
-  "versionName": "5.16.21",
-  "apk": "DMRCepte-5.16.21.apk",
-  "sha256": "78027cdef9e738486f0157d44c2849fcf4b3ec64012e56ce635469815cc46565",
-  "boyut": 2574753,
+  "versionCode": 146,
+  "versionName": "5.16.23",
+  "apk": "DMRCepte-5.16.23.apk",
+  "sha256": "6b142e7dc53d061f707843308f3ae31a789dae36463c8891164b3a8339cdf136",
+  "boyut": 2578849,
   "notlar": {
-    "tr": "Ana ekrandaki son konuşanlar listesinde bir istasyona dokunun (telsizde CALL ile liste moduna geçip OK): doğrudan \"Çağır\" ve \"Rehbere ekle\" çıkar. Bilgisayar öykünücülerinde ses çözücü yeniden çalışıyor; gerekirse Ses Çözücü ekranında \"İndir ve kur\"a basın.",
-    "en": "Tap a station in the recent-talkers list on the main screen (on radios: CALL for list mode, then OK) to get \"Call\" and \"Add to contacts\" directly. The vocoder works again on PC emulators; if needed, press \"Download and install\" on the Vocoder screen."
+    "tr": "Telsizde liste modunda (CALL) seçili satır yeniden sarı görünüyor. Liste modunda seçeneği olmayan satırda OK eskisi gibi ana menüyü açar. Ses çözücü eklentisinin deposu düzenlendi.",
+    "en": "On radios, the selected row in list mode (CALL) is highlighted again. In list mode, OK on a row without options opens the main menu as before. The vocoder plugin repository was reorganized."
   }
 }

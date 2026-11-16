@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.23 (146) — 2026-11-17
+
+Telsizde liste modunda (CALL) seçili satır yeniden sarı görünüyor. Liste modunda seçeneği olmayan satırda OK eskisi gibi ana menüyü açar. Ses çözücü eklentisinin deposu düzenlendi.
+
+*English:*
+
+On radios, the selected row in list mode (CALL) is highlighted again. In list mode, OK on a row without options opens the main menu as before. The vocoder plugin repository was reorganized.
+
 ## 5.16.21 (144) — 2026-11-17
 
 Ana ekrandaki son konuşanlar listesinde bir istasyona dokunun (telsizde CALL ile liste moduna geçip OK): doğrudan "Çağır" ve "Rehbere ekle" çıkar. Bilgisayar öykünücülerinde ses çözücü yeniden çalışıyor; gerekirse Ses Çözücü ekranında "İndir ve kur"a basın.
