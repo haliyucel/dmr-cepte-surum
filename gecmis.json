@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 148,
+      "versionName": "5.16.25",
+      "tarih": "2026-11-17",
+      "notlar": {
+        "tr": "Lisans ekranına Pi-Star sunucu listeleri için atıf eklendi.",
+        "en": "Added attribution for the Pi-Star server lists to the license screen."
+      }
+    },
+    {
       "versionCode": 147,
       "versionName": "5.16.24",
       "tarih": "2026-11-17",

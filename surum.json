@@ -1,11 +1,11 @@
 {
-  "versionCode": 147,
-  "versionName": "5.16.24",
-  "apk": "DMRCepte-5.16.24.apk",
-  "sha256": "128bfd5a76ff43a68d378678659a2dcd7905c746e1a7cdc8ffea8c2bd2ea775f",
+  "versionCode": 148,
+  "versionName": "5.16.25",
+  "apk": "DMRCepte-5.16.25.apk",
+  "sha256": "a9c314906d3518c7955ca7380cd6ad6b105668d6d119113438a70363736e9915",
   "boyut": 2578849,
   "notlar": {
-    "tr": "Lisans ekranı güncellendi: M17 ses kodeğinin bağlantı kaynağı açık depoda.",
-    "en": "License screen updated: the source of the M17 audio codec bridge is in the public repository."
+    "tr": "Lisans ekranına Pi-Star sunucu listeleri için atıf eklendi.",
+    "en": "Added attribution for the Pi-Star server lists to the license screen."
   }
 }

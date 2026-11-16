@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.16.25 (148) — 2026-11-17
+
+Lisans ekranına Pi-Star sunucu listeleri için atıf eklendi.
+
+*English:*
+
+Added attribution for the Pi-Star server lists to the license screen.
+
 ## 5.16.24 (147) — 2026-11-17
 
 Lisans ekranı güncellendi: M17 ses kodeğinin bağlantı kaynağı açık depoda.
