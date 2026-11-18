@@ -1,9 +1,9 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 8 Kasım 2026 (sürüm 5.16.1)
+**Son güncelleme:** 18 Kasım 2026 (sürüm 5.17.2)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
-**Lisans:** GNU GPL v3
+**Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
 
 ---
 
@@ -89,7 +89,7 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 | `nominatim.openstreetmap.org` | **Enlem/boylam** (sizin konumunuz ya da deprem listesindeki yerler) | Yer adını bulmak |
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
 | `www.seismicportal.eu` | Seçtiğiniz ülkenin sınır kutusu (kişisel konum değil) | Deprem listesi |
-| `www.pistar.uk`, `dmr.qso1.net`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, `live.ircddb.net` ve `live3.ircddb.net` (ircDDB canlı günlüğü), `openquad.net` (QuadNet son duyulanlar), `stream.oe3xor.at` (M17 durum akışı), seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün ve birkaç yoğun M17 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
+| `www.pistar.uk`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, `live.ircddb.net` ve `live3.ircddb.net` (ircDDB canlı günlüğü), `openquad.net` (QuadNet son duyulanlar), `stream.oe3xor.at` (M17 durum akışı), seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün ve birkaç yoğun M17 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
 | `github.com`, `api.github.com`, `raw.githubusercontent.com`, `cdn.jsdelivr.net` | Kişisel veri yok | Güncelleme denetimi ve indirme, ses çözücü eklentisi |
 | `md380.org`, `www.dudetronics.com` | Kişisel veri yok | MD-380 firmware'ini indirmek (onayınızla) |
 
@@ -192,14 +192,32 @@ Bu politika değişirse bu dosya güncellenir ve üstteki tarih değişir.
 
 Soru veya talepleriniz için: **haliyucel@gmail.com**
 
+## 9. KVKK ve GDPR
+
+- **Veri sorumlusu:** TA6HY — Hasan Ali YÜCEL (iletişim adresi 8. bölümde).
+- **Geliştiricinin işlediği veri:** yalnız 2.4'teki iki ileti (cihaz raporu, kopya bildirimi).
+  Hukuki sebep açık rızanızdır (KVKK md. 5/1; GDPR md. 6/1-a). Amaç: uygulamanın cihazınızda
+  düzgün çalışması, hataların giderilmesi ve değiştirilmiş kopyaların fark edilmesi. Rızanızı
+  istediğiniz an geri alabilir, daha önce gönderilenlerin silinmesini isteyebilirsiniz.
+- **Yurt dışına aktarım:** Bu iletiler Web3Forms üzerinden e-posta olarak gelir; Web3Forms'un ve
+  e-posta sağlayıcısının sunucuları yurt dışında olabilir. Bu aktarım da açık rızanıza dayanır
+  (KVKK md. 9; GDPR md. 49/1-a).
+- **Diğer veriler:** 2.1–2.3'teki veriler sizin isteğinizle doğrudan cihazınızdan ilgili ağa ya
+  da servise gider; geliştirici bunları görmez ve saklamaz. O servislerin veri sorumlusu
+  kendileridir.
+- **Haklarınız:** KVKK md. 11 ve GDPR md. 15–21 kapsamında verinizin işlenip işlenmediğini
+  öğrenme, bilgi isteme, düzeltme, silme, itiraz etme ve rızanızı geri alma hakkınız var.
+  Talebinizi 8. bölümdeki adrese yazın; en geç 30 gün içinde yanıt verilir. Türkiye'de Kişisel
+  Verileri Koruma Kurulu'na, AB'de kendi ülkenizin veri koruma makamına şikâyet edebilirsiniz.
+
 ---
 ---
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 8 November 2026 (version 5.16.1)
+**Last updated:** 18 November 2026 (version 5.17.2)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
-**License:** GNU GPL v3
+**License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
 ## Summary
 
@@ -268,7 +286,7 @@ exact location is on) with every M17 transmission; everyone on the reflector can
 `nominatim.openstreetmap.org` receives latitude/longitude (yours or the earthquake list's)
 to show a place name; `api.open-meteo.com` receives **your latitude and longitude** for the
 weather. `www.seismicportal.eu` receives the bounding box of the selected country.
-`www.pistar.uk`, `dmr.qso1.net`, `adn.systems` and ADN servers, `freedmr.dvswitch.org`,
+`www.pistar.uk`, `adn.systems` and ADN servers, `freedmr.dvswitch.org`,
 `tgif.network`, `ysflive.com`, `live.ircddb.net` and `live3.ircddb.net` (ircDDB live log),
 `openquad.net` (QuadNet last heard), `stream.oe3xor.at` (M17 status feed) and the dashboards of
 the selected D-STAR, M17, YSF, NXDN and P25 reflector and of a few busy M17 reflectors (address
@@ -346,6 +364,24 @@ are held by those networks; contact the network to request removal. The app cann
 room messages stored on chat relays. Device reports and copy notices sent with your
 consent stay in the developer's e-mail; you can ask for their deletion at the contact
 address.
+
+## Legal basis and your rights (KVKK / GDPR)
+
+- **Data controller:** TA6HY — Hasan Ali YÜCEL (contact below).
+- **Data the developer processes:** only the two messages sent with your consent (device report,
+  copy notice). Legal basis: your explicit consent (KVKK art. 5(1); GDPR art. 6(1)(a)). Purpose:
+  making the app work on your device, fixing bugs and spotting modified copies. You can withdraw
+  consent at any time and ask for earlier messages to be deleted.
+- **Transfer abroad:** these messages reach the developer by e-mail through Web3Forms; the servers
+  of Web3Forms and of the e-mail provider may be outside Türkiye and the EU. This transfer also
+  rests on your explicit consent (KVKK art. 9; GDPR art. 49(1)(a)).
+- **Other data:** everything else goes directly from your device to the network or service you
+  use; the developer does not see or store it. Those services are the controllers of their own
+  data.
+- **Your rights:** under KVKK art. 11 and GDPR arts. 15–21 you can learn whether your data is
+  processed, request information, rectification or erasure, object, and withdraw consent. Write
+  to the contact address; you will get an answer within 30 days. You can complain to Türkiye's
+  Personal Data Protection Authority or to your EU data protection authority.
 
 ## Changes and contact
 
