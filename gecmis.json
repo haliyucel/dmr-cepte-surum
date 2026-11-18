@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 151,
+      "versionName": "5.17.2",
+      "tarih": "2026-11-19",
+      "notlar": {
+        "tr": "EchoLink'e artık uygulamanın kendi adıyla giriş yapılıyor. Aynı çağrı işareti başka bir cihazda EchoLink'e bağlıysa bu cihaz bağlanmaz ve uyarır (EchoLink'te bir çağrı işareti aynı anda tek cihazdan girebilir); dizine bakmak için artık ayrıca giriş yapılmıyor. Lisans ekranına bir açık kaynak bileşenin istediği izin cümlesi eklendi; gizlilik politikasına KVKK/GDPR bölümü eklendi ve eski lisans satırı düzeltildi.",
+        "en": "EchoLink login now uses the app's own name. If the same callsign is already on EchoLink from another device, this device does not connect and shows a warning (EchoLink allows one login per callsign); looking up the directory no longer logs in separately. The license screen now includes the permission an open-source component requires; the privacy policy has a new KVKK/GDPR section and its outdated license line was fixed."
+      }
+    },
+    {
       "versionCode": 150,
       "versionName": "5.17.1",
       "tarih": "2026-11-18",

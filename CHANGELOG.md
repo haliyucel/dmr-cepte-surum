@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.17.2 (151) — 2026-11-19
+
+EchoLink'e artık uygulamanın kendi adıyla giriş yapılıyor. Aynı çağrı işareti başka bir cihazda EchoLink'e bağlıysa bu cihaz bağlanmaz ve uyarır (EchoLink'te bir çağrı işareti aynı anda tek cihazdan girebilir); dizine bakmak için artık ayrıca giriş yapılmıyor. Lisans ekranına bir açık kaynak bileşenin istediği izin cümlesi eklendi; gizlilik politikasına KVKK/GDPR bölümü eklendi ve eski lisans satırı düzeltildi.
+
+*English:*
+
+EchoLink login now uses the app's own name. If the same callsign is already on EchoLink from another device, this device does not connect and shows a warning (EchoLink allows one login per callsign); looking up the directory no longer logs in separately. The license screen now includes the permission an open-source component requires; the privacy policy has a new KVKK/GDPR section and its outdated license line was fixed.
+
 ## 5.17.1 (150) — 2026-11-18
 
 Uygulamanın lisansı: Ücretsiz kullanım, tüm hakları saklıdır. DMR ve NXDN/YSF çerçeve kodu yeniden yazıldı (davranış aynı). Gömülü rehber kaldırıldı; rehber güncellemesi değişmemiş dosyayı yeniden indirmez. APRS-IS kodu yalnız çağrı işaretiniz DMR ID kaydınızla eşleşiyorsa otomatik; değilse web panelinden girin.
