@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.17.1 (150) — 2026-11-18
+
+Uygulamanın lisansı: Ücretsiz kullanım, tüm hakları saklıdır. DMR ve NXDN/YSF çerçeve kodu yeniden yazıldı (davranış aynı). Gömülü rehber kaldırıldı; rehber güncellemesi değişmemiş dosyayı yeniden indirmez. APRS-IS kodu yalnız çağrı işaretiniz DMR ID kaydınızla eşleşiyorsa otomatik; değilse web panelinden girin.
+
+*English:*
+
+App license: free to use, all rights reserved. DMR and NXDN/YSF framing code rewritten (same behavior). Built-in contact list removed; updating the contact list no longer re-downloads an unchanged file. The APRS-IS passcode is set automatically only if your callsign matches your DMR ID registration; otherwise enter it in the web panel.
+
 ## 5.16.25 (148) — 2026-11-17
 
 Lisans ekranına Pi-Star sunucu listeleri için atıf eklendi.

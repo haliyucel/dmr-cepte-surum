@@ -1,11 +1,11 @@
 {
-  "versionCode": 148,
-  "versionName": "5.16.25",
-  "apk": "DMRCepte-5.16.25.apk",
-  "sha256": "a9c314906d3518c7955ca7380cd6ad6b105668d6d119113438a70363736e9915",
-  "boyut": 2578849,
+  "versionCode": 150,
+  "versionName": "5.17.1",
+  "apk": "DMRCepte-5.17.1.apk",
+  "sha256": "2ea17235e6092e9776a06c50bf3b956a006ea2a3d8f93cfe925d15c86c47a821",
+  "boyut": 2529490,
   "notlar": {
-    "tr": "Lisans ekranına Pi-Star sunucu listeleri için atıf eklendi.",
-    "en": "Added attribution for the Pi-Star server lists to the license screen."
+    "tr": "Uygulamanın lisansı: Ücretsiz kullanım, tüm hakları saklıdır. DMR ve NXDN/YSF çerçeve kodu yeniden yazıldı (davranış aynı). Gömülü rehber kaldırıldı; rehber güncellemesi değişmemiş dosyayı yeniden indirmez. APRS-IS kodu yalnız çağrı işaretiniz DMR ID kaydınızla eşleşiyorsa otomatik; değilse web panelinden girin.",
+    "en": "App license: free to use, all rights reserved. DMR and NXDN/YSF framing code rewritten (same behavior). Built-in contact list removed; updating the contact list no longer re-downloads an unchanged file. The APRS-IS passcode is set automatically only if your callsign matches your DMR ID registration; otherwise enter it in the web panel."
   }
 }
