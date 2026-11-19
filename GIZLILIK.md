@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 19 Kasım 2026 (sürüm 5.18.0)
+**Son güncelleme:** 20 Kasım 2026 (sürüm 5.18.2)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -100,7 +100,7 @@ politikası vardır. Bağlandığınız her sunucu, internetin doğası gereği 
 
 Sohbet açıksa (varsayılan açık) ve çağrı işaretiniz girilmişse uygulama, çalıştığı
 sürece herkese açık Nostr rölelerine bağlanır: `nostr.data.haus`, `relay.primal.net`,
-`nostr.oxtr.dev`, `nostr.sathoarder.com`. Merkezi bir sunucu yoktur; rölelerin hiçbiri
+`purplerelay.com`, `nostr.sathoarder.com`. Merkezi bir sunucu yoktur; rölelerin hiçbiri
 geliştiriciye ait değildir.
 
 - **Kimlik:** cihaza özel bir anahtar çifti üretilir; her olay bu anahtarla imzalanır.
@@ -215,7 +215,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 19 November 2026 (version 5.18.0)
+**Last updated:** 20 November 2026 (version 5.18.2)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -304,7 +304,7 @@ every server you connect to sees your IP address.
 ## Chat (Nostr relays)
 
 If chat is on (the default) and a callsign is set, the app connects to public Nostr relays
-while it runs: `nostr.data.haus`, `relay.primal.net`, `nostr.oxtr.dev`,
+while it runs: `nostr.data.haus`, `relay.primal.net`, `purplerelay.com`,
 `nostr.sathoarder.com`. There is no central server and no relay belongs to the developer.
 Each device has its own key pair; every event is signed and the private key never leaves
 the device. Every 5 minutes a presence event carries your callsign and public key; relays
