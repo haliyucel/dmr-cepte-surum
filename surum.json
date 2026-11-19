@@ -1,11 +1,11 @@
 {
-  "versionCode": 153,
-  "versionName": "5.18.1",
-  "apk": "DMRCepte-5.18.1.apk",
-  "sha256": "f33266cf290f7cb442889ebe77086618404871aaf984a7a84c226f98aee471af",
+  "versionCode": 154,
+  "versionName": "5.18.2",
+  "apk": "DMRCepte-5.18.2.apk",
+  "sha256": "801bb9f37bcc3fe4d5d20f695e5915b5ddd00466648f42f7866dabd1a04210b9",
   "boyut": 2549970,
   "notlar": {
-    "tr": "Özel çağrı (Papağan dahil) sürerken BrandMeister konuşma grubu abonelikleri geçici olarak bırakılır: o sırada grup çağrıları zaten susturuluyordu, ama meşgul bir grup cevabın gelmesini engelliyordu. Çağrı bitince abonelikler geri gelir. Sohbette bozuk bir sunucu (örneğin diski dolu ya da sürekli kapanan) artık 2 dakikada bir değil, yarım saatte bir denenir; sohbet diğer sunucularla sürer.",
-    "en": "While a private call (including Parrot) is active, BrandMeister talkgroup subscriptions are released: group calls were already muted during the call, but a busy talkgroup kept the reply from arriving. Subscriptions return when the call ends. In chat, a broken relay (for example one with a full disk or one that keeps dropping) is now retried every 30 minutes instead of every 2 minutes; chat continues on the other relays."
+    "tr": "Sohbet: diski dolan ve bağlantıyı sürekli kesen bir sunucu listeden çıkarıldı, yerine yazma ve okuma testlerini geçen bir sunucu eklendi. Gizlilik politikasındaki sunucu listesi buna göre güncellendi.",
+    "en": "Chat: a relay that had run out of disk space and kept dropping connections was removed and replaced with one that passed read and write tests. The relay list in the privacy policy was updated accordingly."
   }
 }

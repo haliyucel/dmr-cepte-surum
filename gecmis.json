@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 154,
+      "versionName": "5.18.2",
+      "tarih": "2026-11-20",
+      "notlar": {
+        "tr": "Sohbet: diski dolan ve bağlantıyı sürekli kesen bir sunucu listeden çıkarıldı, yerine yazma ve okuma testlerini geçen bir sunucu eklendi. Gizlilik politikasındaki sunucu listesi buna göre güncellendi.",
+        "en": "Chat: a relay that had run out of disk space and kept dropping connections was removed and replaced with one that passed read and write tests. The relay list in the privacy policy was updated accordingly."
+      }
+    },
+    {
       "versionCode": 153,
       "versionName": "5.18.1",
       "tarih": "2026-11-20",

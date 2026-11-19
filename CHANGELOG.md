@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.2 (154) — 2026-11-20
+
+Sohbet: diski dolan ve bağlantıyı sürekli kesen bir sunucu listeden çıkarıldı, yerine yazma ve okuma testlerini geçen bir sunucu eklendi. Gizlilik politikasındaki sunucu listesi buna göre güncellendi.
+
+*English:*
+
+Chat: a relay that had run out of disk space and kept dropping connections was removed and replaced with one that passed read and write tests. The relay list in the privacy policy was updated accordingly.
+
 ## 5.18.1 (153) — 2026-11-20
 
 Özel çağrı (Papağan dahil) sürerken BrandMeister konuşma grubu abonelikleri geçici olarak bırakılır: o sırada grup çağrıları zaten susturuluyordu, ama meşgul bir grup cevabın gelmesini engelliyordu. Çağrı bitince abonelikler geri gelir. Sohbette bozuk bir sunucu (örneğin diski dolu ya da sürekli kapanan) artık 2 dakikada bir değil, yarım saatte bir denenir; sohbet diğer sunucularla sürer.
