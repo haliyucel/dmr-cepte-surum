@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.0 (152) — 2026-11-19
+
+BrandMeister'a artık BrandMeister'ın uygulamalar için ayırdığı terminal arayüzüyle (Open DMR Terminal Protocol) bağlanılıyor: uygulama kendini hotspot olarak tanıtmıyor, kendi adını ve sürümünü bildiriyor; çağrı işareti ve konum BrandMeister'a gönderilmiyor. Statik grupların trafiği eskisi gibi gelir ve aynı kurallarla susturulur; listede olmayan bir gruba geçerken artık kısa yayın yapılmıyor. Sunucu bu arayüze hiç yanıt vermezse eski hotspot girişine dönülür. Gizlilik politikası buna göre güncellendi.
+
+*English:*
+
+The app now connects to BrandMeister through BrandMeister's terminal interface for applications (Open DMR Terminal Protocol): it no longer presents itself as a hotspot, it reports its own name and version, and callsign and location are not sent to BrandMeister. Static talkgroup traffic arrives as before and is muted by the same rules; switching to a talkgroup outside the list no longer sends a short transmission. If the server never answers on this interface the app falls back to the old hotspot login. The privacy policy was updated accordingly.
+
 ## 5.17.2 (151) — 2026-11-19
 
 EchoLink'e artık uygulamanın kendi adıyla giriş yapılıyor. Aynı çağrı işareti başka bir cihazda EchoLink'e bağlıysa bu cihaz bağlanmaz ve uyarır (EchoLink'te bir çağrı işareti aynı anda tek cihazdan girebilir); dizine bakmak için artık ayrıca giriş yapılmıyor. Lisans ekranına bir açık kaynak bileşenin istediği izin cümlesi eklendi; gizlilik politikasına KVKK/GDPR bölümü eklendi ve eski lisans satırı düzeltildi.

@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 152,
+      "versionName": "5.18.0",
+      "tarih": "2026-11-19",
+      "notlar": {
+        "tr": "BrandMeister'a artık BrandMeister'ın uygulamalar için ayırdığı terminal arayüzüyle (Open DMR Terminal Protocol) bağlanılıyor: uygulama kendini hotspot olarak tanıtmıyor, kendi adını ve sürümünü bildiriyor; çağrı işareti ve konum BrandMeister'a gönderilmiyor. Statik grupların trafiği eskisi gibi gelir ve aynı kurallarla susturulur; listede olmayan bir gruba geçerken artık kısa yayın yapılmıyor. Sunucu bu arayüze hiç yanıt vermezse eski hotspot girişine dönülür. Gizlilik politikası buna göre güncellendi.",
+        "en": "The app now connects to BrandMeister through BrandMeister's terminal interface for applications (Open DMR Terminal Protocol): it no longer presents itself as a hotspot, it reports its own name and version, and callsign and location are not sent to BrandMeister. Static talkgroup traffic arrives as before and is muted by the same rules; switching to a talkgroup outside the list no longer sends a short transmission. If the server never answers on this interface the app falls back to the old hotspot login. The privacy policy was updated accordingly."
+      }
+    },
+    {
       "versionCode": 151,
       "versionName": "5.17.2",
       "tarih": "2026-11-19",

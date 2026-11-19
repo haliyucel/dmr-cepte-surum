@@ -1,11 +1,11 @@
 {
-  "versionCode": 151,
-  "versionName": "5.17.2",
-  "apk": "DMRCepte-5.17.2.apk",
-  "sha256": "53564b0efd23d0ad29cefa6ce2a85b88cc98a2715145fd3a25c28f113b287592",
-  "boyut": 2533586,
+  "versionCode": 152,
+  "versionName": "5.18.0",
+  "apk": "DMRCepte-5.18.0.apk",
+  "sha256": "6592142b726d46a7dfadef73af87a4de9d49ecec16a393e591dcc084897b9e19",
+  "boyut": 2545874,
   "notlar": {
-    "tr": "EchoLink'e artık uygulamanın kendi adıyla giriş yapılıyor. Aynı çağrı işareti başka bir cihazda EchoLink'e bağlıysa bu cihaz bağlanmaz ve uyarır (EchoLink'te bir çağrı işareti aynı anda tek cihazdan girebilir); dizine bakmak için artık ayrıca giriş yapılmıyor. Lisans ekranına bir açık kaynak bileşenin istediği izin cümlesi eklendi; gizlilik politikasına KVKK/GDPR bölümü eklendi ve eski lisans satırı düzeltildi.",
-    "en": "EchoLink login now uses the app's own name. If the same callsign is already on EchoLink from another device, this device does not connect and shows a warning (EchoLink allows one login per callsign); looking up the directory no longer logs in separately. The license screen now includes the permission an open-source component requires; the privacy policy has a new KVKK/GDPR section and its outdated license line was fixed."
+    "tr": "BrandMeister'a artık BrandMeister'ın uygulamalar için ayırdığı terminal arayüzüyle (Open DMR Terminal Protocol) bağlanılıyor: uygulama kendini hotspot olarak tanıtmıyor, kendi adını ve sürümünü bildiriyor; çağrı işareti ve konum BrandMeister'a gönderilmiyor. Statik grupların trafiği eskisi gibi gelir ve aynı kurallarla susturulur; listede olmayan bir gruba geçerken artık kısa yayın yapılmıyor. Sunucu bu arayüze hiç yanıt vermezse eski hotspot girişine dönülür. Gizlilik politikası buna göre güncellendi.",
+    "en": "The app now connects to BrandMeister through BrandMeister's terminal interface for applications (Open DMR Terminal Protocol): it no longer presents itself as a hotspot, it reports its own name and version, and callsign and location are not sent to BrandMeister. Static talkgroup traffic arrives as before and is muted by the same rules; switching to a talkgroup outside the list no longer sends a short transmission. If the server never answers on this interface the app falls back to the old hotspot login. The privacy policy was updated accordingly."
   }
 }
