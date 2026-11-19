@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.1 (153) — 2026-11-20
+
+Özel çağrı (Papağan dahil) sürerken BrandMeister konuşma grubu abonelikleri geçici olarak bırakılır: o sırada grup çağrıları zaten susturuluyordu, ama meşgul bir grup cevabın gelmesini engelliyordu. Çağrı bitince abonelikler geri gelir. Sohbette bozuk bir sunucu (örneğin diski dolu ya da sürekli kapanan) artık 2 dakikada bir değil, yarım saatte bir denenir; sohbet diğer sunucularla sürer.
+
+*English:*
+
+While a private call (including Parrot) is active, BrandMeister talkgroup subscriptions are released: group calls were already muted during the call, but a busy talkgroup kept the reply from arriving. Subscriptions return when the call ends. In chat, a broken relay (for example one with a full disk or one that keeps dropping) is now retried every 30 minutes instead of every 2 minutes; chat continues on the other relays.
+
 ## 5.18.0 (152) — 2026-11-19
 
 BrandMeister'a artık BrandMeister'ın uygulamalar için ayırdığı terminal arayüzüyle (Open DMR Terminal Protocol) bağlanılıyor: uygulama kendini hotspot olarak tanıtmıyor, kendi adını ve sürümünü bildiriyor; çağrı işareti ve konum BrandMeister'a gönderilmiyor. Statik grupların trafiği eskisi gibi gelir ve aynı kurallarla susturulur; listede olmayan bir gruba geçerken artık kısa yayın yapılmıyor. Sunucu bu arayüze hiç yanıt vermezse eski hotspot girişine dönülür. Gizlilik politikası buna göre güncellendi.

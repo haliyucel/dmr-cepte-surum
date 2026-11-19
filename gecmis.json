@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 153,
+      "versionName": "5.18.1",
+      "tarih": "2026-11-20",
+      "notlar": {
+        "tr": "Özel çağrı (Papağan dahil) sürerken BrandMeister konuşma grubu abonelikleri geçici olarak bırakılır: o sırada grup çağrıları zaten susturuluyordu, ama meşgul bir grup cevabın gelmesini engelliyordu. Çağrı bitince abonelikler geri gelir. Sohbette bozuk bir sunucu (örneğin diski dolu ya da sürekli kapanan) artık 2 dakikada bir değil, yarım saatte bir denenir; sohbet diğer sunucularla sürer.",
+        "en": "While a private call (including Parrot) is active, BrandMeister talkgroup subscriptions are released: group calls were already muted during the call, but a busy talkgroup kept the reply from arriving. Subscriptions return when the call ends. In chat, a broken relay (for example one with a full disk or one that keeps dropping) is now retried every 30 minutes instead of every 2 minutes; chat continues on the other relays."
+      }
+    },
+    {
       "versionCode": 152,
       "versionName": "5.18.0",
       "tarih": "2026-11-19",
