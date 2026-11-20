@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.3 (155) — 2026-11-20
+
+EchoLink: bazı konferanslara bağlanırken gelen "Bye Bye" cevabı artık ret sayılmıyor; resmi istemcideki gibi yok sayılıyor ve bağlanırken 30 saniye bekleniyor. Konferans sessiz kalırsa bir kez başka bir aktarma sunucusu deneniyor. Aynı aktarma sunucusunu kullanan başka bir istasyon konferanstayken de bağlanılabiliyor.
+
+*English:*
+
+EchoLink: a "Bye Bye" reply from some conferences is no longer treated as a refusal; it is ignored as in the official client and the app waits 30 seconds while connecting. If the conference stays silent, another relay is tried once. Connecting now works even when another station using the same relay is already in the conference.
+
 ## 5.18.2 (154) — 2026-11-20
 
 Sohbet: diski dolan ve bağlantıyı sürekli kesen bir sunucu listeden çıkarıldı, yerine yazma ve okuma testlerini geçen bir sunucu eklendi. Gizlilik politikasındaki sunucu listesi buna göre güncellendi.

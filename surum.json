@@ -1,11 +1,11 @@
 {
-  "versionCode": 154,
-  "versionName": "5.18.2",
-  "apk": "DMRCepte-5.18.2.apk",
-  "sha256": "801bb9f37bcc3fe4d5d20f695e5915b5ddd00466648f42f7866dabd1a04210b9",
+  "versionCode": 155,
+  "versionName": "5.18.3",
+  "apk": "DMRCepte-5.18.3.apk",
+  "sha256": "b3285f3289b53a0c525f5b37e42f39b0fdac16ecb0790cc78fb36d808ff4dea9",
   "boyut": 2549970,
   "notlar": {
-    "tr": "Sohbet: diski dolan ve bağlantıyı sürekli kesen bir sunucu listeden çıkarıldı, yerine yazma ve okuma testlerini geçen bir sunucu eklendi. Gizlilik politikasındaki sunucu listesi buna göre güncellendi.",
-    "en": "Chat: a relay that had run out of disk space and kept dropping connections was removed and replaced with one that passed read and write tests. The relay list in the privacy policy was updated accordingly."
+    "tr": "EchoLink: bazı konferanslara bağlanırken gelen \"Bye Bye\" cevabı artık ret sayılmıyor; resmi istemcideki gibi yok sayılıyor ve bağlanırken 30 saniye bekleniyor. Konferans sessiz kalırsa bir kez başka bir aktarma sunucusu deneniyor. Aynı aktarma sunucusunu kullanan başka bir istasyon konferanstayken de bağlanılabiliyor.",
+    "en": "EchoLink: a \"Bye Bye\" reply from some conferences is no longer treated as a refusal; it is ignored as in the official client and the app waits 30 seconds while connecting. If the conference stays silent, another relay is tried once. Connecting now works even when another station using the same relay is already in the conference."
   }
 }

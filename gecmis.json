@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 155,
+      "versionName": "5.18.3",
+      "tarih": "2026-11-20",
+      "notlar": {
+        "tr": "EchoLink: bazı konferanslara bağlanırken gelen \"Bye Bye\" cevabı artık ret sayılmıyor; resmi istemcideki gibi yok sayılıyor ve bağlanırken 30 saniye bekleniyor. Konferans sessiz kalırsa bir kez başka bir aktarma sunucusu deneniyor. Aynı aktarma sunucusunu kullanan başka bir istasyon konferanstayken de bağlanılabiliyor.",
+        "en": "EchoLink: a \"Bye Bye\" reply from some conferences is no longer treated as a refusal; it is ignored as in the official client and the app waits 30 seconds while connecting. If the conference stays silent, another relay is tried once. Connecting now works even when another station using the same relay is already in the conference."
+      }
+    },
+    {
       "versionCode": 154,
       "versionName": "5.18.2",
       "tarih": "2026-11-20",
