@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 156,
+      "versionName": "5.18.4",
+      "tarih": "2026-11-20",
+      "notlar": {
+        "tr": "TGIF, ADN ve FreeDMR bağlantılarında uygulama artık kendini başka bir yazılım gibi değil, kendi adı ve sürümüyle tanıtıyor; frekans alanı 0 gönderiliyor (uygulamanın vericisi yok). Gizlilik politikası buna göre güncellendi.",
+        "en": "On TGIF, ADN and FreeDMR the app now identifies itself with its own name and version instead of another program's, and sends 0 in the frequency field (the app has no transmitter). The privacy policy was updated accordingly."
+      }
+    },
+    {
       "versionCode": 155,
       "versionName": "5.18.3",
       "tarih": "2026-11-20",

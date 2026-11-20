@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.4 (156) — 2026-11-20
+
+TGIF, ADN ve FreeDMR bağlantılarında uygulama artık kendini başka bir yazılım gibi değil, kendi adı ve sürümüyle tanıtıyor; frekans alanı 0 gönderiliyor (uygulamanın vericisi yok). Gizlilik politikası buna göre güncellendi.
+
+*English:*
+
+On TGIF, ADN and FreeDMR the app now identifies itself with its own name and version instead of another program's, and sends 0 in the frequency field (the app has no transmitter). The privacy policy was updated accordingly.
+
 ## 5.18.3 (155) — 2026-11-20
 
 EchoLink: bazı konferanslara bağlanırken gelen "Bye Bye" cevabı artık ret sayılmıyor; resmi istemcideki gibi yok sayılıyor ve bağlanırken 30 saniye bekleniyor. Konferans sessiz kalırsa bir kez başka bir aktarma sunucusu deneniyor. Aynı aktarma sunucusunu kullanan başka bir istasyon konferanstayken de bağlanılabiliyor.

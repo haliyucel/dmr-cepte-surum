@@ -1,11 +1,11 @@
 {
-  "versionCode": 155,
-  "versionName": "5.18.3",
-  "apk": "DMRCepte-5.18.3.apk",
-  "sha256": "b3285f3289b53a0c525f5b37e42f39b0fdac16ecb0790cc78fb36d808ff4dea9",
+  "versionCode": 156,
+  "versionName": "5.18.4",
+  "apk": "DMRCepte-5.18.4.apk",
+  "sha256": "3a7bd98161629802e638fdb76abca7a3c02a28c2a47d32d8de1e98eab4ae8e40",
   "boyut": 2549970,
   "notlar": {
-    "tr": "EchoLink: bazı konferanslara bağlanırken gelen \"Bye Bye\" cevabı artık ret sayılmıyor; resmi istemcideki gibi yok sayılıyor ve bağlanırken 30 saniye bekleniyor. Konferans sessiz kalırsa bir kez başka bir aktarma sunucusu deneniyor. Aynı aktarma sunucusunu kullanan başka bir istasyon konferanstayken de bağlanılabiliyor.",
-    "en": "EchoLink: a \"Bye Bye\" reply from some conferences is no longer treated as a refusal; it is ignored as in the official client and the app waits 30 seconds while connecting. If the conference stays silent, another relay is tried once. Connecting now works even when another station using the same relay is already in the conference."
+    "tr": "TGIF, ADN ve FreeDMR bağlantılarında uygulama artık kendini başka bir yazılım gibi değil, kendi adı ve sürümüyle tanıtıyor; frekans alanı 0 gönderiliyor (uygulamanın vericisi yok). Gizlilik politikası buna göre güncellendi.",
+    "en": "On TGIF, ADN and FreeDMR the app now identifies itself with its own name and version instead of another program's, and sends 0 in the frequency field (the app has no transmitter). The privacy policy was updated accordingly."
   }
 }
