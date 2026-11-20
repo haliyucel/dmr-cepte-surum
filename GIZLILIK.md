@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 20 Kasım 2026 (sürüm 5.18.2)
+**Son güncelleme:** 20 Kasım 2026 (sürüm 5.18.4)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -61,7 +61,7 @@ bilgiyi gönderir.
 | Sunucu | Gönderilen | Neden |
 |---|---|---|
 | BrandMeister master sunucusu | DMR ID ve parola doğrulaması (parolanın kendisi gönderilmez), uygulamanın adı ve sürümü, konuştuğunuzda **sesiniz**, gönderdiğiniz DMR SMS'leri. Bağlantı BrandMeister'ın terminal arayüzüyle (Open DMR Terminal Protocol) kurulur; çağrı işareti, konum ve yer adı gönderilmez. Sunucu bu arayüze hiç yanıt vermezse eski hotspot girişine dönülür; o durumda hotspot kimliği, çağrı işareti, konum (GPS konumu yaklaşık 1 km'ye yuvarlanır; elle girdiğiniz ya da "Ağlara tam konum gönder" açıkken tam) ve yer adı da gider | DMR bağlantısı. Hotspot girişindeki cihaz kaydı BrandMeister'da herkese açıktır |
-| ADN Systems, FreeDMR, TGIF sunucuları (açtıysanız) | Hotspot kimliği ve parola, çağrı işareti, DMR ID, konum (GPS konumu yaklaşık 1 km'ye yuvarlanır; elle girdiğiniz ya da "Ağlara tam konum gönder" açıkken tam), konuştuğunuzda **sesiniz** | DMR bağlantısı |
+| ADN Systems, FreeDMR, TGIF sunucuları (açtıysanız) | Hotspot kimliği ve parola, çağrı işareti, DMR ID, uygulamanın adı ve sürümü, konum (GPS konumu yaklaşık 1 km'ye yuvarlanır; elle girdiğiniz ya da "Ağlara tam konum gönder" açıkken tam), konuştuğunuzda **sesiniz** | DMR bağlantısı |
 | NXDN, YSF, D-STAR, P25 ve M17 reflektörleri (açtıysanız) | Çağrı işareti (NXDN'de NXDN ID), konuştuğunuzda **sesiniz** | Bağlantı |
 | EchoLink adresleme sunucuları, relay'ler ve node'lar | Çağrı işareti, EchoLink parolası, adınız ve EchoLink bilgi metniniz, konuştuğunuzda **sesiniz** | EchoLink bağlantısı |
 | APRS-IS sunucusu | Çağrı işareti, **konumunuz** (konum gönderimi açıksa), gönderdiğiniz APRS mesajları. SMS, e-posta ya da WhatsApp geçidine yazdığınız mesajda alıcının numarası/adresi de mesajla birlikte gider | APRS |
@@ -215,7 +215,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 20 November 2026 (version 5.18.2)
+**Last updated:** 20 November 2026 (version 5.18.4)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -258,7 +258,7 @@ the app (the developer and version entry at the bottom of the menu > Privacy pol
   location to networks" is on, is sent as is) and place name. The device record of a hotspot
   login is public on BrandMeister.
 - **ADN Systems, FreeDMR, TGIF** (if enabled): hotspot ID and password, callsign, DMR ID,
-  location (a GPS location is rounded to about 1 km; a typed or exact-location setting is sent
+  the app's name and version, location (a GPS location is rounded to about 1 km; a typed or exact-location setting is sent
   as is), your voice.
 - **NXDN, YSF, D-STAR, P25 and M17 reflectors** (if enabled): callsign (and NXDN ID), your voice.
 - **EchoLink** directory servers, relays and nodes: callsign, EchoLink password, your name
