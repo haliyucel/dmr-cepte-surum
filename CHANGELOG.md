@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.5 (157) — 2026-11-21
+
+Cihaz raporu: hata satırları bölümüne artık hata olmayan alım satırları ve rehber bilgileri girmiyor; kalan satırlardaki kişi kimlikleri gizleniyor.
+
+*English:*
+
+Device report: the error lines section no longer picks up reception lines that are not errors or contact lookups; personal IDs in the remaining lines are masked.
+
 ## 5.18.4 (156) — 2026-11-20
 
 TGIF, ADN ve FreeDMR bağlantılarında uygulama artık kendini başka bir yazılım gibi değil, kendi adı ve sürümüyle tanıtıyor; frekans alanı 0 gönderiliyor (uygulamanın vericisi yok). Gizlilik politikası buna göre güncellendi.
