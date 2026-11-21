@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 157,
+      "versionName": "5.18.5",
+      "tarih": "2026-11-21",
+      "notlar": {
+        "tr": "Cihaz raporu: hata satırları bölümüne artık hata olmayan alım satırları ve rehber bilgileri girmiyor; kalan satırlardaki kişi kimlikleri gizleniyor.",
+        "en": "Device report: the error lines section no longer picks up reception lines that are not errors or contact lookups; personal IDs in the remaining lines are masked."
+      }
+    },
+    {
       "versionCode": 156,
       "versionName": "5.18.4",
       "tarih": "2026-11-20",

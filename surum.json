@@ -1,11 +1,11 @@
 {
-  "versionCode": 156,
-  "versionName": "5.18.4",
-  "apk": "DMRCepte-5.18.4.apk",
-  "sha256": "3a7bd98161629802e638fdb76abca7a3c02a28c2a47d32d8de1e98eab4ae8e40",
+  "versionCode": 157,
+  "versionName": "5.18.5",
+  "apk": "DMRCepte-5.18.5.apk",
+  "sha256": "00f497ed87ba90b4d5854aadd24fd92833a174ae785fd26792a7e58d281b555c",
   "boyut": 2549970,
   "notlar": {
-    "tr": "TGIF, ADN ve FreeDMR bağlantılarında uygulama artık kendini başka bir yazılım gibi değil, kendi adı ve sürümüyle tanıtıyor; frekans alanı 0 gönderiliyor (uygulamanın vericisi yok). Gizlilik politikası buna göre güncellendi.",
-    "en": "On TGIF, ADN and FreeDMR the app now identifies itself with its own name and version instead of another program's, and sends 0 in the frequency field (the app has no transmitter). The privacy policy was updated accordingly."
+    "tr": "Cihaz raporu: hata satırları bölümüne artık hata olmayan alım satırları ve rehber bilgileri girmiyor; kalan satırlardaki kişi kimlikleri gizleniyor.",
+    "en": "Device report: the error lines section no longer picks up reception lines that are not errors or contact lookups; personal IDs in the remaining lines are masked."
   }
 }
