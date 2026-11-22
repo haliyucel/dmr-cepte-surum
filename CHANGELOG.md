@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.10 (162) — 2026-11-22
+
+EchoLink: EchoLink’i kapatınca ("Bağlantıyı kes", uygulamayı tamamen kapatma ya da node’u boşaltma) uygulama artık EchoLink dizininden de çıkış yapıyor; aynı çağrı işaretiyle başka bir cihaz beklemeden bağlanabiliyor. "Bağlantıyı kes" artık kalıcı: EchoLink yuvasına geçene, node seçene ya da ayarı kaydedene kadar kendiliğinden yeniden bağlanmıyor. Ağ: Wi-Fi bağlı görünüp trafik geçirmediğinde uygulama bunu Android’e bildiriyor; mobil veri varsa bağlantılar ona geçiyor, Wi-Fi düzelince geri dönüyor.
+
+*English:*
+
+EchoLink: when you turn EchoLink off ("Disconnect", fully closing the app or clearing the node), the app now also logs out of the EchoLink directory, so another device with the same callsign can connect right away. "Disconnect" now stays in effect: the app does not reconnect on its own until you switch to the EchoLink slot, choose a node or save the settings. Network: when Wi-Fi appears connected but carries no traffic, the app reports this to Android; if mobile data is available, connections move to it and return when Wi-Fi recovers.
+
 ## 5.18.8 (160) — 2026-11-22
 
 EchoLink: bağlanırken node dışında bir adresten gelen paket (örneğin EchoLink sunucusunun denetim paketi) artık node’un cevabı sayılmıyor; eskiden node aslında kabul etmeden "bağlandı" görünebiliyordu. Aynı çağrı işaretiyle başka bir cihazda (örneğin telefonda) açık EchoLink oturumu yeniden doğru tanınıyor; 5.18.7’deki düzeltme bu ayrımı zayıflatmıştı.

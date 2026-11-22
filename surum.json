@@ -1,11 +1,11 @@
 {
-  "versionCode": 160,
-  "versionName": "5.18.8",
-  "apk": "DMRCepte-5.18.8.apk",
-  "sha256": "71d7bf0460712c4c6b5f15ba1dc7e4263612aeb630ea5f69e0d75ccdfd8e3d4f",
-  "boyut": 2549970,
+  "versionCode": 162,
+  "versionName": "5.18.10",
+  "apk": "DMRCepte-5.18.10.apk",
+  "sha256": "e468131f4eeb7a81a2d12d500c5bf74716a497ed4a391e60a0ba1e8bc938a324",
+  "boyut": 2554066,
   "notlar": {
-    "tr": "EchoLink: bağlanırken node dışında bir adresten gelen paket (örneğin EchoLink sunucusunun denetim paketi) artık node’un cevabı sayılmıyor; eskiden node aslında kabul etmeden \"bağlandı\" görünebiliyordu. Aynı çağrı işaretiyle başka bir cihazda (örneğin telefonda) açık EchoLink oturumu yeniden doğru tanınıyor; 5.18.7’deki düzeltme bu ayrımı zayıflatmıştı.",
-    "en": "EchoLink: while connecting, a packet from an address other than the node (for example an EchoLink server check packet) is no longer taken as the node’s answer; previously the app could show \"connected\" although the node had not accepted. An EchoLink session open with the same callsign on another device (for example a phone) is recognized correctly again; the 5.18.7 fix had weakened this check."
+    "tr": "EchoLink: EchoLink’i kapatınca (\"Bağlantıyı kes\", uygulamayı tamamen kapatma ya da node’u boşaltma) uygulama artık EchoLink dizininden de çıkış yapıyor; aynı çağrı işaretiyle başka bir cihaz beklemeden bağlanabiliyor. \"Bağlantıyı kes\" artık kalıcı: EchoLink yuvasına geçene, node seçene ya da ayarı kaydedene kadar kendiliğinden yeniden bağlanmıyor. Ağ: Wi-Fi bağlı görünüp trafik geçirmediğinde uygulama bunu Android’e bildiriyor; mobil veri varsa bağlantılar ona geçiyor, Wi-Fi düzelince geri dönüyor.",
+    "en": "EchoLink: when you turn EchoLink off (\"Disconnect\", fully closing the app or clearing the node), the app now also logs out of the EchoLink directory, so another device with the same callsign can connect right away. \"Disconnect\" now stays in effect: the app does not reconnect on its own until you switch to the EchoLink slot, choose a node or save the settings. Network: when Wi-Fi appears connected but carries no traffic, the app reports this to Android; if mobile data is available, connections move to it and return when Wi-Fi recovers."
   }
 }
