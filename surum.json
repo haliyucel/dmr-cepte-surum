@@ -1,11 +1,11 @@
 {
-  "versionCode": 157,
-  "versionName": "5.18.5",
-  "apk": "DMRCepte-5.18.5.apk",
-  "sha256": "00f497ed87ba90b4d5854aadd24fd92833a174ae785fd26792a7e58d281b555c",
+  "versionCode": 159,
+  "versionName": "5.18.7",
+  "apk": "DMRCepte-5.18.7.apk",
+  "sha256": "e7cb3e4e0cf6a1091fc3e225a62e83fca419b45d64783fbd0354e21e6830ebcd",
   "boyut": 2549970,
   "notlar": {
-    "tr": "Cihaz raporu: hata satırları bölümüne artık hata olmayan alım satırları ve rehber bilgileri girmiyor; kalan satırlardaki kişi kimlikleri gizleniyor.",
-    "en": "Device report: the error lines section no longer picks up reception lines that are not errors or contact lookups; personal IDs in the remaining lines are masked."
+    "tr": "EchoLink: bağlanırken aktarma sunucusu değişince uygulama kendi önceki girişini başka bir cihaz sanıyor ve \"başka bir cihazda bağlı\" uyarısıyla bağlanmayı durduruyordu; düzeltildi. Bu yüzden otomatik deneme durduysa EchoLink yuvasına bir kez geçmeniz yeterli. Dizin girişinin 5 dakikalık yenilemesi başarısız olursa artık 45 saniye sonra yeniden deneniyor (resmi istemcideki gibi).",
+    "en": "EchoLink: when the relay changed while connecting, the app mistook its own earlier login for another device and stopped with a false \"logged in on another device\" warning; fixed. If automatic retries stopped because of this, switch to the EchoLink slot once. The 5-minute directory login refresh is now retried after 45 seconds when it fails, as in the official client."
   }
 }

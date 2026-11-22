@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.7 (159) — 2026-11-22
+
+EchoLink: bağlanırken aktarma sunucusu değişince uygulama kendi önceki girişini başka bir cihaz sanıyor ve "başka bir cihazda bağlı" uyarısıyla bağlanmayı durduruyordu; düzeltildi. Bu yüzden otomatik deneme durduysa EchoLink yuvasına bir kez geçmeniz yeterli. Dizin girişinin 5 dakikalık yenilemesi başarısız olursa artık 45 saniye sonra yeniden deneniyor (resmi istemcideki gibi).
+
+*English:*
+
+EchoLink: when the relay changed while connecting, the app mistook its own earlier login for another device and stopped with a false "logged in on another device" warning; fixed. If automatic retries stopped because of this, switch to the EchoLink slot once. The 5-minute directory login refresh is now retried after 45 seconds when it fails, as in the official client.
+
 ## 5.18.5 (157) — 2026-11-21
 
 Cihaz raporu: hata satırları bölümüne artık hata olmayan alım satırları ve rehber bilgileri girmiyor; kalan satırlardaki kişi kimlikleri gizleniyor.
