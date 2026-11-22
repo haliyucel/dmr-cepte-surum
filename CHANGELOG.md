@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.12 (164) — 2026-11-23
+
+EchoLink: ayarlara "Bağlantı yolu" eklendi: Otomatik, Relay, Doğrudan, Açık proxy ve Belirli proxy (adres, port, parola); web panelinde de var. Açık proxy’ler ortak kaynak olduğu için yalnız siz seçerseniz kullanılır. Bağlanamayınca sebep artık her durumda ekranda (internet yok, dizin girişi reddedildi, relay ya da proxy yanıt vermedi, node "Bye Bye" deyip sustu gibi); otomatik deneme durunca son sebep görünür. Bir relay bir node’a ulaşamazsa sonraki denemeler başka relay’lerle yapılıyor. Node "Bye Bye" dedikten sonra gelen kabul artık kaçırılmıyor. Cihaz kapanırken uygulama EchoLink dizininden çıkış yapıyor.
+
+*English:*
+
+EchoLink: a "Connection path" setting was added: Automatic, Relay, Direct, Public proxy and Specific proxy (address, port, password); it is also in the web panel. Public proxies are a shared resource and are used only if you choose them. When a connection fails, the reason is now always shown (no internet, directory login rejected, no relay or proxy answered, the node said "Bye Bye" and went silent, and so on); when automatic retries stop, the last reason stays on screen. If a relay cannot reach a node, later attempts use other relays. An acceptance that arrives after the node’s "Bye Bye" is no longer missed. When the device shuts down, the app logs out of the EchoLink directory.
+
 ## 5.18.10 (162) — 2026-11-22
 
 EchoLink: EchoLink’i kapatınca ("Bağlantıyı kes", uygulamayı tamamen kapatma ya da node’u boşaltma) uygulama artık EchoLink dizininden de çıkış yapıyor; aynı çağrı işaretiyle başka bir cihaz beklemeden bağlanabiliyor. "Bağlantıyı kes" artık kalıcı: EchoLink yuvasına geçene, node seçene ya da ayarı kaydedene kadar kendiliğinden yeniden bağlanmıyor. Ağ: Wi-Fi bağlı görünüp trafik geçirmediğinde uygulama bunu Android’e bildiriyor; mobil veri varsa bağlantılar ona geçiyor, Wi-Fi düzelince geri dönüyor.

@@ -1,11 +1,11 @@
 {
-  "versionCode": 162,
-  "versionName": "5.18.10",
-  "apk": "DMRCepte-5.18.10.apk",
-  "sha256": "e468131f4eeb7a81a2d12d500c5bf74716a497ed4a391e60a0ba1e8bc938a324",
-  "boyut": 2554066,
+  "versionCode": 164,
+  "versionName": "5.18.12",
+  "apk": "DMRCepte-5.18.12.apk",
+  "sha256": "53a62c674e2daea112d024c7c92f3a11bff7dfbd04ae33d3bb75ace5ca250cf2",
+  "boyut": 2586834,
   "notlar": {
-    "tr": "EchoLink: EchoLink’i kapatınca (\"Bağlantıyı kes\", uygulamayı tamamen kapatma ya da node’u boşaltma) uygulama artık EchoLink dizininden de çıkış yapıyor; aynı çağrı işaretiyle başka bir cihaz beklemeden bağlanabiliyor. \"Bağlantıyı kes\" artık kalıcı: EchoLink yuvasına geçene, node seçene ya da ayarı kaydedene kadar kendiliğinden yeniden bağlanmıyor. Ağ: Wi-Fi bağlı görünüp trafik geçirmediğinde uygulama bunu Android’e bildiriyor; mobil veri varsa bağlantılar ona geçiyor, Wi-Fi düzelince geri dönüyor.",
-    "en": "EchoLink: when you turn EchoLink off (\"Disconnect\", fully closing the app or clearing the node), the app now also logs out of the EchoLink directory, so another device with the same callsign can connect right away. \"Disconnect\" now stays in effect: the app does not reconnect on its own until you switch to the EchoLink slot, choose a node or save the settings. Network: when Wi-Fi appears connected but carries no traffic, the app reports this to Android; if mobile data is available, connections move to it and return when Wi-Fi recovers."
+    "tr": "EchoLink: ayarlara \"Bağlantı yolu\" eklendi: Otomatik, Relay, Doğrudan, Açık proxy ve Belirli proxy (adres, port, parola); web panelinde de var. Açık proxy’ler ortak kaynak olduğu için yalnız siz seçerseniz kullanılır. Bağlanamayınca sebep artık her durumda ekranda (internet yok, dizin girişi reddedildi, relay ya da proxy yanıt vermedi, node \"Bye Bye\" deyip sustu gibi); otomatik deneme durunca son sebep görünür. Bir relay bir node’a ulaşamazsa sonraki denemeler başka relay’lerle yapılıyor. Node \"Bye Bye\" dedikten sonra gelen kabul artık kaçırılmıyor. Cihaz kapanırken uygulama EchoLink dizininden çıkış yapıyor.",
+    "en": "EchoLink: a \"Connection path\" setting was added: Automatic, Relay, Direct, Public proxy and Specific proxy (address, port, password); it is also in the web panel. Public proxies are a shared resource and are used only if you choose them. When a connection fails, the reason is now always shown (no internet, directory login rejected, no relay or proxy answered, the node said \"Bye Bye\" and went silent, and so on); when automatic retries stop, the last reason stays on screen. If a relay cannot reach a node, later attempts use other relays. An acceptance that arrives after the node’s \"Bye Bye\" is no longer missed. When the device shuts down, the app logs out of the EchoLink directory."
   }
 }
