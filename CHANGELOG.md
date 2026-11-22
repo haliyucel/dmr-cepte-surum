@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.8 (160) — 2026-11-22
+
+EchoLink: bağlanırken node dışında bir adresten gelen paket (örneğin EchoLink sunucusunun denetim paketi) artık node’un cevabı sayılmıyor; eskiden node aslında kabul etmeden "bağlandı" görünebiliyordu. Aynı çağrı işaretiyle başka bir cihazda (örneğin telefonda) açık EchoLink oturumu yeniden doğru tanınıyor; 5.18.7’deki düzeltme bu ayrımı zayıflatmıştı.
+
+*English:*
+
+EchoLink: while connecting, a packet from an address other than the node (for example an EchoLink server check packet) is no longer taken as the node’s answer; previously the app could show "connected" although the node had not accepted. An EchoLink session open with the same callsign on another device (for example a phone) is recognized correctly again; the 5.18.7 fix had weakened this check.
+
 ## 5.18.7 (159) — 2026-11-22
 
 EchoLink: bağlanırken aktarma sunucusu değişince uygulama kendi önceki girişini başka bir cihaz sanıyor ve "başka bir cihazda bağlı" uyarısıyla bağlanmayı durduruyordu; düzeltildi. Bu yüzden otomatik deneme durduysa EchoLink yuvasına bir kez geçmeniz yeterli. Dizin girişinin 5 dakikalık yenilemesi başarısız olursa artık 45 saniye sonra yeniden deneniyor (resmi istemcideki gibi).

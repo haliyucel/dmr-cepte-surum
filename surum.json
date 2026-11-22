@@ -1,11 +1,11 @@
 {
-  "versionCode": 159,
-  "versionName": "5.18.7",
-  "apk": "DMRCepte-5.18.7.apk",
-  "sha256": "e7cb3e4e0cf6a1091fc3e225a62e83fca419b45d64783fbd0354e21e6830ebcd",
+  "versionCode": 160,
+  "versionName": "5.18.8",
+  "apk": "DMRCepte-5.18.8.apk",
+  "sha256": "71d7bf0460712c4c6b5f15ba1dc7e4263612aeb630ea5f69e0d75ccdfd8e3d4f",
   "boyut": 2549970,
   "notlar": {
-    "tr": "EchoLink: bağlanırken aktarma sunucusu değişince uygulama kendi önceki girişini başka bir cihaz sanıyor ve \"başka bir cihazda bağlı\" uyarısıyla bağlanmayı durduruyordu; düzeltildi. Bu yüzden otomatik deneme durduysa EchoLink yuvasına bir kez geçmeniz yeterli. Dizin girişinin 5 dakikalık yenilemesi başarısız olursa artık 45 saniye sonra yeniden deneniyor (resmi istemcideki gibi).",
-    "en": "EchoLink: when the relay changed while connecting, the app mistook its own earlier login for another device and stopped with a false \"logged in on another device\" warning; fixed. If automatic retries stopped because of this, switch to the EchoLink slot once. The 5-minute directory login refresh is now retried after 45 seconds when it fails, as in the official client."
+    "tr": "EchoLink: bağlanırken node dışında bir adresten gelen paket (örneğin EchoLink sunucusunun denetim paketi) artık node’un cevabı sayılmıyor; eskiden node aslında kabul etmeden \"bağlandı\" görünebiliyordu. Aynı çağrı işaretiyle başka bir cihazda (örneğin telefonda) açık EchoLink oturumu yeniden doğru tanınıyor; 5.18.7’deki düzeltme bu ayrımı zayıflatmıştı.",
+    "en": "EchoLink: while connecting, a packet from an address other than the node (for example an EchoLink server check packet) is no longer taken as the node’s answer; previously the app could show \"connected\" although the node had not accepted. An EchoLink session open with the same callsign on another device (for example a phone) is recognized correctly again; the 5.18.7 fix had weakened this check."
   }
 }
