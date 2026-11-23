@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.13 (165) — 2026-11-23
+
+EchoLink: Node "Bye Bye" (yetkisiz) diyerek reddederse deneme 30 sn yerine 8 sn’de bitiyor. İki farklı yoldan (relay ya da proxy) reddederse "Node bu çağrı işaretini kabul etmiyor" yazılıyor ve otomatik deneme hemen duruyor; EchoLink yuvasına yeniden geçince bir kez daha denenir. Açık proxy yolunda proxy otomatik seçiliyse ret gelince bir kez başka proxy deneniyor. Otomatik yolda hiçbir relay yanıt vermezse bir kez açık proxy deneniyor; gizlilik politikası buna göre güncellendi. Proxy yolundaki yanlış ipuçları düzeltildi; meşgul bir proxy’nin hatası artık asıl sebebin yerine gösterilmiyor.
+
+*English:*
+
+EchoLink: if a node refuses with "Bye Bye" (unauthorized), the attempt now ends after 8 s instead of 30 s. If it refuses on two different paths (relay or proxy), the app shows "The node does not accept this callsign" and automatic retries stop at once; switching to the EchoLink slot again retries once. On the public proxy path with automatic proxy selection, a refusal makes the app try one other proxy. On the Automatic path, if no relay answers, a public proxy is tried once; the privacy policy was updated accordingly. Wrong hints on the proxy path were fixed, and a busy proxy’s error no longer replaces the real reason.
+
 ## 5.18.12 (164) — 2026-11-23
 
 EchoLink: ayarlara "Bağlantı yolu" eklendi: Otomatik, Relay, Doğrudan, Açık proxy ve Belirli proxy (adres, port, parola); web panelinde de var. Açık proxy’ler ortak kaynak olduğu için yalnız siz seçerseniz kullanılır. Bağlanamayınca sebep artık her durumda ekranda (internet yok, dizin girişi reddedildi, relay ya da proxy yanıt vermedi, node "Bye Bye" deyip sustu gibi); otomatik deneme durunca son sebep görünür. Bir relay bir node’a ulaşamazsa sonraki denemeler başka relay’lerle yapılıyor. Node "Bye Bye" dedikten sonra gelen kabul artık kaçırılmıyor. Cihaz kapanırken uygulama EchoLink dizininden çıkış yapıyor.

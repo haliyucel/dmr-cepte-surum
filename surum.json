@@ -1,11 +1,11 @@
 {
-  "versionCode": 164,
-  "versionName": "5.18.12",
-  "apk": "DMRCepte-5.18.12.apk",
-  "sha256": "53a62c674e2daea112d024c7c92f3a11bff7dfbd04ae33d3bb75ace5ca250cf2",
-  "boyut": 2586834,
+  "versionCode": 165,
+  "versionName": "5.18.13",
+  "apk": "DMRCepte-5.18.13.apk",
+  "sha256": "e091d0d3be1c62d4eeb029dd7550ce6133868baef6c198b721eb6f6b90006a12",
+  "boyut": 2590930,
   "notlar": {
-    "tr": "EchoLink: ayarlara \"Bağlantı yolu\" eklendi: Otomatik, Relay, Doğrudan, Açık proxy ve Belirli proxy (adres, port, parola); web panelinde de var. Açık proxy’ler ortak kaynak olduğu için yalnız siz seçerseniz kullanılır. Bağlanamayınca sebep artık her durumda ekranda (internet yok, dizin girişi reddedildi, relay ya da proxy yanıt vermedi, node \"Bye Bye\" deyip sustu gibi); otomatik deneme durunca son sebep görünür. Bir relay bir node’a ulaşamazsa sonraki denemeler başka relay’lerle yapılıyor. Node \"Bye Bye\" dedikten sonra gelen kabul artık kaçırılmıyor. Cihaz kapanırken uygulama EchoLink dizininden çıkış yapıyor.",
-    "en": "EchoLink: a \"Connection path\" setting was added: Automatic, Relay, Direct, Public proxy and Specific proxy (address, port, password); it is also in the web panel. Public proxies are a shared resource and are used only if you choose them. When a connection fails, the reason is now always shown (no internet, directory login rejected, no relay or proxy answered, the node said \"Bye Bye\" and went silent, and so on); when automatic retries stop, the last reason stays on screen. If a relay cannot reach a node, later attempts use other relays. An acceptance that arrives after the node’s \"Bye Bye\" is no longer missed. When the device shuts down, the app logs out of the EchoLink directory."
+    "tr": "EchoLink: Node \"Bye Bye\" (yetkisiz) diyerek reddederse deneme 30 sn yerine 8 sn’de bitiyor. İki farklı yoldan (relay ya da proxy) reddederse \"Node bu çağrı işaretini kabul etmiyor\" yazılıyor ve otomatik deneme hemen duruyor; EchoLink yuvasına yeniden geçince bir kez daha denenir. Açık proxy yolunda proxy otomatik seçiliyse ret gelince bir kez başka proxy deneniyor. Otomatik yolda hiçbir relay yanıt vermezse bir kez açık proxy deneniyor; gizlilik politikası buna göre güncellendi. Proxy yolundaki yanlış ipuçları düzeltildi; meşgul bir proxy’nin hatası artık asıl sebebin yerine gösterilmiyor.",
+    "en": "EchoLink: if a node refuses with \"Bye Bye\" (unauthorized), the attempt now ends after 8 s instead of 30 s. If it refuses on two different paths (relay or proxy), the app shows \"The node does not accept this callsign\" and automatic retries stop at once; switching to the EchoLink slot again retries once. On the public proxy path with automatic proxy selection, a refusal makes the app try one other proxy. On the Automatic path, if no relay answers, a public proxy is tried once; the privacy policy was updated accordingly. Wrong hints on the proxy path were fixed, and a busy proxy’s error no longer replaces the real reason."
   }
 }
