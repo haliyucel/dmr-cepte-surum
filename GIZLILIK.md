@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 23 Kasım 2026 (sürüm 5.18.12)
+**Son güncelleme:** 23 Kasım 2026 (sürüm 5.18.13)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -64,8 +64,8 @@ bilgiyi gönderir.
 | ADN Systems, FreeDMR, TGIF sunucuları (açtıysanız) | Hotspot kimliği ve parola, çağrı işareti, DMR ID, uygulamanın adı ve sürümü, konum (GPS konumu yaklaşık 1 km'ye yuvarlanır; elle girdiğiniz ya da "Ağlara tam konum gönder" açıkken tam), konuştuğunuzda **sesiniz** | DMR bağlantısı |
 | NXDN, YSF, D-STAR, P25 ve M17 reflektörleri (açtıysanız) | Çağrı işareti (NXDN'de NXDN ID), konuştuğunuzda **sesiniz** | Bağlantı |
 | EchoLink adresleme sunucuları, relay'ler ve node'lar | Çağrı işareti, EchoLink parolası, adınız ve EchoLink bilgi metniniz, konuştuğunuzda **sesiniz** | EchoLink bağlantısı |
-| EchoLink proxy (yalnız EchoLink ayarında "Açık proxy" ya da "Belirli proxy" yolunu seçtiyseniz) | Çağrı işareti ve proxy parolası doğrulaması (parolanın kendisi gönderilmez). EchoLink trafiğinizin tamamı proxy'den geçer: dizin girişi (çağrı işareti, adınız, bilgi metniniz, EchoLink parolası doğrulaması) ve konuştuğunuzda **sesiniz**. Açık proxy'leri gönüllüler işletir | EchoLink bağlantısı (relay'in çalışmadığı ağlarda) |
-| echolink.org açık proxy listesi (`proxyFind.jsp`; yalnız açık proxy yolu seçiliyken) | Kimlik ve konum gönderilmez; sunucu listeyi isteğin IP adresine göre yakından uzağa sıralar | Yakındaki açık proxy'leri bulmak |
+| EchoLink proxy (EchoLink ayarında "Açık proxy" ya da "Belirli proxy" yolunu seçtiyseniz; "Otomatik" yolda yalnız hiçbir relay yanıt vermezse, bir kez açık proxy) | Çağrı işareti ve proxy parolası doğrulaması (parolanın kendisi gönderilmez). EchoLink trafiğinizin tamamı proxy'den geçer: dizin girişi (çağrı işareti, adınız, bilgi metniniz, EchoLink parolası doğrulaması) ve konuştuğunuzda **sesiniz**. Açık proxy'leri gönüllüler işletir | EchoLink bağlantısı (relay'in çalışmadığı ağlarda) |
+| echolink.org açık proxy listesi (`proxyFind.jsp`; yalnız açık proxy yolu seçiliyken ya da Otomatik yol açık proxy'ye geçtiğinde) | Kimlik ve konum gönderilmez; sunucu listeyi isteğin IP adresine göre yakından uzağa sıralar | Yakındaki açık proxy'leri bulmak |
 | APRS-IS sunucusu | Çağrı işareti, **konumunuz** (konum gönderimi açıksa), gönderdiğiniz APRS mesajları. SMS, e-posta ya da WhatsApp geçidine yazdığınız mesajda alıcının numarası/adresi de mesajla birlikte gider | APRS |
 | BrandMeister Hoseline (`hose.brandmeister.network`) | Dinlediğiniz TG numarası; kimlik gönderilmez, ağa yayın yapılmaz | Hat meşgulken seçili TG'nin sesini BrandMeister'ın web dinleme akışından çalmak |
 
@@ -217,7 +217,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 23 November 2026 (version 5.18.12)
+**Last updated:** 23 November 2026 (version 5.18.13)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -266,12 +266,12 @@ the app (the developer and version entry at the bottom of the menu > Privacy pol
 - **NXDN, YSF, D-STAR, P25 and M17 reflectors** (if enabled): callsign (and NXDN ID), your voice.
 - **EchoLink** directory servers, relays and nodes: callsign, EchoLink password, your name
   and EchoLink info text, your voice.
-- **EchoLink proxy** (only if you choose the "Public proxy" or "Specific proxy" path in the
-  EchoLink settings): callsign and a proxy password check (the password itself is not sent).
+- **EchoLink proxy** (if you choose the "Public proxy" or "Specific proxy" path in the
+  EchoLink settings, or once on the "Automatic" path when no relay answers): callsign and a proxy password check (the password itself is not sent).
   All your EchoLink traffic passes through the proxy: the directory login (callsign, your name,
   info text, EchoLink password check) and your voice. Public proxies are run by volunteers.
 - **echolink.org public proxy list** (`proxyFind.jsp`, only while the public proxy path is
-  selected): no identity or location is sent; the server sorts the list by the requester's IP
+  selected, or when the Automatic path falls back to a public proxy): no identity or location is sent; the server sorts the list by the requester's IP
   address, nearest first.
 - **APRS-IS:** callsign, **your location** if position sending is on, and the APRS
   messages you send. For SMS, e-mail or WhatsApp gateway messages the recipient's number
