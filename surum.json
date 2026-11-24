@@ -1,11 +1,11 @@
 {
-  "versionCode": 166,
-  "versionName": "5.18.14",
-  "apk": "DMRCepte-5.18.14.apk",
-  "sha256": "c1bce94cc20ff573a294be629af93a901ff33f28c687b8b7b4103339b215cc06",
+  "versionCode": 167,
+  "versionName": "5.18.15",
+  "apk": "DMRCepte-5.18.15.apk",
+  "sha256": "d08c9a78ce72c8b910fe9446b4a9769939aecef395589c99ce29e79a24a303c1",
   "boyut": 2590930,
   "notlar": {
-    "tr": "BrandMeister terminal bağlantısında TG listesi artık cihazda tutuluyor: BrandMeister ekranından ya da web panelinden TG ekleyip silebilirsiniz; abonelik hemen güncellenir, BM hesabında değişiklik ya da API anahtarı gerekmez. Liste doluyken BM'den otomatik çekilmiyor; BM'de hotspot kaydı yoksa ekran artık hata göstermiyor. Web yedeği geri yüklenince TG listesi de geri geliyor.",
-    "en": "On the BrandMeister terminal connection the TG list is now kept on the device: add or remove TGs from the BrandMeister screen or the web panel; the subscription updates at once, with no BM account change or API key needed. While the list is not empty it is no longer fetched from BM automatically, and the screen no longer shows an error when there is no hotspot record on BM. Restoring a web backup also brings back the TG list."
+    "tr": "BrandMeister'ın statik TG ve bağlantı işlemleri ekranı artık ana menüdeki BrandMeister ekranının en altındaki \"Statik TG'ler ve BM işlemleri\" düğmesiyle açılıyor. Telsiz Ayarları'ndaki BrandMeister ve ADN Systems düğmeleri kaldırıldı; ADN Systems ana menüde.",
+    "en": "The BrandMeister static TG and connection actions screen now opens from the \"Static TGs and BM actions\" button at the bottom of the BrandMeister screen in the main menu. The BrandMeister and ADN Systems buttons were removed from Radio Settings; ADN Systems stays in the main menu."
   }
 }

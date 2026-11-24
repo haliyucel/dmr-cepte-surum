@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.15 (167) — 2026-11-24
+
+BrandMeister'ın statik TG ve bağlantı işlemleri ekranı artık ana menüdeki BrandMeister ekranının en altındaki "Statik TG'ler ve BM işlemleri" düğmesiyle açılıyor. Telsiz Ayarları'ndaki BrandMeister ve ADN Systems düğmeleri kaldırıldı; ADN Systems ana menüde.
+
+*English:*
+
+The BrandMeister static TG and connection actions screen now opens from the "Static TGs and BM actions" button at the bottom of the BrandMeister screen in the main menu. The BrandMeister and ADN Systems buttons were removed from Radio Settings; ADN Systems stays in the main menu.
+
 ## 5.18.14 (166) — 2026-11-24
 
 BrandMeister terminal bağlantısında TG listesi artık cihazda tutuluyor: BrandMeister ekranından ya da web panelinden TG ekleyip silebilirsiniz; abonelik hemen güncellenir, BM hesabında değişiklik ya da API anahtarı gerekmez. Liste doluyken BM'den otomatik çekilmiyor; BM'de hotspot kaydı yoksa ekran artık hata göstermiyor. Web yedeği geri yüklenince TG listesi de geri geliyor.

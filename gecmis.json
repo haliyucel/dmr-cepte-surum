@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 167,
+      "versionName": "5.18.15",
+      "tarih": "2026-11-24",
+      "notlar": {
+        "tr": "BrandMeister'ın statik TG ve bağlantı işlemleri ekranı artık ana menüdeki BrandMeister ekranının en altındaki \"Statik TG'ler ve BM işlemleri\" düğmesiyle açılıyor. Telsiz Ayarları'ndaki BrandMeister ve ADN Systems düğmeleri kaldırıldı; ADN Systems ana menüde.",
+        "en": "The BrandMeister static TG and connection actions screen now opens from the \"Static TGs and BM actions\" button at the bottom of the BrandMeister screen in the main menu. The BrandMeister and ADN Systems buttons were removed from Radio Settings; ADN Systems stays in the main menu."
+      }
+    },
+    {
       "versionCode": 166,
       "versionName": "5.18.14",
       "tarih": "2026-11-24",
