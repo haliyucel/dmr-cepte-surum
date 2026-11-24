@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.14 (166) — 2026-11-24
+
+BrandMeister terminal bağlantısında TG listesi artık cihazda tutuluyor: BrandMeister ekranından ya da web panelinden TG ekleyip silebilirsiniz; abonelik hemen güncellenir, BM hesabında değişiklik ya da API anahtarı gerekmez. Liste doluyken BM'den otomatik çekilmiyor; BM'de hotspot kaydı yoksa ekran artık hata göstermiyor. Web yedeği geri yüklenince TG listesi de geri geliyor.
+
+*English:*
+
+On the BrandMeister terminal connection the TG list is now kept on the device: add or remove TGs from the BrandMeister screen or the web panel; the subscription updates at once, with no BM account change or API key needed. While the list is not empty it is no longer fetched from BM automatically, and the screen no longer shows an error when there is no hotspot record on BM. Restoring a web backup also brings back the TG list.
+
 ## 5.18.13 (165) — 2026-11-23
 
 EchoLink: Node "Bye Bye" (yetkisiz) diyerek reddederse deneme 30 sn yerine 8 sn’de bitiyor. İki farklı yoldan (relay ya da proxy) reddederse "Node bu çağrı işaretini kabul etmiyor" yazılıyor ve otomatik deneme hemen duruyor; EchoLink yuvasına yeniden geçince bir kez daha denenir. Açık proxy yolunda proxy otomatik seçiliyse ret gelince bir kez başka proxy deneniyor. Otomatik yolda hiçbir relay yanıt vermezse bir kez açık proxy deneniyor; gizlilik politikası buna göre güncellendi. Proxy yolundaki yanlış ipuçları düzeltildi; meşgul bir proxy’nin hatası artık asıl sebebin yerine gösterilmiyor.
