@@ -1,11 +1,11 @@
 {
-  "versionCode": 167,
-  "versionName": "5.18.15",
-  "apk": "DMRCepte-5.18.15.apk",
-  "sha256": "d08c9a78ce72c8b910fe9446b4a9769939aecef395589c99ce29e79a24a303c1",
+  "versionCode": 168,
+  "versionName": "5.18.16",
+  "apk": "DMRCepte-5.18.16.apk",
+  "sha256": "2ae443de37fe20df5ca8e8d8dea27e86e32032247451f9aea176c2d68bb9a045",
   "boyut": 2590930,
   "notlar": {
-    "tr": "BrandMeister'ın statik TG ve bağlantı işlemleri ekranı artık ana menüdeki BrandMeister ekranının en altındaki \"Statik TG'ler ve BM işlemleri\" düğmesiyle açılıyor. Telsiz Ayarları'ndaki BrandMeister ve ADN Systems düğmeleri kaldırıldı; ADN Systems ana menüde.",
-    "en": "The BrandMeister static TG and connection actions screen now opens from the \"Static TGs and BM actions\" button at the bottom of the BrandMeister screen in the main menu. The BrandMeister and ADN Systems buttons were removed from Radio Settings; ADN Systems stays in the main menu."
+    "tr": "Mesajlar: bir kişiden gelen DMR SMS'te gönderenin çağrı işareti ve adı görünüyor (rehberden; henüz bilinmiyorsa önce numara). Büyük harfle başlayan bir mesajın ilk sözcüğü artık gönderen sanılmıyor. DMR SMS'te \"Yanıtla\" DMR SMS ekranını açıyor; web panelinde de aynı.",
+    "en": "Messages: for a DMR SMS from a person, the sender's callsign and name are shown (from the contact list; the number first if not yet known). The first word of a message that starts in capitals is no longer taken as the sender. \"Reply\" on a DMR SMS opens the DMR SMS screen; the same on the web panel."
   }
 }

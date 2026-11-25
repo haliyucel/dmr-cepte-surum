@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.16 (168) — 2026-11-25
+
+Mesajlar: bir kişiden gelen DMR SMS'te gönderenin çağrı işareti ve adı görünüyor (rehberden; henüz bilinmiyorsa önce numara). Büyük harfle başlayan bir mesajın ilk sözcüğü artık gönderen sanılmıyor. DMR SMS'te "Yanıtla" DMR SMS ekranını açıyor; web panelinde de aynı.
+
+*English:*
+
+Messages: for a DMR SMS from a person, the sender's callsign and name are shown (from the contact list; the number first if not yet known). The first word of a message that starts in capitals is no longer taken as the sender. "Reply" on a DMR SMS opens the DMR SMS screen; the same on the web panel.
+
 ## 5.18.15 (167) — 2026-11-24
 
 BrandMeister'ın statik TG ve bağlantı işlemleri ekranı artık ana menüdeki BrandMeister ekranının en altındaki "Statik TG'ler ve BM işlemleri" düğmesiyle açılıyor. Telsiz Ayarları'ndaki BrandMeister ve ADN Systems düğmeleri kaldırıldı; ADN Systems ana menüde.
