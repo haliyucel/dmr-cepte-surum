@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 170,
+      "versionName": "5.18.18",
+      "tarih": "2026-11-26",
+      "notlar": {
+        "tr": "Canlı altyazı (isteğe bağlı, Android 13 ve üstü telefonlar): Konuşma ekranında duyulan konuşma yazıya dökülüp uygulama diline çevrilir. Telsiz Ayarları'ndan açılır; konuşma dili, renk, yazı boyutu ve dil paketi de oradan seçilir. Tanıma telefonun içinde yapılır, ses telefondan çıkmaz. Ulusal TG'ler o ülkenin dilinde, TG 91 gibi uluslararası TG'ler İngilizce tanınır; fonetik alfabeyle söylenen çağrı işaretleri harfe çevrilir, Türkçe çeviride 73 ve QSL gibi kısaltmaların anlamı parantezde yazılır. Çeviri için ayrı \"DMR Cepte Çeviri\" eklentisi gerekir (64 bit telefonlar): https://github.com/haliyucel/dmr-cepte-surum/raw/main/eklenti/DMRCepte-Ceviri.apk . Güncellemeler ekranındaki \"Yeni sürüm var\" yazısı artık kurulu sürüm daha yeniyse görünmüyor. Gizlilik politikası güncellendi (bölüm 2.5).",
+        "en": "Live subtitles (optional, phones with Android 13 or later): speech heard on the Talk screen is shown as text and translated into the app language. Turn it on in Radio Settings, where the speech language, colours, text size and language packs are also chosen. Recognition runs on the phone; audio does not leave it. National talkgroups are recognised in their country's language, international ones such as TG 91 in English; callsigns spoken in the phonetic alphabet become letters, and in Turkish translations the meaning of abbreviations such as 73 and QSL is shown in brackets. Translation needs the separate \"DMR Cepte Translate\" add-on (64-bit phones): https://github.com/haliyucel/dmr-cepte-surum/raw/main/eklenti/DMRCepte-Ceviri.apk . The \"New version available\" label on the Updates screen no longer shows when the installed version is newer. Privacy policy updated (section 2.5)."
+      }
+    },
+    {
       "versionCode": 168,
       "versionName": "5.18.16",
       "tarih": "2026-11-25",
