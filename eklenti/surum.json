@@ -1,0 +1,16 @@
+{
+  "paket": "com.dmrcepte.ceviri",
+  "versionCode": 1,
+  "versionName": "1.0",
+  "apk": "DMRCepte-Ceviri.apk",
+  "sha256": "6934c5a0f3014a3ec0a2c660d617ffc2826fed6c7bde3d594f4e03351fce823f",
+  "boyut": 7864461,
+  "gerekli": {
+    "tr": "64 bit telefon; canli altyazi icin DMR Cepte 5.18.18 ve Android 13+",
+    "en": "64-bit phone; live subtitles need DMR Cepte 5.18.18 and Android 13+"
+  },
+  "aciklama": {
+    "tr": "DMR Cepte canli altyazisinin cevirisi (cihaz icinde). Ayrica acmak gerekmez.",
+    "en": "Translation for DMR Cepte live subtitles (on the device). No need to open it."
+  }
+}

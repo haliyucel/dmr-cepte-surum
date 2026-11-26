@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 23 Kasım 2026 (sürüm 5.18.13)
+**Son güncelleme:** 26 Kasım 2026 (sürüm 5.18.18)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -137,6 +137,28 @@ olarak gider. Web3Forms geliştiriciye ait değildir.
   paket adı, kopyanın imza özeti, uygulamayı kuran uygulama, cihaz modeli ve Android
   sürümü.
 
+### 2.5 Canlı altyazı ve çeviri eklentisi (isteğe bağlı, 5.18.18)
+
+Canlı altyazı varsayılan olarak kapalıdır. Yalnız Android 13 ve üstü telefonlarda
+Telsiz Ayarları'ndan açılır.
+
+- **Konuşma tanıma telefonunuzda yapılır.** Hoparlörden çalan telsiz sesi, telefonun
+  kendi cihaz içi konuşma tanıma hizmetine (Android'in sistem hizmeti) verilir. Ses ve
+  yazı telefondan çıkmaz, uygulama hiçbir sunucuya göndermez. Mikrofon kullanılmaz.
+- **Dil paketleri:** "Konuşma dili paketi indir" ile bir dil istediğinizde paketi
+  telefonun sistem hizmeti kendi sunucusundan (Google) indirir.
+- **Çeviri ayrı bir uygulamada yapılır.** "DMR Cepte Çeviri" eklentisini kurarsanız,
+  yazıya dökülen metin telefonun içinde bu eklentiye verilir ve Google ML Kit ile cihazda
+  çevrilir. Metin internete gönderilmez.
+- **Eklentinin Google'a bağlantıları:** eklenti, çeviri dil modellerini ilk kullanımda
+  Google sunucularından indirir. ML Kit ayrıca Google'ın Firebase hizmetine bir uygulama
+  kurulum kimliği bildirir ve uzaktan ayar sorar. Bu bağlantılarda konuşma metni, çağrı
+  işareti ya da konum gitmez; Google cihazın dili ve yazılım sürümü gibi teknik
+  bilgileri görebilir.
+- Eklenti kurulu değilse bu bağlantılar olmaz, altyazı çevrilmeden gösterilir.
+  Altyazıyı kapatınca tanıma da durur. Altyazı metni kaydedilmez; uygulama çalıştığı
+  sürece yalnız son birkaç konuşma bellekte tutulur.
+
 ---
 
 ## 3. Telsiz içi web paneli
@@ -217,7 +239,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 23 November 2026 (version 5.18.13)
+**Last updated:** 26 November 2026 (version 5.18.18)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -342,6 +364,29 @@ belong to the developer.
   modified and repackaged), you are warned once. With your consent it sends: callsign,
   version, package name, the copy's signature hash, the installing app, device model and
   Android version.
+
+## Live subtitles and the translation add-on (optional, 5.18.18)
+
+Live subtitles are off by default and can only be turned on in Radio Settings on phones
+with Android 13 or later.
+
+- **Speech recognition runs on your phone.** The radio audio playing from the speaker is
+  passed to the phone's own on-device speech recognition service (an Android system
+  service). Audio and text stay on the phone; the app sends them to no server. The
+  microphone is not used.
+- **Language packs:** when you request a language with "Download a speech language pack",
+  the phone's system service downloads it from its own servers (Google).
+- **Translation runs in a separate app.** If you install the "DMR Cepte Translate" add-on,
+  the recognised text is handed to it inside the phone and translated on the device with
+  Google ML Kit. The text is not sent over the internet.
+- **The add-on's connections to Google:** on first use the add-on downloads translation
+  language models from Google servers. ML Kit also registers an app installation ID with
+  Google's Firebase service and asks for remote configuration. No speech text, callsign or
+  location is sent in these connections; Google may see technical details such as the
+  device language and software version.
+- Without the add-on these connections do not happen and subtitles are shown untranslated.
+  Turning subtitles off stops recognition. Subtitle text is not saved; only the last few
+  transmissions are kept in memory while the app runs.
 
 ## On-radio web panel
 
