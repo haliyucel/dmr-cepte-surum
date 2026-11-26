@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 171,
+      "versionName": "5.18.19",
+      "tarih": "2026-11-27",
+      "notlar": {
+        "tr": "Telsiz Ayarları'nda \"Çeviri eklentisini kur\" düğmesi: canlı altyazı çevirisi için gereken eklenti artık uygulamanın içinden indirilip kurulur (64 bit telefonlar). Dosyanın özeti ve imzası denetlenir, kurulumu Android onaylatır. Eklenti kuruluysa aynı düğme güncellemeyi denetler. Ekranı daha büyük ama yoğunluğu düşük bazı tuşlu telsizlerde arayüz artık küçük telsiz ekranlarındaki boyutta, okunaklı görünüyor. Android 7'den eski cihazlarda sığmayan pencere düğmeleri alt alta diziliyor. Gizlilik politikası güncellendi.",
+        "en": "Radio Settings has an \"Install the translation add-on\" button: the add-on needed for translated live subtitles is now downloaded and installed from within the app (64-bit phones). Its hash and signature are checked and Android asks for approval. If the add-on is installed, the same button checks for updates. On some keypad radios with a larger but low-density screen, the interface now appears at the same readable size as on small radio screens. On devices older than Android 7, dialog buttons that do not fit are stacked. Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 170,
       "versionName": "5.18.18",
       "tarih": "2026-11-26",

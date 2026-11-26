@@ -1,11 +1,11 @@
 {
-  "versionCode": 170,
-  "versionName": "5.18.18",
-  "apk": "DMRCepte-5.18.18.apk",
-  "sha256": "6705e3854992690db698912f29108d7bb45cc5e69ccab8a868b2aab9aa90b002",
-  "boyut": 2631890,
+  "versionCode": 171,
+  "versionName": "5.18.19",
+  "apk": "DMRCepte-5.18.19.apk",
+  "sha256": "a2392750ec4627249f3f9e74f0d00d9a6c67f664213e7604194b089cd022808a",
+  "boyut": 2640082,
   "notlar": {
-    "tr": "Canlı altyazı (isteğe bağlı, Android 13 ve üstü telefonlar): Konuşma ekranında duyulan konuşma yazıya dökülüp uygulama diline çevrilir. Telsiz Ayarları'ndan açılır; konuşma dili, renk, yazı boyutu ve dil paketi de oradan seçilir. Tanıma telefonun içinde yapılır, ses telefondan çıkmaz. Ulusal TG'ler o ülkenin dilinde, TG 91 gibi uluslararası TG'ler İngilizce tanınır; fonetik alfabeyle söylenen çağrı işaretleri harfe çevrilir, Türkçe çeviride 73 ve QSL gibi kısaltmaların anlamı parantezde yazılır. Çeviri için ayrı \"DMR Cepte Çeviri\" eklentisi gerekir (64 bit telefonlar): https://github.com/haliyucel/dmr-cepte-surum/raw/main/eklenti/DMRCepte-Ceviri.apk . Güncellemeler ekranındaki \"Yeni sürüm var\" yazısı artık kurulu sürüm daha yeniyse görünmüyor. Gizlilik politikası güncellendi (bölüm 2.5).",
-    "en": "Live subtitles (optional, phones with Android 13 or later): speech heard on the Talk screen is shown as text and translated into the app language. Turn it on in Radio Settings, where the speech language, colours, text size and language packs are also chosen. Recognition runs on the phone; audio does not leave it. National talkgroups are recognised in their country's language, international ones such as TG 91 in English; callsigns spoken in the phonetic alphabet become letters, and in Turkish translations the meaning of abbreviations such as 73 and QSL is shown in brackets. Translation needs the separate \"DMR Cepte Translate\" add-on (64-bit phones): https://github.com/haliyucel/dmr-cepte-surum/raw/main/eklenti/DMRCepte-Ceviri.apk . The \"New version available\" label on the Updates screen no longer shows when the installed version is newer. Privacy policy updated (section 2.5)."
+    "tr": "Telsiz Ayarları'nda \"Çeviri eklentisini kur\" düğmesi: canlı altyazı çevirisi için gereken eklenti artık uygulamanın içinden indirilip kurulur (64 bit telefonlar). Dosyanın özeti ve imzası denetlenir, kurulumu Android onaylatır. Eklenti kuruluysa aynı düğme güncellemeyi denetler. Ekranı daha büyük ama yoğunluğu düşük bazı tuşlu telsizlerde arayüz artık küçük telsiz ekranlarındaki boyutta, okunaklı görünüyor. Android 7'den eski cihazlarda sığmayan pencere düğmeleri alt alta diziliyor. Gizlilik politikası güncellendi.",
+    "en": "Radio Settings has an \"Install the translation add-on\" button: the add-on needed for translated live subtitles is now downloaded and installed from within the app (64-bit phones). Its hash and signature are checked and Android asks for approval. If the add-on is installed, the same button checks for updates. On some keypad radios with a larger but low-density screen, the interface now appears at the same readable size as on small radio screens. On devices older than Android 7, dialog buttons that do not fit are stacked. Privacy policy updated."
   }
 }

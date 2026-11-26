@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.19 (171) — 2026-11-27
+
+Telsiz Ayarları'nda "Çeviri eklentisini kur" düğmesi: canlı altyazı çevirisi için gereken eklenti artık uygulamanın içinden indirilip kurulur (64 bit telefonlar). Dosyanın özeti ve imzası denetlenir, kurulumu Android onaylatır. Eklenti kuruluysa aynı düğme güncellemeyi denetler. Ekranı daha büyük ama yoğunluğu düşük bazı tuşlu telsizlerde arayüz artık küçük telsiz ekranlarındaki boyutta, okunaklı görünüyor. Android 7'den eski cihazlarda sığmayan pencere düğmeleri alt alta diziliyor. Gizlilik politikası güncellendi.
+
+*English:*
+
+Radio Settings has an "Install the translation add-on" button: the add-on needed for translated live subtitles is now downloaded and installed from within the app (64-bit phones). Its hash and signature are checked and Android asks for approval. If the add-on is installed, the same button checks for updates. On some keypad radios with a larger but low-density screen, the interface now appears at the same readable size as on small radio screens. On devices older than Android 7, dialog buttons that do not fit are stacked. Privacy policy updated.
+
 ## 5.18.18 (170) — 2026-11-26
 
 Canlı altyazı (isteğe bağlı, Android 13 ve üstü telefonlar): Konuşma ekranında duyulan konuşma yazıya dökülüp uygulama diline çevrilir. Telsiz Ayarları'ndan açılır; konuşma dili, renk, yazı boyutu ve dil paketi de oradan seçilir. Tanıma telefonun içinde yapılır, ses telefondan çıkmaz. Ulusal TG'ler o ülkenin dilinde, TG 91 gibi uluslararası TG'ler İngilizce tanınır; fonetik alfabeyle söylenen çağrı işaretleri harfe çevrilir, Türkçe çeviride 73 ve QSL gibi kısaltmaların anlamı parantezde yazılır. Çeviri için ayrı "DMR Cepte Çeviri" eklentisi gerekir (64 bit telefonlar): https://github.com/haliyucel/dmr-cepte-surum/raw/main/eklenti/DMRCepte-Ceviri.apk . Güncellemeler ekranındaki "Yeni sürüm var" yazısı artık kurulu sürüm daha yeniyse görünmüyor. Gizlilik politikası güncellendi (bölüm 2.5).
