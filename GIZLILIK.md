@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 26 Kasım 2026 (sürüm 5.18.18)
+**Son güncelleme:** 27 Kasım 2026 (sürüm 5.18.19)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -92,7 +92,7 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 | `api.open-meteo.com` | **Enlem/boylamınız** | Hava durumu |
 | `www.seismicportal.eu` | Seçtiğiniz ülkenin sınır kutusu (kişisel konum değil) | Deprem listesi |
 | `www.pistar.uk`, `adn.systems` ve ADN sunucuları, `freedmr.dvswitch.org`, `tgif.network`, `ysflive.com`, `live.ircddb.net` ve `live3.ircddb.net` (ircDDB canlı günlüğü), `openquad.net` (QuadNet son duyulanlar), `stream.oe3xor.at` (M17 durum akışı), seçili D-STAR, M17, YSF, NXDN ve P25 reflektörünün ve birkaç yoğun M17 reflektörünün kendi panosu (adresi DVRef listesinden, uygulamanın içinde) | Kişisel veri yok; Canlı ekranında izlediğiniz TG numaraları | Sunucu listeleri ve Canlı ekranı |
-| `github.com`, `api.github.com`, `raw.githubusercontent.com`, `cdn.jsdelivr.net` | Kişisel veri yok | Güncelleme denetimi ve indirme, ses çözücü eklentisi |
+| `github.com`, `api.github.com`, `raw.githubusercontent.com`, `cdn.jsdelivr.net` | Kişisel veri yok | Güncelleme denetimi ve indirme, ses çözücü eklentisi, çeviri eklentisi (siz isteyince) |
 | `md380.org`, `www.dudetronics.com` | Kişisel veri yok | MD-380 firmware'ini indirmek (onayınızla) |
 
 Bu servislerin hiçbiri geliştiriciye ait değildir; her birinin kendi gizlilik
@@ -149,7 +149,9 @@ Telsiz Ayarları'ndan açılır.
   telefonun sistem hizmeti kendi sunucusundan (Google) indirir.
 - **Çeviri ayrı bir uygulamada yapılır.** "DMR Cepte Çeviri" eklentisini kurarsanız,
   yazıya dökülen metin telefonun içinde bu eklentiye verilir ve Google ML Kit ile cihazda
-  çevrilir. Metin internete gönderilmez.
+  çevrilir. Metin internete gönderilmez. Eklenti Telsiz Ayarları'ndaki düğmeyle sürüm
+  deposundan (GitHub) indirilip kurulabilir; dosyanın özeti ve imzası denetlenir, kurulumu
+  Android sizden onaylamanızı ister.
 - **Eklentinin Google'a bağlantıları:** eklenti, çeviri dil modellerini ilk kullanımda
   Google sunucularından indirir. ML Kit ayrıca Google'ın Firebase hizmetine bir uygulama
   kurulum kimliği bildirir ve uzaktan ayar sorar. Bu bağlantılarda konuşma metni, çağrı
@@ -186,7 +188,7 @@ sunucusu açabilir (8080 portu).
 | Ön plan servisi (mikrofon, medya), uyanık kalma, pil optimizasyonundan muafiyet | Ekran kapalıyken de bağlantının ve sesin sürmesi için. |
 | Bildirimler, tam ekran bildirim | Bağlantı durumu, gelen çağrıda ekranı açmak ve acil durum geri sayımı için. |
 | Açılışta başlat | "Telsiz açılınca başlat" ayarını açtıysanız. |
-| Uygulama yükleme | Uygulama içi güncelleme için (indirilen APK'nın özeti ve imzası denetlenir). |
+| Uygulama yükleme | Uygulama içi güncelleme ve (siz isterseniz) çeviri eklentisini kurmak için (indirilen APK'nın özeti ve imzası denetlenir). |
 | Titreşim, ses ayarları | Uyarı ve ses seviyesi için. |
 
 ---
@@ -239,7 +241,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 26 November 2026 (version 5.18.18)
+**Last updated:** 27 November 2026 (version 5.18.19)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -329,7 +331,7 @@ weather. `www.seismicportal.eu` receives the bounding box of the selected countr
 the selected D-STAR, M17, YSF, NXDN and P25 reflector and of a few busy M17 reflectors (address
 from the DVRef list built into the app)
 receive no personal data (only the TG numbers you watch on the Live screen). `github.com`, `api.github.com`, `raw.githubusercontent.com` and
-`cdn.jsdelivr.net` serve updates and the vocoder plugin; `md380.org` and
+`cdn.jsdelivr.net` serve updates, the vocoder plugin and (when you ask) the translation add-on; `md380.org` and
 `www.dudetronics.com` serve the MD-380 firmware. None of these belong to the developer;
 every server you connect to sees your IP address.
 
@@ -378,7 +380,9 @@ with Android 13 or later.
   the phone's system service downloads it from its own servers (Google).
 - **Translation runs in a separate app.** If you install the "DMR Cepte Translate" add-on,
   the recognised text is handed to it inside the phone and translated on the device with
-  Google ML Kit. The text is not sent over the internet.
+  Google ML Kit. The text is not sent over the internet. The add-on can be downloaded from the
+  release repository (GitHub) with the button in Radio Settings; its hash and signature are
+  checked and Android asks you to approve the installation.
 - **The add-on's connections to Google:** on first use the add-on downloads translation
   language models from Google servers. ML Kit also registers an app installation ID with
   Google's Firebase service and asks for remote configuration. No speech text, callsign or
@@ -407,8 +411,8 @@ connection on Wi-Fi. Foreground service (microphone, media), wake lock and batte
 optimization exemption — to keep the connection and audio alive with the screen off.
 Notifications and full-screen notifications — connection status, waking the screen for an
 incoming call and the emergency countdown. Boot completed — only if you enable "start when
-the radio turns on". Install packages — for in-app updates (the downloaded APK's hash and
-signature are checked). Vibrate and audio settings — for alerts and volume.
+the radio turns on". Install packages — for in-app updates and, if you ask, installing the translation add-on (the
+downloaded APK's hash and signature are checked). Vibrate and audio settings — for alerts and volume.
 
 ## Children
 
