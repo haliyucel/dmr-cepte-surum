@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 28 Kasım 2026 (sürüm 5.18.21)
+**Son güncelleme:** 28 Kasım 2026 (sürüm 5.18.22)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -105,7 +105,8 @@ güncelleme çalışmaya devam eder. Aynı dosya tek bir özelliği (ör. canlı
 Lisans ihlali ya da kötüye kullanım durumunda geliştirici belirli çağrı işaretleri ya da DMR kimlikleri
 için kullanımı da durdurabilir; bu liste dosyada yalnız özet (hash) olarak durur, karşılaştırma
 cihazda yapılır. Bu denetimde cihazdan veri gönderilmez. Aynı dosya kullanım bildiriminin adresini de
-taşır (§2.4).
+taşır (§2.4). 5.18.22'den beri uygulama bu engel listesini (yalnız özetler) geliştiricinin Google Apps Script
+adresinden de saatte bir okur; bu okumada da cihazdan veri gönderilmez (Google, her sunucu gibi IP adresini görür).
 
 ### 2.3 Sohbet (Nostr röleleri)
 
@@ -266,7 +267,7 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 28 November 2026 (version 5.18.21)
+**Last updated:** 28 November 2026 (version 5.18.22)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
@@ -368,7 +369,9 @@ update; settings and updating keep working. The same file can also turn off a si
 subtitles). In case of a licence violation or misuse, the developer can also stop use for specific
 callsigns or DMR IDs; this list is stored in the file only as hashes and the comparison is made on the
 device. No data is sent from the device for this check. The same file also carries the address of the
-usage report (see "Sent to the developer").
+usage report (see "Sent to the developer"). Since 5.18.22 the app also reads this block list (hashes only) once an
+hour from the developer's Google Apps Script address; no data is sent from the device for this either (Google, like
+any server, sees the IP address).
 
 ## Chat (Nostr relays)
 
