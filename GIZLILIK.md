@@ -1,6 +1,6 @@
 # DMR Cepte — Gizlilik Politikası
 
-**Son güncelleme:** 27 Kasım 2026 (sürüm 5.18.19)
+**Son güncelleme:** 28 Kasım 2026 (sürüm 5.18.21)
 **Geliştirici:** TA6HY — Hasan Ali YÜCEL
 **İletişim:** haliyucel@gmail.com
 **Lisans:** Ücretsiz kullanım, tüm hakları saklıdır (5.17.1'den itibaren; üçüncü taraf bileşenler kendi lisanslarına tabidir)
@@ -11,8 +11,8 @@
 
 DMR Cepte bir **amatör telsiz** uygulamasıdır. Uygulamada reklam, analitik ya da
 izleme servisi **yoktur**. Geliştiriciye **kendiliğinden hiçbir veri gitmez**;
-yalnız iki durumda ve **yalnız sizin onayınızla** geliştiriciye bir e-posta gider:
-cihaz raporu ve resmî olmayan kopya bildirimi (§2.4).
+yalnız **sizin onayınızla** üç şey gider: cihaz raporu ve resmî olmayan kopya bildirimi
+(e-postayla) ve kullanım bildirimi (geliştiricinin Google E-Tablosuna; §2.4).
 
 Uygulamanın bağlandığı yerler amatör telsiz ağlarının sunucuları, sohbet röleleri
 ve birkaç açık servistir; hepsi aşağıda tek tek yazılıdır.
@@ -98,6 +98,15 @@ bir APRS acil durum konumu gönderir. Konum anahtarı kapalıysa konum gönderil
 Bu servislerin hiçbiri geliştiriciye ait değildir; her birinin kendi gizlilik
 politikası vardır. Bağlandığınız her sunucu, internetin doğası gereği IP adresinizi görür.
 
+**Sürüm denetimi (5.18.20'den beri):** Uygulama, güncelleme denetimiyle birlikte sürüm deposundaki
+imzalı bir denetim dosyasını (`kontrol.json`) okur. Kurulu sürüm artık desteklenmiyorsa ya da ciddi
+bir sorun nedeniyle durdurulduysa uygulama telsiz ağlarına bağlanmaz ve güncelleme ister; ayarlar ve
+güncelleme çalışmaya devam eder. Aynı dosya tek bir özelliği (ör. canlı altyazı) de kapatabilir.
+Lisans ihlali ya da kötüye kullanım durumunda geliştirici belirli çağrı işaretleri ya da DMR kimlikleri
+için kullanımı da durdurabilir; bu liste dosyada yalnız özet (hash) olarak durur, karşılaştırma
+cihazda yapılır. Bu denetimde cihazdan veri gönderilmez. Aynı dosya kullanım bildiriminin adresini de
+taşır (§2.4).
+
 ### 2.3 Sohbet (Nostr röleleri)
 
 Sohbet açıksa (varsayılan açık) ve çağrı işaretiniz girilmişse uygulama, çalıştığı
@@ -121,8 +130,8 @@ Sohbeti Ayarlar'dan kapatabilirsiniz; kapalıyken rölelere bağlanılmaz.
 
 ### 2.4 Geliştiriciye giden (yalnız onayınızla)
 
-İkisi de `api.web3forms.com` üzerinden geliştiricinin e-posta adresine tek bir ileti
-olarak gider. Web3Forms geliştiriciye ait değildir.
+Cihaz raporu ve kopya bildirimi `api.web3forms.com` üzerinden geliştiricinin e-posta
+adresine tek bir ileti olarak gider. Web3Forms geliştiriciye ait değildir.
 
 - **Cihaz raporu:** Konuşma ekranında bir kez sorulur. "Hayır" derseniz bir daha
   sorulmaz; içerik değişince bir kez daha sorulur. Telsiz Ayarları'ndaki düğmeyle de
@@ -136,6 +145,18 @@ olarak gider. Web3Forms geliştiriciye ait değildir.
   paketlenmişse) bir kez uyarı çıkar. İzin verirseniz giden: çağrı işareti, sürüm,
   paket adı, kopyanın imza özeti, uygulamayı kuran uygulama, cihaz modeli ve Android
   sürümü.
+- **Kullanım bildirimi (5.18.21'den beri):** Geliştirici açtıysa Konuşma ekranında bir
+  kez sorulur; "Hayır" derseniz hiç gönderilmez ve bir daha sorulmaz. İzin verirseniz
+  günde en çok bir kez (çağrı işareti ya da sürüm değişince bir sonraki denetimde)
+  geliştiricinin Google E-Tablosuna (Google Apps Script, `script.google.com`) gider:
+  çağrı işareti, DMR ID, uygulama sürümü, cihaz modeli, Android sürümü, rastgele bir
+  kurulum numarası ve uygulamanın resmî imzalı olup olmadığı. Gitmeyen: konum,
+  parolalar, rehber, ses, günlük. Amaç: hangi sürümlerin kullanıldığını görmek
+  (zorunlu güncelleme kararları) ve izinsiz kullanımı fark edip durdurabilmek. Telsiz
+  Ayarları'ndaki "Kullanım bildirimi gönder" anahtarıyla ya da web panelinden istediğiniz
+  an kapatabilirsiniz. Tabloyu yalnız geliştirici görür; Google geliştiriciye ait
+  değildir. 12 ay görülmeyen kayıt kendiliğinden silinir; engellenen bir kurulumun
+  kaydı engel sürdükçe kalır.
 
 ### 2.5 Canlı altyazı ve çeviri eklentisi (isteğe bağlı, 5.18.18)
 
@@ -200,15 +221,17 @@ Uygulama amatör telsiz lisansı sahiplerine yöneliktir ve çocuklara yönelik 
 
 ## 6. Veri saklama ve silme
 
-Uygulama sizin verinizi bir sunucuda tutmaz; silinecek bir hesap yoktur. Cihazdaki her
-şeyi silmek için uygulamayı kaldırmanız ya da Android ayarlarından uygulama verisini
+Uygulamanın hesabı yoktur; geliştirici yalnız 2.4'teki verileri tutar (aşağıda). Cihazdaki
+her şeyi silmek için uygulamayı kaldırmanız ya da Android ayarlarından uygulama verisini
 temizlemeniz yeterlidir.
 
 Amatör telsiz ağlarına (BrandMeister, ADN, FreeDMR, TGIF, APRS-IS, EchoLink vb.) gitmiş
 yayınlarınız ve BrandMeister cihaz kaydınız o ağların kayıtlarındadır; silmek için ilgili
 ağa başvurmanız gerekir. Sohbet rölelerindeki oda mesajlarını uygulama silemez. Onayınızla
-gönderilen cihaz raporu ve kopya bildirimi geliştiricinin e-postasında durur; silinmesini
-iletişim adresinden isteyebilirsiniz.
+gönderilen cihaz raporu ve kopya bildirimi geliştiricinin e-postasında durur. Kullanım
+bildirimi kaydı geliştiricinin Google E-Tablosunda durur ve 12 ay görülmeyince kendiliğinden
+silinir (engellenen kurulumunki engel sürdükçe kalır). Hepsinin silinmesini iletişim
+adresinden isteyebilirsiniz.
 
 ## 7. Değişiklikler
 
@@ -221,13 +244,15 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 ## 9. KVKK ve GDPR
 
 - **Veri sorumlusu:** TA6HY — Hasan Ali YÜCEL (iletişim adresi 8. bölümde).
-- **Geliştiricinin işlediği veri:** yalnız 2.4'teki iki ileti (cihaz raporu, kopya bildirimi).
-  Hukuki sebep açık rızanızdır (KVKK md. 5/1; GDPR md. 6/1-a). Amaç: uygulamanın cihazınızda
-  düzgün çalışması, hataların giderilmesi ve değiştirilmiş kopyaların fark edilmesi. Rızanızı
-  istediğiniz an geri alabilir, daha önce gönderilenlerin silinmesini isteyebilirsiniz.
-- **Yurt dışına aktarım:** Bu iletiler Web3Forms üzerinden e-posta olarak gelir; Web3Forms'un ve
-  e-posta sağlayıcısının sunucuları yurt dışında olabilir. Bu aktarım da açık rızanıza dayanır
-  (KVKK md. 9; GDPR md. 49/1-a).
+- **Geliştiricinin işlediği veri:** yalnız 2.4'teki veriler (cihaz raporu, kopya bildirimi,
+  kullanım bildirimi). Hukuki sebep açık rızanızdır (KVKK md. 5/1; GDPR md. 6/1-a). Amaç:
+  uygulamanın cihazınızda düzgün çalışması, hataların giderilmesi, sürüm desteği,
+  değiştirilmiş kopyaların ve izinsiz kullanımın fark edilip durdurulması. Rızanızı istediğiniz
+  an geri alabilir, daha önce gönderilenlerin silinmesini isteyebilirsiniz.
+- **Yurt dışına aktarım:** Cihaz raporu ve kopya bildirimi Web3Forms üzerinden e-posta olarak
+  gelir; kullanım bildirimi Google'ın (Google E-Tablolar) sunucularında tutulur. Web3Forms'un,
+  e-posta sağlayıcısının ve Google'ın sunucuları yurt dışında olabilir. Bu aktarım da açık
+  rızanıza dayanır (KVKK md. 9; GDPR md. 49/1-a).
 - **Diğer veriler:** 2.1–2.3'teki veriler sizin isteğinizle doğrudan cihazınızdan ilgili ağa ya
   da servise gider; geliştirici bunları görmez ve saklamaz. O servislerin veri sorumlusu
   kendileridir.
@@ -241,16 +266,17 @@ Soru veya talepleriniz için: **haliyucel@gmail.com**
 
 # DMR Cepte — Privacy Policy (English)
 
-**Last updated:** 27 November 2026 (version 5.18.19)
+**Last updated:** 28 November 2026 (version 5.18.21)
 **Developer:** TA6HY — Hasan Ali YÜCEL · haliyucel@gmail.com
 **License:** Free to use, all rights reserved (from version 5.17.1; third-party components keep their own licenses)
 
 ## Summary
 
 DMR Cepte is an **amateur radio** application. There are no ads, no analytics and no
-tracking services. **Nothing is sent to the developer automatically**; an e-mail reaches
-the developer only in two cases and **only with your consent**: the device report and the
-unofficial copy notice (see "Sent to the developer"). The app contacts amateur radio
+tracking services. **Nothing is sent to the developer automatically**; only **with your
+consent** three things reach the developer: the device report and the unofficial copy notice
+(by e-mail) and the usage report (to the developer's Google spreadsheet; see "Sent to the
+developer"). The app contacts amateur radio
 network servers, chat relays and a few public services, each listed below.
 
 ## Stored on your device only
@@ -335,6 +361,15 @@ receive no personal data (only the TG numbers you watch on the Live screen). `gi
 `www.dudetronics.com` serve the MD-380 firmware. None of these belong to the developer;
 every server you connect to sees your IP address.
 
+**Version check (since 5.18.20):** together with the update check, the app reads a signed control file
+(`kontrol.json`) from the release repository. If the installed version is no longer supported or has
+been stopped because of a serious problem, the app does not connect to radio networks and asks you to
+update; settings and updating keep working. The same file can also turn off a single feature (e.g. live
+subtitles). In case of a licence violation or misuse, the developer can also stop use for specific
+callsigns or DMR IDs; this list is stored in the file only as hashes and the comparison is made on the
+device. No data is sent from the device for this check. The same file also carries the address of the
+usage report (see "Sent to the developer").
+
 ## Chat (Nostr relays)
 
 If chat is on (the default) and a callsign is set, the app connects to public Nostr relays
@@ -351,8 +386,8 @@ your device and are never sent anywhere. Turning chat off stops the relay connec
 
 ## Sent to the developer (only with your consent)
 
-Both go through `api.web3forms.com` as a single e-mail to the developer; Web3Forms does not
-belong to the developer.
+The device report and the copy notice go through `api.web3forms.com` as a single e-mail to
+the developer; Web3Forms does not belong to the developer.
 
 - **Device report:** asked once on the Talk screen (never again after "No"; asked once more
   if its content changes), or sent with the button in Radio Settings. Sent: callsign, DMR
@@ -366,6 +401,17 @@ belong to the developer.
   modified and repackaged), you are warned once. With your consent it sends: callsign,
   version, package name, the copy's signature hash, the installing app, device model and
   Android version.
+- **Usage report (since 5.18.21):** if the developer has turned it on, you are asked once on
+  the Talk screen; after "No" nothing is sent and you are not asked again. With your consent,
+  at most once a day (and at the next check after your callsign or version changes) it goes
+  to the developer's Google spreadsheet (Google Apps Script, `script.google.com`): callsign,
+  DMR ID, app version, device model, Android version, a random installation number and
+  whether the app has the official signature. Not sent: location, passwords, contacts,
+  audio, logs. Purpose: seeing which versions are in use (mandatory update decisions) and
+  spotting and stopping unauthorised use. You can turn it off at any time with "Send usage
+  report" in Radio Settings or in the web panel. Only the developer sees the spreadsheet;
+  Google does not belong to the developer. A record not seen for 12 months is deleted
+  automatically; the record of a blocked installation stays while the block lasts.
 
 ## Live subtitles and the translation add-on (optional, 5.18.18)
 
@@ -421,24 +467,29 @@ No data is knowingly collected from children.
 
 ## Retention and deletion
 
-The app keeps no data on any server and there is no account to delete. Uninstalling the
-app, or clearing its data in Android settings, removes everything held on the device.
+There is no account; the developer keeps only the data described in "Sent to the developer"
+(below). Uninstalling the app, or clearing its data in Android settings, removes everything
+held on the device.
 Transmissions already sent to amateur radio networks and your BrandMeister device record
 are held by those networks; contact the network to request removal. The app cannot delete
 room messages stored on chat relays. Device reports and copy notices sent with your
-consent stay in the developer's e-mail; you can ask for their deletion at the contact
-address.
+consent stay in the developer's e-mail. The usage report record stays in the developer's
+Google spreadsheet and is deleted automatically after 12 months without being seen (a
+blocked installation's record stays while the block lasts). You can ask for the deletion
+of any of them at the contact address.
 
 ## Legal basis and your rights (KVKK / GDPR)
 
 - **Data controller:** TA6HY — Hasan Ali YÜCEL (contact below).
-- **Data the developer processes:** only the two messages sent with your consent (device report,
-  copy notice). Legal basis: your explicit consent (KVKK art. 5(1); GDPR art. 6(1)(a)). Purpose:
-  making the app work on your device, fixing bugs and spotting modified copies. You can withdraw
-  consent at any time and ask for earlier messages to be deleted.
-- **Transfer abroad:** these messages reach the developer by e-mail through Web3Forms; the servers
-  of Web3Forms and of the e-mail provider may be outside Türkiye and the EU. This transfer also
-  rests on your explicit consent (KVKK art. 9; GDPR art. 49(1)(a)).
+- **Data the developer processes:** only the data sent with your consent (device report, copy
+  notice, usage report). Legal basis: your explicit consent (KVKK art. 5(1); GDPR art. 6(1)(a)).
+  Purpose: making the app work on your device, fixing bugs, version support, and spotting and
+  stopping modified copies and unauthorised use. You can withdraw consent at any time and ask
+  for earlier data to be deleted.
+- **Transfer abroad:** the device report and the copy notice reach the developer by e-mail
+  through Web3Forms; the usage report is stored on Google's (Google Sheets) servers. The servers
+  of Web3Forms, of the e-mail provider and of Google may be outside Türkiye and the EU. This
+  transfer also rests on your explicit consent (KVKK art. 9; GDPR art. 49(1)(a)).
 - **Other data:** everything else goes directly from your device to the network or service you
   use; the developer does not see or store it. Those services are the controllers of their own
   data.
