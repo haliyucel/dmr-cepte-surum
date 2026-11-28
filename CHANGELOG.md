@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.22 (174) — 2026-11-28
+
+Geliştiricinin engel listesi artık saatte bir okunur; izinsiz kullanım engeli yayın beklemeden en geç yaklaşık bir saatte işler. Bu okumada cihazdan veri gönderilmez, yalnız özetler okunur. Kullanım bildirimi: izin penceresi, kararın Telsiz Ayarları’ndaki “Kullanım bildirimi gönder” anahtarından istediğiniz an değiştirilebileceğini söylüyor; “Hayır” denince nereden açılacağı kısa bir notla gösteriliyor. Gizlilik politikası güncellendi.
+
+*English:*
+
+The developer's block list is now read once an hour, so a block for unauthorised use takes effect within about an hour without waiting for a new release. No data is sent from the device for this; only hashes are read. Usage report: the consent dialog now says the choice can be changed at any time with “Send usage report” in Radio Settings, and after “No” a short note shows where to turn it on. Privacy policy updated.
+
 ## 5.18.21 (173) — 2026-11-28
 
 Sürüm denetimi: geliştirici, ciddi bir sorun çıkan sürümü uzaktan durdurabilir ya da güncellemeyi zorunlu kılabilir; o durumda uygulama telsiz ağlarına bağlanmaz ve güncelleme ister, ayarlar ve güncelleme çalışmaya devam eder. Lisans ihlali ya da kötüye kullanımda belirli çağrı işaretleri için kullanım da durdurulabilir. Denetim dosyası imzalıdır; bu denetimde cihazdan veri gönderilmez. İsteğe bağlı kullanım bildirimi: geliştirici açtığında Konuşma ekranında bir kez izin sorulur; izin verirseniz günde en çok bir kez çağrı işareti, DMR ID, uygulama ve Android sürümü, cihaz modeli ve rastgele bir kurulum numarası geliştiriciye gider. Telsiz Ayarları'ndan istediğiniz an kapatabilirsiniz. Gizlilik politikası güncellendi.

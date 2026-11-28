@@ -1,6 +1,15 @@
 {
   "surumler": [
     {
+      "versionCode": 174,
+      "versionName": "5.18.22",
+      "tarih": "2026-11-28",
+      "notlar": {
+        "tr": "Geliştiricinin engel listesi artık saatte bir okunur; izinsiz kullanım engeli yayın beklemeden en geç yaklaşık bir saatte işler. Bu okumada cihazdan veri gönderilmez, yalnız özetler okunur. Kullanım bildirimi: izin penceresi, kararın Telsiz Ayarları’ndaki “Kullanım bildirimi gönder” anahtarından istediğiniz an değiştirilebileceğini söylüyor; “Hayır” denince nereden açılacağı kısa bir notla gösteriliyor. Gizlilik politikası güncellendi.",
+        "en": "The developer's block list is now read once an hour, so a block for unauthorised use takes effect within about an hour without waiting for a new release. No data is sent from the device for this; only hashes are read. Usage report: the consent dialog now says the choice can be changed at any time with “Send usage report” in Radio Settings, and after “No” a short note shows where to turn it on. Privacy policy updated."
+      }
+    },
+    {
       "versionCode": 173,
       "versionName": "5.18.21",
       "tarih": "2026-11-28",
