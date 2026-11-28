@@ -1,11 +1,11 @@
 {
-  "versionCode": 171,
-  "versionName": "5.18.19",
-  "apk": "DMRCepte-5.18.19.apk",
-  "sha256": "a2392750ec4627249f3f9e74f0d00d9a6c67f664213e7604194b089cd022808a",
-  "boyut": 2640082,
+  "versionCode": 173,
+  "versionName": "5.18.21",
+  "apk": "DMRCepte-5.18.21.apk",
+  "sha256": "b5fe3145af8bd74dadf82209e8993304763f481d76965c1906a3fa6808fd9910",
+  "boyut": 2656466,
   "notlar": {
-    "tr": "Telsiz Ayarları'nda \"Çeviri eklentisini kur\" düğmesi: canlı altyazı çevirisi için gereken eklenti artık uygulamanın içinden indirilip kurulur (64 bit telefonlar). Dosyanın özeti ve imzası denetlenir, kurulumu Android onaylatır. Eklenti kuruluysa aynı düğme güncellemeyi denetler. Ekranı daha büyük ama yoğunluğu düşük bazı tuşlu telsizlerde arayüz artık küçük telsiz ekranlarındaki boyutta, okunaklı görünüyor. Android 7'den eski cihazlarda sığmayan pencere düğmeleri alt alta diziliyor. Gizlilik politikası güncellendi.",
-    "en": "Radio Settings has an \"Install the translation add-on\" button: the add-on needed for translated live subtitles is now downloaded and installed from within the app (64-bit phones). Its hash and signature are checked and Android asks for approval. If the add-on is installed, the same button checks for updates. On some keypad radios with a larger but low-density screen, the interface now appears at the same readable size as on small radio screens. On devices older than Android 7, dialog buttons that do not fit are stacked. Privacy policy updated."
+    "tr": "Sürüm denetimi: geliştirici, ciddi bir sorun çıkan sürümü uzaktan durdurabilir ya da güncellemeyi zorunlu kılabilir; o durumda uygulama telsiz ağlarına bağlanmaz ve güncelleme ister, ayarlar ve güncelleme çalışmaya devam eder. Lisans ihlali ya da kötüye kullanımda belirli çağrı işaretleri için kullanım da durdurulabilir. Denetim dosyası imzalıdır; bu denetimde cihazdan veri gönderilmez. İsteğe bağlı kullanım bildirimi: geliştirici açtığında Konuşma ekranında bir kez izin sorulur; izin verirseniz günde en çok bir kez çağrı işareti, DMR ID, uygulama ve Android sürümü, cihaz modeli ve rastgele bir kurulum numarası geliştiriciye gider. Telsiz Ayarları'ndan istediğiniz an kapatabilirsiniz. Gizlilik politikası güncellendi.",
+    "en": "Version check: the developer can remotely stop a version with a serious problem or make an update mandatory; the app then does not connect to radio networks and asks you to update, while settings and updating keep working. In case of a licence violation or misuse, use can also be stopped for specific callsigns. The control file is signed; no data is sent from the device for this check. Optional usage report: when the developer turns it on, you are asked once on the Talk screen; with your consent, your callsign, DMR ID, app and Android version, device model and a random installation number go to the developer at most once a day. You can turn it off at any time in Radio Settings. Privacy policy updated."
   }
 }

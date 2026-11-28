@@ -1,5 +1,13 @@
 # DMR Cepte — sürüm geçmişi / release history
 
+## 5.18.21 (173) — 2026-11-28
+
+Sürüm denetimi: geliştirici, ciddi bir sorun çıkan sürümü uzaktan durdurabilir ya da güncellemeyi zorunlu kılabilir; o durumda uygulama telsiz ağlarına bağlanmaz ve güncelleme ister, ayarlar ve güncelleme çalışmaya devam eder. Lisans ihlali ya da kötüye kullanımda belirli çağrı işaretleri için kullanım da durdurulabilir. Denetim dosyası imzalıdır; bu denetimde cihazdan veri gönderilmez. İsteğe bağlı kullanım bildirimi: geliştirici açtığında Konuşma ekranında bir kez izin sorulur; izin verirseniz günde en çok bir kez çağrı işareti, DMR ID, uygulama ve Android sürümü, cihaz modeli ve rastgele bir kurulum numarası geliştiriciye gider. Telsiz Ayarları'ndan istediğiniz an kapatabilirsiniz. Gizlilik politikası güncellendi.
+
+*English:*
+
+Version check: the developer can remotely stop a version with a serious problem or make an update mandatory; the app then does not connect to radio networks and asks you to update, while settings and updating keep working. In case of a licence violation or misuse, use can also be stopped for specific callsigns. The control file is signed; no data is sent from the device for this check. Optional usage report: when the developer turns it on, you are asked once on the Talk screen; with your consent, your callsign, DMR ID, app and Android version, device model and a random installation number go to the developer at most once a day. You can turn it off at any time in Radio Settings. Privacy policy updated.
+
 ## 5.18.19 (171) — 2026-11-27
 
 Telsiz Ayarları'nda "Çeviri eklentisini kur" düğmesi: canlı altyazı çevirisi için gereken eklenti artık uygulamanın içinden indirilip kurulur (64 bit telefonlar). Dosyanın özeti ve imzası denetlenir, kurulumu Android onaylatır. Eklenti kuruluysa aynı düğme güncellemeyi denetler. Ekranı daha büyük ama yoğunluğu düşük bazı tuşlu telsizlerde arayüz artık küçük telsiz ekranlarındaki boyutta, okunaklı görünüyor. Android 7'den eski cihazlarda sığmayan pencere düğmeleri alt alta diziliyor. Gizlilik politikası güncellendi.
