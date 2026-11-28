@@ -1,12 +1,16 @@
 {
-  "govde": "eyJzdXJ1bSI6MSwic2lyYSI6MSwidGFyaWgiOiIyMDI2LTExLTI4VDEwOjEzOjUyWiIsImVuQXpLb2QiOjAsImthcGF0IjpbXSwiZW5nZWxsaSI6W119",
-  "imza": "MEQCIG7tZynGLk0yuon0QoDCIfQFDJrwfpafpiX10+qsJrA1AiAOpi+kxe2OuR8xMi4bzZ4oJYlQChVgBlwcKnKsoedqxw==",
+  "govde": "eyJzdXJ1bSI6MSwic2lyYSI6MiwidGFyaWgiOiIyMDI2LTExLTI4VDExOjA2OjQ5WiIsImVuQXpLb2QiOjAsImthcGF0IjpbXSwiZW5nZWxsaSI6W10sInJhcG9yIjp7ImFkcmVzIjoiaHR0cHM6Ly9zY3JpcHQuZ29vZ2xlLmNvbS9tYWNyb3Mvcy9BS2Z5Y2J5eXdwWFBvSTBkX09UblBXLW9tdXZEUGZ0Z1h4RjBxajZUX2dYTzRZY0RsS1JNVmhRNVVQR05PeEV0dGI2YTBHSXRKUS9leGVjIiwiYW5haHRhciI6IkJuLUYyZnk5djRaV0dsRkEyaHg1M2dyYlRTTGV1RjBpIn19",
+  "imza": "MEUCIAypGxY4hML8VJkjFdyppJId/nkuWYo2kdiTJDCg53m7AiEAx0Lz/yLnDds3snAdxWQ4oi+TmD7nUA0dlh2DDMys00o=",
   "okunur": {
     "surum": 1,
-    "sira": 1,
-    "tarih": "2026-11-28T10:13:52Z",
+    "sira": 2,
+    "tarih": "2026-11-28T11:06:49Z",
     "enAzKod": 0,
     "kapat": [],
-    "engelli": []
+    "engelli": [],
+    "rapor": {
+      "adres": "https://script.google.com/macros/s/AKfycbyywpXPoI0d_OTnPW-omuvDPftgXxF0qj6T_gXO4YcDlKRMVhQ5UPGNOxEttb6a0GItJQ/exec",
+      "anahtar": "Bn-F2fy9v4ZWGlFA2hx53grbTSLeuF0i"
+    }
   }
 }
